@@ -20,6 +20,18 @@
   ],
   "stops": [
     {
+      "name": "Café Paris & Bakery",
+      "category": "Coffee Shop",
+      "description": "A delightful European-style bakery in Iskele offering fresh croissants, delicious cakes, and warm coffees in a chic lounge.",
+      "image": "public/images/cafes/cafe-paris.jpg",
+      "latitude": 35.2725,
+      "longitude": 33.8920,
+      "openingHours": "Daily 07:30 - 21:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+      "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+    },
+    {
       "name": "İskele Archaeology Museum",
       "category": "Museum",
       "description": "A well-organized local museum exhibiting historical artifacts, pottery, and sculptures uncovered from the surrounding Karpaz and Iskele region.",
@@ -44,16 +56,16 @@
       "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design."
     },
     {
-      "name": "Café Paris & Bakery",
+      "name": "Terra Coffee & Lounge",
       "category": "Coffee Shop",
-      "description": "A delightful European-style bakery in Iskele offering fresh croissants, delicious cakes, and warm coffees in a chic lounge.",
-      "image": "public/images/cafes/cafe-paris.jpg",
-      "latitude": 35.2725,
-      "longitude": 33.8920,
-      "openingHours": "Daily 07:30 - 21:00",
+      "description": "A cozy, premium coffee shop in Iskele offering dynamic brews, smoothies, and a comfortable modern environment to plan your drive.",
+      "image": "public/images/cafes/terra-coffee.jpg",
+      "latitude": 35.2740,
+      "longitude": 33.8940,
+      "openingHours": "Daily 08:00 - 23:00",
       "estimatedVisitTime": "45 Mins",
-      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
-      "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+      "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
     },
     {
       "name": "Boğaz Harbour",
@@ -90,18 +102,6 @@
       "estimatedVisitTime": "3 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
       "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region."
-    },
-    {
-      "name": "Terra Coffee & Lounge",
-      "category": "Coffee Shop",
-      "description": "A cozy, premium coffee shop in Iskele offering dynamic brews, smoothies, and a comfortable modern environment to plan your drive.",
-      "image": "public/images/cafes/terra-coffee.jpg",
-      "latitude": 35.2740,
-      "longitude": 33.8940,
-      "openingHours": "Daily 08:00 - 23:00",
-      "estimatedVisitTime": "45 Mins",
-      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
-      "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
     }
   ],
   "travelTips": [

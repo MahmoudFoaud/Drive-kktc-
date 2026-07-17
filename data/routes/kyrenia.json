@@ -20,6 +20,18 @@
   ],
   "stops": [
     {
+      "name": "Mavi Köşk (The Blue House)",
+      "category": "Museum",
+      "description": "A mysterious mid-century villa filled with secret passages, Greek-Italian art, and unique architectures, built by a mysterious gunrunner.",
+      "image": "public/images/routes/mavi-kosk.jpg",
+      "latitude": 35.3044,
+      "longitude": 33.0536,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+      "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
+    },
+    {
       "name": "St. Hilarion Castle",
       "category": "Castle",
       "description": "One of the best-preserved crusader fortresses in Cyprus. Situated high in the Kyrenia range, it offers spectacular panoramic views of the coast.",
@@ -44,16 +56,16 @@
       "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor."
     },
     {
-      "name": "Bellapais Abbey",
-      "category": "Monastery",
-      "description": "The ruins of a beautiful 13th-century monastery, showcasing masterpiece gothic arches and peaceful gardens overlooking the blue sea.",
-      "image": "public/images/routes/bellapais.jpg",
-      "latitude": 35.3072,
-      "longitude": 33.3556,
-      "openingHours": "Daily 09:00 - 18:00",
-      "estimatedVisitTime": "1 Hour",
-      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
-      "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+      "name": "Ulfet Beach Club",
+      "category": "Beach",
+      "description": "A refined beach club along the Kyrenia coastline offering sunbeds, a bar, and clear waters, ideal to relax after climbing mountain castles.",
+      "image": "public/images/beaches/ulfet.jpg",
+      "latitude": 35.3512,
+      "longitude": 33.2750,
+      "openingHours": "Daily 09:00 - 19:00",
+      "estimatedVisitTime": "3 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+      "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
     },
     {
       "name": "Vola Coffee",
@@ -68,6 +80,18 @@
       "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike."
     },
     {
+      "name": "Bellapais Abbey",
+      "category": "Monastery",
+      "description": "The ruins of a beautiful 13th-century monastery, showcasing masterpiece gothic arches and peaceful gardens overlooking the blue sea.",
+      "image": "public/images/routes/bellapais.jpg",
+      "latitude": 35.3072,
+      "longitude": 33.3556,
+      "openingHours": "Daily 09:00 - 18:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+      "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+    },
+    {
       "name": "Kybele Restaurant",
       "category": "Restaurant",
       "description": "Set directly within the grounds of Bellapais Abbey, this high-end restaurant offers modern Mediterranean cuisine and fine dining with dramatic views.",
@@ -78,30 +102,6 @@
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
       "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy."
-    },
-    {
-      "name": "Mavi Köşk (The Blue House)",
-      "category": "Museum",
-      "description": "A mysterious mid-century villa filled with secret passages, Greek-Italian art, and unique architectures, built by a mysterious gunrunner.",
-      "image": "public/images/routes/mavi-kosk.jpg",
-      "latitude": 35.3044,
-      "longitude": 33.0536,
-      "openingHours": "Tue - Sun 09:00 - 17:00",
-      "estimatedVisitTime": "1 Hour",
-      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
-      "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
-    },
-    {
-      "name": "Ulfet Beach Club",
-      "category": "Beach",
-      "description": "A refined beach club along the Kyrenia coastline offering sunbeds, a bar, and clear waters, ideal to relax after climbing mountain castles.",
-      "image": "public/images/beaches/ulfet.jpg",
-      "latitude": 35.3512,
-      "longitude": 33.2750,
-      "openingHours": "Daily 09:00 - 19:00",
-      "estimatedVisitTime": "3 Hours",
-      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
-      "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
     }
   ],
   "travelTips": [

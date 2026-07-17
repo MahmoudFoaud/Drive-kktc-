@@ -20,6 +20,30 @@
   ],
   "stops": [
     {
+      "name": "Cyprus Car Museum",
+      "category": "Museum",
+      "description": "An incredible collection of classic, sports, and vintage cars spanning over a century of automotive history, a must-visit for road trip fans.",
+      "image": "public/images/routes/car-museum.jpg",
+      "latitude": 35.2245,
+      "longitude": 33.3315,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+      "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
+    },
+    {
+      "name": "Cyprus Modern Art Museum",
+      "category": "Museum",
+      "description": "Located on the Near East University campus, this museum features thousands of contemporary artworks from artists across the Turkic world.",
+      "image": "public/images/routes/modern-art-museum.jpg",
+      "latitude": 35.2233,
+      "longitude": 33.3323,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+      "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
+    },
+    {
       "name": "Girne Kapısı (Kyrenia Gate)",
       "category": "Castle",
       "description": "A historic portal built in 1567 by the Venetians as part of Nicosia's famous star-shaped fortifications. It stood as a vital entry point for centuries.",
@@ -30,6 +54,18 @@
       "estimatedVisitTime": "15-30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
       "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office."
+    },
+    {
+      "name": "Gomşu Restaurant",
+      "category": "Restaurant",
+      "description": "A warm local eatery serving traditional Cypriot 'Meze' and grilled specialties inside an atmospheric courtyard filled with jasmine.",
+      "image": "public/images/restaurants/gomsu.jpg",
+      "latitude": 35.1772,
+      "longitude": 33.3618,
+      "openingHours": "Daily 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+      "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
     },
     {
       "name": "Selimiye Mosque (St. Sophia Cathedral)",
@@ -78,42 +114,6 @@
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
       "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum."
-    },
-    {
-      "name": "Gomşu Restaurant",
-      "category": "Restaurant",
-      "description": "A warm local eatery serving traditional Cypriot 'Meze' and grilled specialties inside an atmospheric courtyard filled with jasmine.",
-      "image": "public/images/restaurants/gomsu.jpg",
-      "latitude": 35.1772,
-      "longitude": 33.3618,
-      "openingHours": "Daily 12:00 - 23:00",
-      "estimatedVisitTime": "1.5 Hours",
-      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
-      "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
-    },
-    {
-      "name": "Cyprus Modern Art Museum",
-      "category": "Museum",
-      "description": "Located on the Near East University campus, this museum features thousands of contemporary artworks from artists across the Turkic world.",
-      "image": "public/images/routes/modern-art-museum.jpg",
-      "latitude": 35.2233,
-      "longitude": 33.3323,
-      "openingHours": "Tue - Sun 09:00 - 17:00",
-      "estimatedVisitTime": "1.5 Hours",
-      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
-      "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
-    },
-    {
-      "name": "Cyprus Car Museum",
-      "category": "Museum",
-      "description": "An incredible collection of classic, sports, and vintage cars spanning over a century of automotive history, a must-visit for road trip fans.",
-      "image": "public/images/routes/car-museum.jpg",
-      "latitude": 35.2245,
-      "longitude": 33.3315,
-      "openingHours": "Tue - Sun 09:00 - 17:00",
-      "estimatedVisitTime": "1 Hour",
-      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
-      "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
     }
   ],
   "travelTips": [

@@ -32,6 +32,18 @@
       "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port."
     },
     {
+      "name": "Eziç Famagusta",
+      "category": "Restaurant",
+      "description": "A popular modern restaurant offering a large menu of international and Turkish-Cypriot dishes in a sleek, stylish dining room.",
+      "image": "public/images/restaurants/ezic-magusa.jpg",
+      "latitude": 35.1215,
+      "longitude": 33.9180,
+      "openingHours": "Daily 11:30 - 23:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+      "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+    },
+    {
       "name": "Lala Mustafa Paşa Mosque (St. Nicholas Cathedral)",
       "category": "Monastery",
       "description": "The largest medieval building in Famagusta, featuring majestic Gothic architecture inspired by the Reims Cathedral in France.",
@@ -56,16 +68,16 @@
       "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes."
     },
     {
-      "name": "Eziç Famagusta",
-      "category": "Restaurant",
-      "description": "A popular modern restaurant offering a large menu of international and Turkish-Cypriot dishes in a sleek, stylish dining room.",
-      "image": "public/images/restaurants/ezic-magusa.jpg",
-      "latitude": 35.1215,
-      "longitude": 33.9180,
-      "openingHours": "Daily 11:30 - 23:00",
-      "estimatedVisitTime": "1 Hour",
-      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
-      "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+      "name": "Tatlı Hayat",
+      "category": "Coffee Shop",
+      "description": "A boutique cake shop and bistro, famous for its delicious pastries, specialty cakes, and charming garden seating in old Famagusta.",
+      "image": "public/images/cafes/tatli-hayat.jpg",
+      "latitude": 35.1235,
+      "longitude": 33.9412,
+      "openingHours": "Daily 09:00 - 22:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+      "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
     },
     {
       "name": "Kapalı Maraş (Varosha)",
@@ -90,18 +102,6 @@
       "estimatedVisitTime": "2 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
       "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history."
-    },
-    {
-      "name": "Tatlı Hayat",
-      "category": "Coffee Shop",
-      "description": "A boutique cake shop and bistro, famous for its delicious pastries, specialty cakes, and charming garden seating in old Famagusta.",
-      "image": "public/images/cafes/tatli-hayat.jpg",
-      "latitude": 35.1235,
-      "longitude": 33.9412,
-      "openingHours": "Daily 09:00 - 22:00",
-      "estimatedVisitTime": "45 Mins",
-      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
-      "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
     }
   ],
   "travelTips": [

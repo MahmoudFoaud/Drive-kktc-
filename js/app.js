@@ -24,6 +24,30 @@ const DEFAULT_ROUTES_DB = [
     ],
     "stops": [
       {
+        "name": "Cyprus Car Museum",
+        "category": "Museum",
+        "description": "An incredible collection of classic, sports, and vintage cars spanning over a century of automotive history, a must-visit for road trip fans.",
+        "image": "public/images/routes/car-museum.jpg",
+        "latitude": 35.2245,
+        "longitude": 33.3315,
+        "openingHours": "Tue - Sun 09:00 - 17:00",
+        "estimatedVisitTime": "1 Hour",
+        "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+        "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
+      },
+      {
+        "name": "Cyprus Modern Art Museum",
+        "category": "Museum",
+        "description": "Located on the Near East University campus, this museum features thousands of contemporary artworks from artists across the Turkic world.",
+        "image": "public/images/routes/modern-art-museum.jpg",
+        "latitude": 35.2233,
+        "longitude": 33.3323,
+        "openingHours": "Tue - Sun 09:00 - 17:00",
+        "estimatedVisitTime": "1.5 Hours",
+        "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+        "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
+      },
+      {
         "name": "Girne Kapısı (Kyrenia Gate)",
         "category": "Castle",
         "description": "A historic portal built in 1567 by the Venetians as part of Nicosia's famous star-shaped fortifications. It stood as a vital entry point for centuries.",
@@ -34,6 +58,18 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "15-30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
         "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office."
+      },
+      {
+        "name": "Gomşu Restaurant",
+        "category": "Restaurant",
+        "description": "A warm local eatery serving traditional Cypriot 'Meze' and grilled specialties inside an atmospheric courtyard filled with jasmine.",
+        "image": "public/images/restaurants/gomsu.jpg",
+        "latitude": 35.1772,
+        "longitude": 33.3618,
+        "openingHours": "Daily 12:00 - 23:00",
+        "estimatedVisitTime": "1.5 Hours",
+        "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+        "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
       },
       {
         "name": "Selimiye Mosque (St. Sophia Cathedral)",
@@ -82,42 +118,6 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
         "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum."
-      },
-      {
-        "name": "Gomşu Restaurant",
-        "category": "Restaurant",
-        "description": "A warm local eatery serving traditional Cypriot 'Meze' and grilled specialties inside an atmospheric courtyard filled with jasmine.",
-        "image": "public/images/restaurants/gomsu.jpg",
-        "latitude": 35.1772,
-        "longitude": 33.3618,
-        "openingHours": "Daily 12:00 - 23:00",
-        "estimatedVisitTime": "1.5 Hours",
-        "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
-        "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
-      },
-      {
-        "name": "Cyprus Modern Art Museum",
-        "category": "Museum",
-        "description": "Located on the Near East University campus, this museum features thousands of contemporary artworks from artists across the Turkic world.",
-        "image": "public/images/routes/modern-art-museum.jpg",
-        "latitude": 35.2233,
-        "longitude": 33.3323,
-        "openingHours": "Tue - Sun 09:00 - 17:00",
-        "estimatedVisitTime": "1.5 Hours",
-        "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
-        "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
-      },
-      {
-        "name": "Cyprus Car Museum",
-        "category": "Museum",
-        "description": "An incredible collection of classic, sports, and vintage cars spanning over a century of automotive history, a must-visit for road trip fans.",
-        "image": "public/images/routes/car-museum.jpg",
-        "latitude": 35.2245,
-        "longitude": 33.3315,
-        "openingHours": "Tue - Sun 09:00 - 17:00",
-        "estimatedVisitTime": "1 Hour",
-        "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
-        "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
       }
     ],
     "travelTips": [
@@ -149,6 +149,18 @@ const DEFAULT_ROUTES_DB = [
     ],
     "stops": [
       {
+        "name": "Mavi Köşk (The Blue House)",
+        "category": "Museum",
+        "description": "A mysterious mid-century villa filled with secret passages, Greek-Italian art, and unique architectures, built by a mysterious gunrunner.",
+        "image": "public/images/routes/mavi-kosk.jpg",
+        "latitude": 35.3044,
+        "longitude": 33.0536,
+        "openingHours": "Tue - Sun 09:00 - 17:00",
+        "estimatedVisitTime": "1 Hour",
+        "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+        "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
+      },
+      {
         "name": "St. Hilarion Castle",
         "category": "Castle",
         "description": "One of the best-preserved crusader fortresses in Cyprus. Situated high in the Kyrenia range, it offers spectacular panoramic views of the coast.",
@@ -173,16 +185,16 @@ const DEFAULT_ROUTES_DB = [
         "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor."
       },
       {
-        "name": "Bellapais Abbey",
-        "category": "Monastery",
-        "description": "The ruins of a beautiful 13th-century monastery, showcasing masterpiece gothic arches and peaceful gardens overlooking the blue sea.",
-        "image": "public/images/routes/bellapais.jpg",
-        "latitude": 35.3072,
-        "longitude": 33.3556,
-        "openingHours": "Daily 09:00 - 18:00",
-        "estimatedVisitTime": "1 Hour",
-        "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
-        "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+        "name": "Ulfet Beach Club",
+        "category": "Beach",
+        "description": "A refined beach club along the Kyrenia coastline offering sunbeds, a bar, and clear waters, ideal to relax after climbing mountain castles.",
+        "image": "public/images/beaches/ulfet.jpg",
+        "latitude": 35.3512,
+        "longitude": 33.2750,
+        "openingHours": "Daily 09:00 - 19:00",
+        "estimatedVisitTime": "3 Hours",
+        "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+        "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
       },
       {
         "name": "Vola Coffee",
@@ -197,6 +209,18 @@ const DEFAULT_ROUTES_DB = [
         "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike."
       },
       {
+        "name": "Bellapais Abbey",
+        "category": "Monastery",
+        "description": "The ruins of a beautiful 13th-century monastery, showcasing masterpiece gothic arches and peaceful gardens overlooking the blue sea.",
+        "image": "public/images/routes/bellapais.jpg",
+        "latitude": 35.3072,
+        "longitude": 33.3556,
+        "openingHours": "Daily 09:00 - 18:00",
+        "estimatedVisitTime": "1 Hour",
+        "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+        "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+      },
+      {
         "name": "Kybele Restaurant",
         "category": "Restaurant",
         "description": "Set directly within the grounds of Bellapais Abbey, this high-end restaurant offers modern Mediterranean cuisine and fine dining with dramatic views.",
@@ -207,30 +231,6 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
         "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy."
-      },
-      {
-        "name": "Mavi Köşk (The Blue House)",
-        "category": "Museum",
-        "description": "A mysterious mid-century villa filled with secret passages, Greek-Italian art, and unique architectures, built by a mysterious gunrunner.",
-        "image": "public/images/routes/mavi-kosk.jpg",
-        "latitude": 35.3044,
-        "longitude": 33.0536,
-        "openingHours": "Tue - Sun 09:00 - 17:00",
-        "estimatedVisitTime": "1 Hour",
-        "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
-        "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
-      },
-      {
-        "name": "Ulfet Beach Club",
-        "category": "Beach",
-        "description": "A refined beach club along the Kyrenia coastline offering sunbeds, a bar, and clear waters, ideal to relax after climbing mountain castles.",
-        "image": "public/images/beaches/ulfet.jpg",
-        "latitude": 35.3512,
-        "longitude": 33.2750,
-        "openingHours": "Daily 09:00 - 19:00",
-        "estimatedVisitTime": "3 Hours",
-        "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
-        "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
       }
     ],
     "travelTips": [
@@ -273,6 +273,18 @@ const DEFAULT_ROUTES_DB = [
         "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port."
       },
       {
+        "name": "Eziç Famagusta",
+        "category": "Restaurant",
+        "description": "A popular modern restaurant offering a large menu of international and Turkish-Cypriot dishes in a sleek, stylish dining room.",
+        "image": "public/images/restaurants/ezic-magusa.jpg",
+        "latitude": 35.1215,
+        "longitude": 33.9180,
+        "openingHours": "Daily 11:30 - 23:00",
+        "estimatedVisitTime": "1 Hour",
+        "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+        "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+      },
+      {
         "name": "Lala Mustafa Paşa Mosque (St. Nicholas Cathedral)",
         "category": "Monastery",
         "description": "The largest medieval building in Famagusta, featuring majestic Gothic architecture inspired by the Reims Cathedral in France.",
@@ -297,16 +309,16 @@ const DEFAULT_ROUTES_DB = [
         "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes."
       },
       {
-        "name": "Eziç Famagusta",
-        "category": "Restaurant",
-        "description": "A popular modern restaurant offering a large menu of international and Turkish-Cypriot dishes in a sleek, stylish dining room.",
-        "image": "public/images/restaurants/ezic-magusa.jpg",
-        "latitude": 35.1215,
-        "longitude": 33.9180,
-        "openingHours": "Daily 11:30 - 23:00",
-        "estimatedVisitTime": "1 Hour",
-        "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
-        "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+        "name": "Tatlı Hayat",
+        "category": "Coffee Shop",
+        "description": "A boutique cake shop and bistro, famous for its delicious pastries, specialty cakes, and charming garden seating in old Famagusta.",
+        "image": "public/images/cafes/tatli-hayat.jpg",
+        "latitude": 35.1235,
+        "longitude": 33.9412,
+        "openingHours": "Daily 09:00 - 22:00",
+        "estimatedVisitTime": "45 Mins",
+        "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+        "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
       },
       {
         "name": "Kapalı Maraş (Varosha)",
@@ -331,18 +343,6 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "2 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
         "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history."
-      },
-      {
-        "name": "Tatlı Hayat",
-        "category": "Coffee Shop",
-        "description": "A boutique cake shop and bistro, famous for its delicious pastries, specialty cakes, and charming garden seating in old Famagusta.",
-        "image": "public/images/cafes/tatli-hayat.jpg",
-        "latitude": 35.1235,
-        "longitude": 33.9412,
-        "openingHours": "Daily 09:00 - 22:00",
-        "estimatedVisitTime": "45 Mins",
-        "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
-        "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
       }
     ],
     "travelTips": [
@@ -373,6 +373,18 @@ const DEFAULT_ROUTES_DB = [
     ],
     "stops": [
       {
+        "name": "Café Paris & Bakery",
+        "category": "Coffee Shop",
+        "description": "A delightful European-style bakery in Iskele offering fresh croissants, delicious cakes, and warm coffees in a chic lounge.",
+        "image": "public/images/cafes/cafe-paris.jpg",
+        "latitude": 35.2725,
+        "longitude": 33.8920,
+        "openingHours": "Daily 07:30 - 21:00",
+        "estimatedVisitTime": "45 Mins",
+        "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+        "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+      },
+      {
         "name": "İskele Archaeology Museum",
         "category": "Museum",
         "description": "A well-organized local museum exhibiting historical artifacts, pottery, and sculptures uncovered from the surrounding Karpaz and Iskele region.",
@@ -397,16 +409,16 @@ const DEFAULT_ROUTES_DB = [
         "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design."
       },
       {
-        "name": "Café Paris & Bakery",
+        "name": "Terra Coffee & Lounge",
         "category": "Coffee Shop",
-        "description": "A delightful European-style bakery in Iskele offering fresh croissants, delicious cakes, and warm coffees in a chic lounge.",
-        "image": "public/images/cafes/cafe-paris.jpg",
-        "latitude": 35.2725,
-        "longitude": 33.8920,
-        "openingHours": "Daily 07:30 - 21:00",
+        "description": "A cozy, premium coffee shop in Iskele offering dynamic brews, smoothies, and a comfortable modern environment to plan your drive.",
+        "image": "public/images/cafes/terra-coffee.jpg",
+        "latitude": 35.2740,
+        "longitude": 33.8940,
+        "openingHours": "Daily 08:00 - 23:00",
         "estimatedVisitTime": "45 Mins",
-        "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
-        "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+        "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+        "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
       },
       {
         "name": "Boğaz Harbour",
@@ -443,18 +455,6 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "3 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
         "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region."
-      },
-      {
-        "name": "Terra Coffee & Lounge",
-        "category": "Coffee Shop",
-        "description": "A cozy, premium coffee shop in Iskele offering dynamic brews, smoothies, and a comfortable modern environment to plan your drive.",
-        "image": "public/images/cafes/terra-coffee.jpg",
-        "latitude": 35.2740,
-        "longitude": 33.8940,
-        "openingHours": "Daily 08:00 - 23:00",
-        "estimatedVisitTime": "45 Mins",
-        "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
-        "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
       }
     ],
     "travelTips": [
@@ -485,28 +485,16 @@ const DEFAULT_ROUTES_DB = [
     ],
     "stops": [
       {
-        "name": "Vouni Palace",
-        "category": "Castle",
-        "description": "The dramatic ruins of a 5th-century BC palace perched on a cliff edge 250 meters above the sea. It is one of the most scenic archeological sites in Cyprus.",
-        "image": "public/images/routes/vouni.jpg",
-        "latitude": 35.1639,
-        "longitude": 32.7750,
-        "openingHours": "Daily 09:00 - 17:00",
-        "estimatedVisitTime": "1.5 Hours",
-        "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
-        "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
-      },
-      {
-        "name": "MOAR Cafe",
-        "category": "Coffee Shop",
-        "description": "A popular contemporary cafe in Lefke offering great coffee, local snacks, and a cozy courtyard setting loved by students and visitors.",
-        "image": "public/images/cafes/moar-cafe.jpg",
-        "latitude": 35.1160,
-        "longitude": 32.8520,
-        "openingHours": "Daily 08:30 - 23:00",
-        "estimatedVisitTime": "45 Mins",
-        "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
-        "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
+        "name": "Gemikonağı Göleti (Gemikonağı Dam)",
+        "category": "Viewpoint",
+        "description": "A peaceful reservoir surrounded by green hills, offering a quiet spot for photography, viewing local water birds, and a scenic drive.",
+        "image": "public/images/routes/gemikonagi-dam.jpg",
+        "latitude": 35.1290,
+        "longitude": 32.8460,
+        "openingHours": "Open 24/7",
+        "estimatedVisitTime": "30 Mins",
+        "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+        "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
       },
       {
         "name": "Lefke Mining Museum",
@@ -521,16 +509,16 @@ const DEFAULT_ROUTES_DB = [
         "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century."
       },
       {
-        "name": "Gemikonağı Göleti (Gemikonağı Dam)",
-        "category": "Viewpoint",
-        "description": "A peaceful reservoir surrounded by green hills, offering a quiet spot for photography, viewing local water birds, and a scenic drive.",
-        "image": "public/images/routes/gemikonagi-dam.jpg",
-        "latitude": 35.1290,
-        "longitude": 32.8460,
-        "openingHours": "Open 24/7",
-        "estimatedVisitTime": "30 Mins",
-        "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
-        "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
+        "name": "MOAR Cafe",
+        "category": "Coffee Shop",
+        "description": "A popular contemporary cafe in Lefke offering great coffee, local snacks, and a cozy courtyard setting loved by students and visitors.",
+        "image": "public/images/cafes/moar-cafe.jpg",
+        "latitude": 35.1160,
+        "longitude": 32.8520,
+        "openingHours": "Daily 08:30 - 23:00",
+        "estimatedVisitTime": "45 Mins",
+        "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+        "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
       },
       {
         "name": "Cengiz Topel Monument",
@@ -543,6 +531,18 @@ const DEFAULT_ROUTES_DB = [
         "estimatedVisitTime": "30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
         "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site."
+      },
+      {
+        "name": "Vouni Palace",
+        "category": "Castle",
+        "description": "The dramatic ruins of a 5th-century BC palace perched on a cliff edge 250 meters above the sea. It is one of the most scenic archeological sites in Cyprus.",
+        "image": "public/images/routes/vouni.jpg",
+        "latitude": 35.1639,
+        "longitude": 32.7750,
+        "openingHours": "Daily 09:00 - 17:00",
+        "estimatedVisitTime": "1.5 Hours",
+        "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+        "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
       },
       {
         "name": "Yeşilırmak Beach",

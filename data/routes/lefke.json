@@ -20,28 +20,16 @@
   ],
   "stops": [
     {
-      "name": "Vouni Palace",
-      "category": "Castle",
-      "description": "The dramatic ruins of a 5th-century BC palace perched on a cliff edge 250 meters above the sea. It is one of the most scenic archeological sites in Cyprus.",
-      "image": "public/images/routes/vouni.jpg",
-      "latitude": 35.1639,
-      "longitude": 32.7750,
-      "openingHours": "Daily 09:00 - 17:00",
-      "estimatedVisitTime": "1.5 Hours",
-      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
-      "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
-    },
-    {
-      "name": "MOAR Cafe",
-      "category": "Coffee Shop",
-      "description": "A popular contemporary cafe in Lefke offering great coffee, local snacks, and a cozy courtyard setting loved by students and visitors.",
-      "image": "public/images/cafes/moar-cafe.jpg",
-      "latitude": 35.1160,
-      "longitude": 32.8520,
-      "openingHours": "Daily 08:30 - 23:00",
-      "estimatedVisitTime": "45 Mins",
-      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
-      "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
+      "name": "Gemikonağı Göleti (Gemikonağı Dam)",
+      "category": "Viewpoint",
+      "description": "A peaceful reservoir surrounded by green hills, offering a quiet spot for photography, viewing local water birds, and a scenic drive.",
+      "image": "public/images/routes/gemikonagi-dam.jpg",
+      "latitude": 35.1290,
+      "longitude": 32.8460,
+      "openingHours": "Open 24/7",
+      "estimatedVisitTime": "30 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+      "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
     },
     {
       "name": "Lefke Mining Museum",
@@ -56,16 +44,16 @@
       "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century."
     },
     {
-      "name": "Gemikonağı Göleti (Gemikonağı Dam)",
-      "category": "Viewpoint",
-      "description": "A peaceful reservoir surrounded by green hills, offering a quiet spot for photography, viewing local water birds, and a scenic drive.",
-      "image": "public/images/routes/gemikonagi-dam.jpg",
-      "latitude": 35.1290,
-      "longitude": 32.8460,
-      "openingHours": "Open 24/7",
-      "estimatedVisitTime": "30 Mins",
-      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
-      "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
+      "name": "MOAR Cafe",
+      "category": "Coffee Shop",
+      "description": "A popular contemporary cafe in Lefke offering great coffee, local snacks, and a cozy courtyard setting loved by students and visitors.",
+      "image": "public/images/cafes/moar-cafe.jpg",
+      "latitude": 35.1160,
+      "longitude": 32.8520,
+      "openingHours": "Daily 08:30 - 23:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+      "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
     },
     {
       "name": "Cengiz Topel Monument",
@@ -78,6 +66,18 @@
       "estimatedVisitTime": "30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
       "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site."
+    },
+    {
+      "name": "Vouni Palace",
+      "category": "Castle",
+      "description": "The dramatic ruins of a 5th-century BC palace perched on a cliff edge 250 meters above the sea. It is one of the most scenic archeological sites in Cyprus.",
+      "image": "public/images/routes/vouni.jpg",
+      "latitude": 35.1639,
+      "longitude": 32.7750,
+      "openingHours": "Daily 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+      "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
     },
     {
       "name": "Yeşilırmak Beach",
