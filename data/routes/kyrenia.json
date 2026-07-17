@@ -29,7 +29,13 @@
       "openingHours": "Tue - Sun 09:00 - 17:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
-      "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
+      "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "30 mins",
+        "distance": "25 km",
+        "type": "drive"
+      }
     },
     {
       "name": "St. Hilarion Castle",
@@ -41,7 +47,13 @@
       "openingHours": "Daily 09:00 - 16:30",
       "estimatedVisitTime": "2 Hours",
       "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
-      "history": "Originally a monastery built in the 10th century, it was fortified by the Byzantines and Lusignans. It is said to have inspired Walt Disney's Snow White castle."
+      "history": "Originally a monastery built in the 10th century, it was fortified by the Byzantines and Lusignans. It is said to have inspired Walt Disney's Snow White castle.",
+      "arrivalTime": "10:30",
+      "nextStopTravel": {
+        "time": "5 mins",
+        "distance": "3 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Kyrenia Tandem Paragliding",
@@ -53,7 +65,13 @@
       "openingHours": "Daily 09:00 - 17:00",
       "estimatedVisitTime": "2 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Tandem+Paragliding,+Kyrenia",
-      "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor."
+      "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor.",
+      "arrivalTime": "12:35",
+      "nextStopTravel": {
+        "time": "10 mins",
+        "distance": "5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Ulfet Beach Club",
@@ -65,7 +83,13 @@
       "openingHours": "Daily 09:00 - 19:00",
       "estimatedVisitTime": "3 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
-      "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
+      "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets.",
+      "arrivalTime": "02:45",
+      "nextStopTravel": {
+        "time": "10 mins",
+        "distance": "5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Vola Coffee",
@@ -77,7 +101,13 @@
       "openingHours": "Daily 08:00 - 22:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
-      "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike."
+      "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike.",
+      "arrivalTime": "05:55",
+      "nextStopTravel": {
+        "time": "15 mins",
+        "distance": "6 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Bellapais Abbey",
@@ -89,7 +119,13 @@
       "openingHours": "Daily 09:00 - 18:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
-      "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+      "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'.",
+      "arrivalTime": "06:55",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Kybele Restaurant",
@@ -101,7 +137,9 @@
       "openingHours": "Daily 11:30 - 23:30",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
-      "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy."
+      "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy.",
+      "arrivalTime": "07:55",
+      "nextStopTravel": null
     }
   ],
   "travelTips": [

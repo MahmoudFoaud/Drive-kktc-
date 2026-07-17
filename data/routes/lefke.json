@@ -29,7 +29,13 @@
       "openingHours": "Open 24/7",
       "estimatedVisitTime": "30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
-      "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
+      "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "8 mins",
+        "distance": "5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Lefke Mining Museum",
@@ -41,7 +47,13 @@
       "openingHours": "Mon - Fri 08:00 - 15:30",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
-      "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century."
+      "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century.",
+      "arrivalTime": "09:38",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "MOAR Cafe",
@@ -53,7 +65,13 @@
       "openingHours": "Daily 08:30 - 23:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
-      "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
+      "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews.",
+      "arrivalTime": "10:24",
+      "nextStopTravel": {
+        "time": "8 mins",
+        "distance": "5.5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Cengiz Topel Monument",
@@ -65,7 +83,13 @@
       "openingHours": "Daily 09:00 - 17:00",
       "estimatedVisitTime": "30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
-      "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site."
+      "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site.",
+      "arrivalTime": "11:17",
+      "nextStopTravel": {
+        "time": "12 mins",
+        "distance": "8 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Vouni Palace",
@@ -77,7 +101,13 @@
       "openingHours": "Daily 09:00 - 17:00",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
-      "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
+      "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt.",
+      "arrivalTime": "11:59",
+      "nextStopTravel": {
+        "time": "15 mins",
+        "distance": "10 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Yeşilırmak Beach",
@@ -89,7 +119,13 @@
       "openingHours": "Open 24/7",
       "estimatedVisitTime": "3 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
-      "history": "Yeşilırmak is listed in the Guinness Book of Records for growing the largest single strawberry plant. It is a peaceful coastal retreat."
+      "history": "Yeşilırmak is listed in the Guinness Book of Records for growing the largest single strawberry plant. It is a peaceful coastal retreat.",
+      "arrivalTime": "01:44",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Dillirga Restaurant",
@@ -101,7 +137,9 @@
       "openingHours": "Daily 12:00 - 23:00",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
-      "history": "Known for sourcing all ingredients locally, including organic olive oil, wine, and vegetables from the surrounding Yeşilırmak valleys."
+      "history": "Known for sourcing all ingredients locally, including organic olive oil, wine, and vegetables from the surrounding Yeşilırmak valleys.",
+      "arrivalTime": "04:45",
+      "nextStopTravel": null
     }
   ],
   "travelTips": [

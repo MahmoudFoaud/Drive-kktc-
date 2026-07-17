@@ -612,6 +612,38 @@ header {
   font-size: 0.9rem;
 }
 
+.stop-time-tag {
+  font-size: 0.8rem;
+  background-color: rgba(245, 124, 0, 0.1);
+  color: var(--accent);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.stop-travel-badge {
+  position: absolute;
+  left: -2rem;
+  bottom: -2rem;
+  transform: translate(-50%, 50%);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 /* Sidebar Widget Styles */
 .sidebar-widget {
   padding: 2rem;

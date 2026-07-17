@@ -29,7 +29,13 @@
       "openingHours": "Daily 07:30 - 21:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
-      "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+      "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "80 m",
+        "type": "walk"
+      }
     },
     {
       "name": "İskele Archaeology Museum",
@@ -41,7 +47,13 @@
       "openingHours": "Mon - Fri 08:00 - 15:30",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
-      "history": "Inaugurated in 2018 to safeguard the rich heritage of regional excavations, showcasing relics from the Bronze Age through the Roman eras."
+      "history": "Inaugurated in 2018 to safeguard the rich heritage of regional excavations, showcasing relics from the Bronze Age through the Roman eras.",
+      "arrivalTime": "09:46",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "150 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Panayia Theotokos Icon Museum",
@@ -53,7 +65,13 @@
       "openingHours": "Mon - Fri 09:00 - 16:00",
       "estimatedVisitTime": "30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
-      "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design."
+      "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design.",
+      "arrivalTime": "10:33",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "150 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Terra Coffee & Lounge",
@@ -65,7 +83,13 @@
       "openingHours": "Daily 08:00 - 23:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
-      "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
+      "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality.",
+      "arrivalTime": "11:05",
+      "nextStopTravel": {
+        "time": "8 mins",
+        "distance": "7 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Boğaz Harbour",
@@ -77,7 +101,13 @@
       "openingHours": "Open 24/7",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
-      "history": "For decades, Boğaz has served as a center for local fishermen and a quiet seaside getaway, famous for its seafood restaurants."
+      "history": "For decades, Boğaz has served as a center for local fishermen and a quiet seaside getaway, famous for its seafood restaurants.",
+      "arrivalTime": "11:58",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Barna Beach Fish Restaurant",
@@ -89,7 +119,13 @@
       "openingHours": "Daily 12:00 - 23:00",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
-      "history": "A local culinary icon in Boğaz, beloved for keeping traditional Cypriot seafood cooking practices alive."
+      "history": "A local culinary icon in Boğaz, beloved for keeping traditional Cypriot seafood cooking practices alive.",
+      "arrivalTime": "12:44",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "1.5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Kalecik Public Beach",
@@ -101,7 +137,9 @@
       "openingHours": "Open 24/7",
       "estimatedVisitTime": "3 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
-      "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region."
+      "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region.",
+      "arrivalTime": "02:16",
+      "nextStopTravel": null
     }
   ],
   "travelTips": [

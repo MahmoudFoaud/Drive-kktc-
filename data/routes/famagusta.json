@@ -29,7 +29,13 @@
       "openingHours": "Daily 09:00 - 18:00",
       "estimatedVisitTime": "2 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
-      "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port."
+      "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "10 mins",
+        "distance": "8 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Eziç Famagusta",
@@ -41,7 +47,13 @@
       "openingHours": "Daily 11:30 - 23:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
-      "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+      "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design.",
+      "arrivalTime": "11:10",
+      "nextStopTravel": {
+        "time": "5 mins",
+        "distance": "2 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Lala Mustafa Paşa Mosque (St. Nicholas Cathedral)",
@@ -53,7 +65,13 @@
       "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
-      "history": "Built by the Lusignans between 1298 and 1312. It was where the Kings of Cyprus were crowned as Kings of Jerusalem. Converted to a mosque in 1571."
+      "history": "Built by the Lusignans between 1298 and 1312. It was where the Kings of Cyprus were crowned as Kings of Jerusalem. Converted to a mosque in 1571.",
+      "arrivalTime": "12:15",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Mardo Kaleiçi",
@@ -65,7 +83,13 @@
       "openingHours": "Daily 08:30 - 23:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
-      "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes."
+      "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes.",
+      "arrivalTime": "01:01",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "150 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Tatlı Hayat",
@@ -77,7 +101,13 @@
       "openingHours": "Daily 09:00 - 22:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
-      "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
+      "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city.",
+      "arrivalTime": "01:48",
+      "nextStopTravel": {
+        "time": "5 mins",
+        "distance": "2 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Kapalı Maraş (Varosha)",
@@ -89,7 +119,13 @@
       "openingHours": "Daily 08:00 - 20:00 (Summer), 08:00 - 17:00 (Winter)",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
-      "history": "A premier Mediterranean luxury resort hub in the 1960s, Varosha was fenced off during the 1974 conflict and lay completely abandoned until partially reopening in 2020."
+      "history": "A premier Mediterranean luxury resort hub in the 1960s, Varosha was fenced off during the 1974 conflict and lay completely abandoned until partially reopening in 2020.",
+      "arrivalTime": "02:38",
+      "nextStopTravel": {
+        "time": "10 mins",
+        "distance": "2 km",
+        "type": "walk"
+      }
     },
     {
       "name": "Varosha Beach",
@@ -101,7 +137,9 @@
       "openingHours": "Daily 08:00 - 19:00",
       "estimatedVisitTime": "2 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
-      "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history."
+      "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history.",
+      "arrivalTime": "04:18",
+      "nextStopTravel": null
     }
   ],
   "travelTips": [

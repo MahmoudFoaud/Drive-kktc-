@@ -29,7 +29,13 @@
       "openingHours": "Tue - Sun 09:00 - 17:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
-      "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
+      "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 min",
+        "distance": "50 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Cyprus Modern Art Museum",
@@ -41,7 +47,13 @@
       "openingHours": "Tue - Sun 09:00 - 17:00",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
-      "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
+      "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean.",
+      "arrivalTime": "10:01",
+      "nextStopTravel": {
+        "time": "10 mins",
+        "distance": "6.5 km",
+        "type": "drive"
+      }
     },
     {
       "name": "Girne Kapısı (Kyrenia Gate)",
@@ -53,7 +65,13 @@
       "openingHours": "Open 24/7 (Exterior)",
       "estimatedVisitTime": "15-30 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
-      "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office."
+      "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office.",
+      "arrivalTime": "11:41",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "150 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Gomşu Restaurant",
@@ -65,7 +83,13 @@
       "openingHours": "Daily 12:00 - 23:00",
       "estimatedVisitTime": "1.5 Hours",
       "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
-      "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
+      "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients.",
+      "arrivalTime": "12:03",
+      "nextStopTravel": {
+        "time": "7 mins",
+        "distance": "550 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Selimiye Mosque (St. Sophia Cathedral)",
@@ -77,7 +101,13 @@
       "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
-      "history": "Constructed during Lusignan rule between 1209 and 1326, it was Cyprus's coronation cathedral. Minarets were added after Ottoman capture in 1570."
+      "history": "Constructed during Lusignan rule between 1209 and 1326, it was Cyprus's coronation cathedral. Minarets were added after Ottoman capture in 1570.",
+      "arrivalTime": "01:40",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "200 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Büyük Han (Great Inn)",
@@ -89,7 +119,13 @@
       "openingHours": "Daily 09:00 - 19:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
-      "history": "Built by the first Ottoman governor of Cyprus in 1572. It served as a hostel for merchants and travelers, and later as a British prison."
+      "history": "Built by the first Ottoman governor of Cyprus in 1572. It served as a hostel for merchants and travelers, and later as a British prison.",
+      "arrivalTime": "02:27",
+      "nextStopTravel": {
+        "time": "2 mins",
+        "distance": "180 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Rüstem Kitabevi",
@@ -101,7 +137,13 @@
       "openingHours": "Daily 08:30 - 22:00",
       "estimatedVisitTime": "1 Hour",
       "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
-      "history": "Founded in 1937, it is the oldest bookshop in Cyprus. It remains a legendary literary hub, restaurant, and art gallery."
+      "history": "Founded in 1937, it is the oldest bookshop in Cyprus. It remains a legendary literary hub, restaurant, and art gallery.",
+      "arrivalTime": "03:29",
+      "nextStopTravel": {
+        "time": "5 mins",
+        "distance": "400 m",
+        "type": "walk"
+      }
     },
     {
       "name": "Derviş Paşa Mansion Museum",
@@ -113,7 +155,9 @@
       "openingHours": "Tue - Sun 09:00 - 17:00",
       "estimatedVisitTime": "45 Mins",
       "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
-      "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum."
+      "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum.",
+      "arrivalTime": "04:19",
+      "nextStopTravel": null
     }
   ],
   "travelTips": [

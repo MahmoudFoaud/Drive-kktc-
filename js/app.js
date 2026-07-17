@@ -33,7 +33,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Tue - Sun 09:00 - 17:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
-        "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
+        "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition.",
+        "arrivalTime": "09:00",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Cyprus Modern Art Museum",
@@ -45,7 +51,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Tue - Sun 09:00 - 17:00",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
-        "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
+        "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean.",
+        "arrivalTime": "10:01",
+        "nextStopTravel": {
+          "time": "10 mins",
+          "distance": "6.5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Girne Kapısı (Kyrenia Gate)",
@@ -57,7 +69,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Open 24/7 (Exterior)",
         "estimatedVisitTime": "15-30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
-        "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office."
+        "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office.",
+        "arrivalTime": "11:41",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "150 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Gomşu Restaurant",
@@ -69,7 +87,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 12:00 - 23:00",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
-        "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
+        "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients.",
+        "arrivalTime": "12:03",
+        "nextStopTravel": {
+          "time": "7 mins",
+          "distance": "550 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Selimiye Mosque (St. Sophia Cathedral)",
@@ -81,7 +105,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
-        "history": "Constructed during Lusignan rule between 1209 and 1326, it was Cyprus's coronation cathedral. Minarets were added after Ottoman capture in 1570."
+        "history": "Constructed during Lusignan rule between 1209 and 1326, it was Cyprus's coronation cathedral. Minarets were added after Ottoman capture in 1570.",
+        "arrivalTime": "01:40",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "200 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Büyük Han (Great Inn)",
@@ -93,7 +123,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 19:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
-        "history": "Built by the first Ottoman governor of Cyprus in 1572. It served as a hostel for merchants and travelers, and later as a British prison."
+        "history": "Built by the first Ottoman governor of Cyprus in 1572. It served as a hostel for merchants and travelers, and later as a British prison.",
+        "arrivalTime": "02:27",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "180 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Rüstem Kitabevi",
@@ -105,7 +141,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:30 - 22:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
-        "history": "Founded in 1937, it is the oldest bookshop in Cyprus. It remains a legendary literary hub, restaurant, and art gallery."
+        "history": "Founded in 1937, it is the oldest bookshop in Cyprus. It remains a legendary literary hub, restaurant, and art gallery.",
+        "arrivalTime": "03:29",
+        "nextStopTravel": {
+          "time": "5 mins",
+          "distance": "400 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Derviş Paşa Mansion Museum",
@@ -117,7 +159,9 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Tue - Sun 09:00 - 17:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
-        "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum."
+        "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum.",
+        "arrivalTime": "04:19",
+        "nextStopTravel": null
       }
     ],
     "travelTips": [
@@ -158,7 +202,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Tue - Sun 09:00 - 17:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
-        "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
+        "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom.",
+        "arrivalTime": "09:00",
+        "nextStopTravel": {
+          "time": "30 mins",
+          "distance": "25 km",
+          "type": "drive"
+        }
       },
       {
         "name": "St. Hilarion Castle",
@@ -170,7 +220,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 16:30",
         "estimatedVisitTime": "2 Hours",
         "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
-        "history": "Originally a monastery built in the 10th century, it was fortified by the Byzantines and Lusignans. It is said to have inspired Walt Disney's Snow White castle."
+        "history": "Originally a monastery built in the 10th century, it was fortified by the Byzantines and Lusignans. It is said to have inspired Walt Disney's Snow White castle.",
+        "arrivalTime": "10:30",
+        "nextStopTravel": {
+          "time": "5 mins",
+          "distance": "3 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Kyrenia Tandem Paragliding",
@@ -182,7 +238,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 17:00",
         "estimatedVisitTime": "2 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Tandem+Paragliding,+Kyrenia",
-        "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor."
+        "history": "Paragliding in the Kyrenia range offers one of the most stunning flight paths in the world, starting from the heights of the Beşparmak Mountains and landing near the harbor.",
+        "arrivalTime": "12:35",
+        "nextStopTravel": {
+          "time": "10 mins",
+          "distance": "5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Ulfet Beach Club",
@@ -194,7 +256,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 19:00",
         "estimatedVisitTime": "3 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
-        "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
+        "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets.",
+        "arrivalTime": "02:45",
+        "nextStopTravel": {
+          "time": "10 mins",
+          "distance": "5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Vola Coffee",
@@ -206,7 +274,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:00 - 22:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
-        "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike."
+        "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike.",
+        "arrivalTime": "05:55",
+        "nextStopTravel": {
+          "time": "15 mins",
+          "distance": "6 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Bellapais Abbey",
@@ -218,7 +292,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 18:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
-        "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+        "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'.",
+        "arrivalTime": "06:55",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Kybele Restaurant",
@@ -230,7 +310,9 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 11:30 - 23:30",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
-        "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy."
+        "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy.",
+        "arrivalTime": "07:55",
+        "nextStopTravel": null
       }
     ],
     "travelTips": [
@@ -270,7 +352,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 18:00",
         "estimatedVisitTime": "2 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
-        "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port."
+        "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port.",
+        "arrivalTime": "09:00",
+        "nextStopTravel": {
+          "time": "10 mins",
+          "distance": "8 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Eziç Famagusta",
@@ -282,7 +370,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 11:30 - 23:00",
         "estimatedVisitTime": "1 Hour",
         "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
-        "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+        "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design.",
+        "arrivalTime": "11:10",
+        "nextStopTravel": {
+          "time": "5 mins",
+          "distance": "2 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Lala Mustafa Paşa Mosque (St. Nicholas Cathedral)",
@@ -294,7 +388,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
-        "history": "Built by the Lusignans between 1298 and 1312. It was where the Kings of Cyprus were crowned as Kings of Jerusalem. Converted to a mosque in 1571."
+        "history": "Built by the Lusignans between 1298 and 1312. It was where the Kings of Cyprus were crowned as Kings of Jerusalem. Converted to a mosque in 1571.",
+        "arrivalTime": "12:15",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Mardo Kaleiçi",
@@ -306,7 +406,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:30 - 23:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
-        "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes."
+        "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes.",
+        "arrivalTime": "01:01",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "150 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Tatlı Hayat",
@@ -318,7 +424,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 22:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
-        "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
+        "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city.",
+        "arrivalTime": "01:48",
+        "nextStopTravel": {
+          "time": "5 mins",
+          "distance": "2 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Kapalı Maraş (Varosha)",
@@ -330,7 +442,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:00 - 20:00 (Summer), 08:00 - 17:00 (Winter)",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
-        "history": "A premier Mediterranean luxury resort hub in the 1960s, Varosha was fenced off during the 1974 conflict and lay completely abandoned until partially reopening in 2020."
+        "history": "A premier Mediterranean luxury resort hub in the 1960s, Varosha was fenced off during the 1974 conflict and lay completely abandoned until partially reopening in 2020.",
+        "arrivalTime": "02:38",
+        "nextStopTravel": {
+          "time": "10 mins",
+          "distance": "2 km",
+          "type": "walk"
+        }
       },
       {
         "name": "Varosha Beach",
@@ -342,7 +460,9 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:00 - 19:00",
         "estimatedVisitTime": "2 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
-        "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history."
+        "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history.",
+        "arrivalTime": "04:18",
+        "nextStopTravel": null
       }
     ],
     "travelTips": [
@@ -382,7 +502,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 07:30 - 21:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
-        "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+        "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip.",
+        "arrivalTime": "09:00",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "80 m",
+          "type": "walk"
+        }
       },
       {
         "name": "İskele Archaeology Museum",
@@ -394,7 +520,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Mon - Fri 08:00 - 15:30",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
-        "history": "Inaugurated in 2018 to safeguard the rich heritage of regional excavations, showcasing relics from the Bronze Age through the Roman eras."
+        "history": "Inaugurated in 2018 to safeguard the rich heritage of regional excavations, showcasing relics from the Bronze Age through the Roman eras.",
+        "arrivalTime": "09:46",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "150 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Panayia Theotokos Icon Museum",
@@ -406,7 +538,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Mon - Fri 09:00 - 16:00",
         "estimatedVisitTime": "30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
-        "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design."
+        "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design.",
+        "arrivalTime": "10:33",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "150 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Terra Coffee & Lounge",
@@ -418,7 +556,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:00 - 23:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
-        "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
+        "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality.",
+        "arrivalTime": "11:05",
+        "nextStopTravel": {
+          "time": "8 mins",
+          "distance": "7 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Boğaz Harbour",
@@ -430,7 +574,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Open 24/7",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
-        "history": "For decades, Boğaz has served as a center for local fishermen and a quiet seaside getaway, famous for its seafood restaurants."
+        "history": "For decades, Boğaz has served as a center for local fishermen and a quiet seaside getaway, famous for its seafood restaurants.",
+        "arrivalTime": "11:58",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Barna Beach Fish Restaurant",
@@ -442,7 +592,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 12:00 - 23:00",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
-        "history": "A local culinary icon in Boğaz, beloved for keeping traditional Cypriot seafood cooking practices alive."
+        "history": "A local culinary icon in Boğaz, beloved for keeping traditional Cypriot seafood cooking practices alive.",
+        "arrivalTime": "12:44",
+        "nextStopTravel": {
+          "time": "2 mins",
+          "distance": "1.5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Kalecik Public Beach",
@@ -454,7 +610,9 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Open 24/7",
         "estimatedVisitTime": "3 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
-        "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region."
+        "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region.",
+        "arrivalTime": "02:16",
+        "nextStopTravel": null
       }
     ],
     "travelTips": [
@@ -494,7 +652,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Open 24/7",
         "estimatedVisitTime": "30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
-        "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
+        "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process.",
+        "arrivalTime": "09:00",
+        "nextStopTravel": {
+          "time": "8 mins",
+          "distance": "5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Lefke Mining Museum",
@@ -506,7 +670,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Mon - Fri 08:00 - 15:30",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
-        "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century."
+        "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century.",
+        "arrivalTime": "09:38",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "MOAR Cafe",
@@ -518,7 +688,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 08:30 - 23:00",
         "estimatedVisitTime": "45 Mins",
         "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
-        "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
+        "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews.",
+        "arrivalTime": "10:24",
+        "nextStopTravel": {
+          "time": "8 mins",
+          "distance": "5.5 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Cengiz Topel Monument",
@@ -530,7 +706,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 17:00",
         "estimatedVisitTime": "30 Mins",
         "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
-        "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site."
+        "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site.",
+        "arrivalTime": "11:17",
+        "nextStopTravel": {
+          "time": "12 mins",
+          "distance": "8 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Vouni Palace",
@@ -542,7 +724,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 09:00 - 17:00",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
-        "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
+        "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt.",
+        "arrivalTime": "11:59",
+        "nextStopTravel": {
+          "time": "15 mins",
+          "distance": "10 km",
+          "type": "drive"
+        }
       },
       {
         "name": "Yeşilırmak Beach",
@@ -554,7 +742,13 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Open 24/7",
         "estimatedVisitTime": "3 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
-        "history": "Yeşilırmak is listed in the Guinness Book of Records for growing the largest single strawberry plant. It is a peaceful coastal retreat."
+        "history": "Yeşilırmak is listed in the Guinness Book of Records for growing the largest single strawberry plant. It is a peaceful coastal retreat.",
+        "arrivalTime": "01:44",
+        "nextStopTravel": {
+          "time": "1 min",
+          "distance": "50 m",
+          "type": "walk"
+        }
       },
       {
         "name": "Dillirga Restaurant",
@@ -566,7 +760,9 @@ const DEFAULT_ROUTES_DB = [
         "openingHours": "Daily 12:00 - 23:00",
         "estimatedVisitTime": "1.5 Hours",
         "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
-        "history": "Known for sourcing all ingredients locally, including organic olive oil, wine, and vegetables from the surrounding Yeşilırmak valleys."
+        "history": "Known for sourcing all ingredients locally, including organic olive oil, wine, and vegetables from the surrounding Yeşilırmak valleys.",
+        "arrivalTime": "04:45",
+        "nextStopTravel": null
       }
     ],
     "travelTips": [
@@ -818,7 +1014,7 @@ function renderHome(container) {
       <img class="hero-img-bg" src="public/images/hero/main.jpg" alt="Scenic road trip in Cyprus">
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1 class="hero-titleEditorial editorial" data-i18n="hero.title">${window.t('hero.title')}</h1>
+        <h1 class="hero-title editorial" data-i18n="hero.title">${window.t('hero.title')}</h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle">${window.t('hero.subtitle')}</p>
         <div class="hero-search-wrapper">
           <input type="text" id="home-search-input" data-i18n-placeholder="hero.searchPlaceholder" placeholder="${window.t('hero.searchPlaceholder')}" aria-label="Search site routes">
@@ -1109,6 +1305,7 @@ async function renderRouteDetail(container, slug) {
             <div class="stop-header">
               <div>
                 <span class="stop-category">${stop.category}</span>
+                ${stop.arrivalTime ? `<span class="stop-time-tag">🕒 ${stop.arrivalTime}</span>` : ""}
                 <h3 style="font-size: 1.6rem; margin-top: 0.5rem; color: var(--primary);">${index + 1}. ${stop.name}</h3>
               </div>
               <a href="${stop.googleMapsLink}" target="_blank" rel="noopener" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;" aria-label="Navigate to ${stop.name} on Google Maps">
@@ -1132,6 +1329,11 @@ async function renderRouteDetail(container, slug) {
               </div>
             ` : ""}
           </div>
+          ${stop.nextStopTravel ? `
+            <div class="stop-travel-badge" aria-label="Travel details to next stop">
+              ${stop.nextStopTravel.type === 'walk' ? '🚶' : '🚗'} <strong>${stop.nextStopTravel.time}</strong> (${stop.nextStopTravel.distance})
+            </div>
+          ` : ""}
         </div>
       `;
     });
