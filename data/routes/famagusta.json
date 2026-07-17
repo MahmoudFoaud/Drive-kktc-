@@ -1,0 +1,112 @@
+{
+  "title": "Famagusta Walled City & Ancient Salamis Route",
+  "slug": "famagusta-walled-city-ruins",
+  "description": "Drive down the Eastern coast to discover the sprawling ancient Roman ruins of Salamis. Then, step through the medieval stone walls of Famagusta, visit its historic French Gothic cathedral-turned-mosque, and explore the reopened Varosha ghost town.",
+  "region": "Famagusta",
+  "duration": "1 Day",
+  "distance": "60 km",
+  "difficulty": "Easy",
+  "bestSeason": "Year-round",
+  "coverImage": "public/images/routes/salamis.jpg",
+  "coordinates": {
+    "lat": 35.1228,
+    "lng": 33.9422
+  },
+  "gallery": [
+    "public/images/routes/salamis.jpg",
+    "public/images/routes/lala-mustafa.jpg",
+    "public/images/routes/varosha.jpg",
+    "public/images/beaches/varosha-beach.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Salamis Harabeleri (Salamis Ruins)",
+      "category": "Museum",
+      "description": "A magnificent ancient Greek and Roman city-state. Stroll among marble columns, explore the amphitheater, bathhouses, and ancient mosaics.",
+      "image": "public/images/routes/salamis.jpg",
+      "latitude": 35.1842,
+      "longitude": 33.9011,
+      "openingHours": "Daily 09:00 - 18:00",
+      "estimatedVisitTime": "2 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
+      "history": "Founded according to legend by Teucer after the Trojan War. Under Roman rule, it became the island's primary commercial port."
+    },
+    {
+      "name": "Lala Mustafa Paşa Mosque (St. Nicholas Cathedral)",
+      "category": "Monastery",
+      "description": "The largest medieval building in Famagusta, featuring majestic Gothic architecture inspired by the Reims Cathedral in France.",
+      "image": "public/images/routes/lala-mustafa.jpg",
+      "latitude": 35.1250,
+      "longitude": 33.9428,
+      "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
+      "history": "Built by the Lusignans between 1298 and 1312. It was where the Kings of Cyprus were crowned as Kings of Jerusalem. Converted to a mosque in 1571."
+    },
+    {
+      "name": "Mardo Kaleiçi",
+      "category": "Coffee Shop",
+      "description": "A premium café located inside the old walled city of Famagusta, famous for its Turkish ice cream (dondurma), desserts, and local atmosphere.",
+      "image": "public/images/cafes/mardo.jpg",
+      "latitude": 35.1245,
+      "longitude": 33.9420,
+      "openingHours": "Daily 08:30 - 23:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
+      "history": "A popular local brand that offers travelers a relaxing spot to sit by historical ruins and enjoy traditional sweet recipes."
+    },
+    {
+      "name": "Eziç Famagusta",
+      "category": "Restaurant",
+      "description": "A popular modern restaurant offering a large menu of international and Turkish-Cypriot dishes in a sleek, stylish dining room.",
+      "image": "public/images/restaurants/ezic-magusa.jpg",
+      "latitude": 35.1215,
+      "longitude": 33.9180,
+      "openingHours": "Daily 11:30 - 23:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+      "history": "Eziç is a prominent Cypriot restaurant chain celebrated for excellent quality, fast service, and modern design."
+    },
+    {
+      "name": "Kapalı Maraş (Varosha)",
+      "category": "Museum",
+      "description": "A surreal 'ghost town' that was frozen in time for decades. You can now walk or cycle down its streets lined with abandoned mid-century hotels.",
+      "image": "public/images/routes/varosha.jpg",
+      "latitude": 35.1114,
+      "longitude": 33.9556,
+      "openingHours": "Daily 08:00 - 20:00 (Summer), 08:00 - 17:00 (Winter)",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
+      "history": "A premier Mediterranean luxury resort hub in the 1960s, Varosha was fenced off during the 1974 conflict and lay completely abandoned until partially reopening in 2020."
+    },
+    {
+      "name": "Varosha Beach",
+      "category": "Beach",
+      "description": "A stunning sandy beach bordering the abandoned towers of Varosha, offering unique clear turquoise waters and a historic backdrop.",
+      "image": "public/images/beaches/varosha-beach.jpg",
+      "latitude": 35.1095,
+      "longitude": 33.9590,
+      "openingHours": "Daily 08:00 - 19:00",
+      "estimatedVisitTime": "2 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
+      "history": "Once rated among the best beaches in the world, visited by movie stars. Today it features public walkways and sun loungers next to history."
+    },
+    {
+      "name": "Tatlı Hayat",
+      "category": "Coffee Shop",
+      "description": "A boutique cake shop and bistro, famous for its delicious pastries, specialty cakes, and charming garden seating in old Famagusta.",
+      "image": "public/images/cafes/tatli-hayat.jpg",
+      "latitude": 35.1235,
+      "longitude": 33.9412,
+      "openingHours": "Daily 09:00 - 22:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+      "history": "Loved by students from the nearby Eastern Mediterranean University and travelers, it serves as a sweet haven within the historical city."
+    }
+  ],
+  "travelTips": [
+    "Renting a bicycle at the entrance of Varosha (Kapalı Maraş) is highly recommended, as the open area is large and best explored on wheels.",
+    "Visit Salamis in the late afternoon to experience the amphitheater bathed in soft golden hour light.",
+    "Do not cross into fenced military zones or photograph military assets inside Varosha."
+  ]
+}

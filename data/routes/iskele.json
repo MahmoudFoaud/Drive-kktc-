@@ -1,0 +1,112 @@
+{
+  "title": "Iskele & Karpaz Peninsula Wild Journey",
+  "slug": "iskele-karpaz-wild-journey",
+  "description": "Drive from the historical coastal town of Iskele up into the rugged, wild beauty of the Karpaz Peninsula. Enjoy pristine sandy bays, see the sacred Apostolos Andreas Monastery, and feed the famous wild donkeys of the national park.",
+  "region": "Iskele",
+  "duration": "2 Days",
+  "distance": "120 km",
+  "difficulty": "Medium",
+  "bestSeason": "Spring, Summer, and Autumn",
+  "coverImage": "public/images/routes/bogaz-harbour.jpg",
+  "coordinates": {
+    "lat": 35.2819,
+    "lng": 33.8967
+  },
+  "gallery": [
+    "public/images/routes/bogaz-harbour.jpg",
+    "public/images/routes/iskele-museum.jpg",
+    "public/images/routes/theotokos.jpg",
+    "public/images/beaches/kalecik.jpg"
+  ],
+  "stops": [
+    {
+      "name": "İskele Archaeology Museum",
+      "category": "Museum",
+      "description": "A well-organized local museum exhibiting historical artifacts, pottery, and sculptures uncovered from the surrounding Karpaz and Iskele region.",
+      "image": "public/images/routes/iskele-museum.jpg",
+      "latitude": 35.2715,
+      "longitude": 33.8910,
+      "openingHours": "Mon - Fri 08:00 - 15:30",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
+      "history": "Inaugurated in 2018 to safeguard the rich heritage of regional excavations, showcasing relics from the Bronze Age through the Roman eras."
+    },
+    {
+      "name": "Panayia Theotokos Icon Museum",
+      "category": "Museum",
+      "description": "An 11th-century Byzantine domed church containing valuable icons, religious frescoes, and a unique historic vaulted architecture.",
+      "image": "public/images/routes/theotokos.jpg",
+      "latitude": 35.2730,
+      "longitude": 33.8935,
+      "openingHours": "Mon - Fri 09:00 - 16:00",
+      "estimatedVisitTime": "30 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
+      "history": "Also known as the Church of the Blessed Virgin Mary, it is a key architectural example of Middle Byzantine cross-in-square design."
+    },
+    {
+      "name": "Café Paris & Bakery",
+      "category": "Coffee Shop",
+      "description": "A delightful European-style bakery in Iskele offering fresh croissants, delicious cakes, and warm coffees in a chic lounge.",
+      "image": "public/images/cafes/cafe-paris.jpg",
+      "latitude": 35.2725,
+      "longitude": 33.8920,
+      "openingHours": "Daily 07:30 - 21:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+      "history": "Brings French pastry culture to the Iskele district, serving as a popular morning spot for coffee lovers starting their Karpaz road trip."
+    },
+    {
+      "name": "Boğaz Harbour",
+      "category": "Viewpoint",
+      "description": "A charming, peaceful fishing harbor where you can walk along the quay, view local boats, and enjoy fresh marine breezes.",
+      "image": "public/images/routes/bogaz-harbour.jpg",
+      "latitude": 35.3180,
+      "longitude": 33.9530,
+      "openingHours": "Open 24/7",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
+      "history": "For decades, Boğaz has served as a center for local fishermen and a quiet seaside getaway, famous for its seafood restaurants."
+    },
+    {
+      "name": "Barna Beach Fish Restaurant",
+      "category": "Restaurant",
+      "description": "A scenic seaside fish restaurant in Boğaz, serving daily caught fresh seafood, traditional appetizers, and grilled fish right next to the waves.",
+      "image": "public/images/restaurants/barna.jpg",
+      "latitude": 35.3195,
+      "longitude": 33.9540,
+      "openingHours": "Daily 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
+      "history": "A local culinary icon in Boğaz, beloved for keeping traditional Cypriot seafood cooking practices alive."
+    },
+    {
+      "name": "Kalecik Public Beach",
+      "category": "Beach",
+      "description": "A pristine sandy public beach with warm shallow waters, perfect for swimming and sunbathing in a quiet coastal atmosphere.",
+      "image": "public/images/beaches/kalecik.jpg",
+      "latitude": 35.3210,
+      "longitude": 33.9590,
+      "openingHours": "Open 24/7",
+      "estimatedVisitTime": "3 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
+      "history": "A tranquil alternative to larger resort beaches, Kalecik preserves the scenic, raw seaside beauty of the region."
+    },
+    {
+      "name": "Terra Coffee & Lounge",
+      "category": "Coffee Shop",
+      "description": "A cozy, premium coffee shop in Iskele offering dynamic brews, smoothies, and a comfortable modern environment to plan your drive.",
+      "image": "public/images/cafes/terra-coffee.jpg",
+      "latitude": 35.2740,
+      "longitude": 33.8940,
+      "openingHours": "Daily 08:00 - 23:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+      "history": "Known for local student gatherings and traveler breaks, combining international coffee beans with warm hospitality."
+    }
+  ],
+  "travelTips": [
+    "Karpaz is a long drive; make sure you fill up your fuel tank in Iskele or Boğaz, as petrol stations are sparse further up the peninsula.",
+    "Buy some carrots or apples at a local market before entering the Karpaz national park; the famous wild donkeys will approach your car to feed.",
+    "Plan for a 2-day trip to fully experience the Karpaz Peninsula and stay at a local boutique bungalow or eco-lodge."
+  ]
+}

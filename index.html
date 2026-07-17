@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover scenic driving routes, castles, hidden beaches, and local cafes in Northern Cyprus. Premium digital travel guide.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Drive KKTC — Scenic Road Trips in Northern Cyprus">
+  <meta property="og:description" content="Discover scenic driving routes, castles, hidden beaches, and local cafes in Northern Cyprus. Premium digital travel guide.">
+  <meta property="og:image" content="public/images/hero/main.jpg">
+  <meta property="og:url" content="https://drivekktc.com">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Drive KKTC — Scenic Road Trips in Northern Cyprus">
+  <meta name="twitter:description" content="Discover scenic driving routes, castles, hidden beaches, and local cafes in Northern Cyprus. Premium digital travel guide.">
+  <meta name="twitter:image" content="public/images/hero/main.jpg">
+  
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://drivekktc.com/">
+
+  <!-- Title -->
+  <title>Drive KKTC — Scenic Road Trips in Northern Cyprus</title>
+
+  <!-- Leaflet CSS for maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <!-- Custom Master Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+</head>
+<body>
+  
+  <div class="app-container">
+    <!-- Header Navigation -->
+    <header role="banner">
+      <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <a href="#home" class="logo" aria-label="Drive KKTC Home">
+          <span>Drive</span> KKTC 🚗
+        </a>
+        
+        <button class="mobile-menu-toggle btn-secondary sr-only" style="display: none;" aria-label="Toggle navigation menu">
+          ☰ Menu
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
+          <li><a href="#routes" data-i18n="nav.routes">Driving Routes</a></li>
+          <li><a href="#about" data-i18n="nav.about">About Cyprus</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact Us</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Language Switcher -->
+          <div class="lang-switcher" aria-label="Select Language">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="tr">TR</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+            <button class="lang-btn" data-lang="ar">AR</button>
+          </div>
+
+          <!-- Theme Toggle -->
+          <button class="theme-btn" aria-label="Switch Theme">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main dynamic viewport -->
+    <main id="main-content" role="main" aria-live="polite">
+      <!-- Content loaded dynamically via js/app.js -->
+    </main>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--bg-card); border-top: 1px solid var(--border-color); padding: 4rem 2rem 2rem 2rem; margin-top: auto;" role="contentinfo">
+      <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem;">
+        <div>
+          <div class="logo" style="margin-bottom: 1rem;">
+            <span>Drive</span> KKTC 🚗
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem;" data-i18n="footer.tagline">
+            Discover Northern Cyprus on wheels. Premium, independent travel guides.
+          </p>
+        </div>
+        <div>
+          <h4 style="font-size: 1.1rem; margin-bottom: 1.25rem;">Quick Links</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#routes">Driving Routes</a></li>
+            <li><a href="#about">About Cyprus</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-size: 1.1rem; margin-bottom: 1.25rem;">Legal</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem;">
+            <li><a href="#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
+            <li><a href="#terms" data-i18n="footer.terms">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="max-width: 1280px; margin: 3rem auto 0 auto; padding-top: 2rem; border-top: 1px solid var(--border-color); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+        <div>
+          &copy; <span id="footer-year">2026</span> Drive KKTC. <span data-i18n="footer.rights">All rights reserved.</span>
+        </div>
+        <div style="display:flex; gap: 1.5rem;">
+          <a href="#privacy">Privacy</a>
+          <a href="#terms">Terms</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Leaflet JS for maps -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Core App Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+  
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

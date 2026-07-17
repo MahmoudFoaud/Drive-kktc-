@@ -1,0 +1,112 @@
+{
+  "title": "Lefke & Güzelyurt Citrus Valleys Route",
+  "slug": "lefke-guzelyurt-citrus-valleys",
+  "description": "Drive through the fertile orange and strawberry orchards of Güzelyurt, climb to the ancient hilltop Vouni Palace, explore Lefke's rich copper mining heritage, and enjoy seaside dining along the Western coast.",
+  "region": "Lefke",
+  "duration": "1 Day",
+  "distance": "85 km",
+  "difficulty": "Medium",
+  "bestSeason": "Spring and Winter",
+  "coverImage": "public/images/routes/vouni.jpg",
+  "coordinates": {
+    "lat": 35.1139,
+    "lng": 32.8503
+  },
+  "gallery": [
+    "public/images/routes/vouni.jpg",
+    "public/images/routes/mining-museum.jpg",
+    "public/images/routes/gemikonagi-dam.jpg",
+    "public/images/beaches/yesilirmak.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Vouni Palace",
+      "category": "Castle",
+      "description": "The dramatic ruins of a 5th-century BC palace perched on a cliff edge 250 meters above the sea. It is one of the most scenic archeological sites in Cyprus.",
+      "image": "public/images/routes/vouni.jpg",
+      "latitude": 35.1639,
+      "longitude": 32.7750,
+      "openingHours": "Daily 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+      "history": "Built during the Persian occupation to monitor the nearby pro-Greek city-state of Soli. It was destroyed by fire in 380 BC and never rebuilt."
+    },
+    {
+      "name": "MOAR Cafe",
+      "category": "Coffee Shop",
+      "description": "A popular contemporary cafe in Lefke offering great coffee, local snacks, and a cozy courtyard setting loved by students and visitors.",
+      "image": "public/images/cafes/moar-cafe.jpg",
+      "latitude": 35.1160,
+      "longitude": 32.8520,
+      "openingHours": "Daily 08:30 - 23:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+      "history": "Serves as a modern cultural hotspot in the historic town of Lefke, known for blending cozy design with quality brews."
+    },
+    {
+      "name": "Lefke Mining Museum",
+      "category": "Museum",
+      "description": "A small museum detailing Lefke's rich history as an ancient and modern copper-mining hub, featuring old photographs and equipment.",
+      "image": "public/images/routes/mining-museum.jpg",
+      "latitude": 35.1120,
+      "longitude": 32.8490,
+      "openingHours": "Mon - Fri 08:00 - 15:30",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
+      "history": "Lefke was famous for copper mining since Roman times. The museum preserves the legacy of the Cyprus Mines Corporation (CMC) which operated here in the 20th century."
+    },
+    {
+      "name": "Gemikonağı Göleti (Gemikonağı Dam)",
+      "category": "Viewpoint",
+      "description": "A peaceful reservoir surrounded by green hills, offering a quiet spot for photography, viewing local water birds, and a scenic drive.",
+      "image": "public/images/routes/gemikonagi-dam.jpg",
+      "latitude": 35.1290,
+      "longitude": 32.8460,
+      "openingHours": "Open 24/7",
+      "estimatedVisitTime": "30 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+      "history": "Constructed to support local agriculture and irrigate Lefke's famous citrus groves, creating a beautiful artificial lake in the process."
+    },
+    {
+      "name": "Cengiz Topel Monument",
+      "category": "Museum",
+      "description": "A memorial dedicated to Turkish Air Force pilot Captain Cengiz Topel, featuring his actual jet fighter plane and a historical exhibition.",
+      "image": "public/images/routes/cengiz-topel.jpg",
+      "latitude": 35.1380,
+      "longitude": 32.8120,
+      "openingHours": "Daily 09:00 - 17:00",
+      "estimatedVisitTime": "30 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
+      "history": "Built to honor Captain Cengiz Topel, whose plane was shot down during the 1964 Cyprus crisis. The monument stands near his crash site."
+    },
+    {
+      "name": "Yeşilırmak Beach",
+      "category": "Beach",
+      "description": "A quiet beach located in the westernmost village of Northern Cyprus, famous for its sweet strawberry fields, clear sea, and coastal cliffs.",
+      "image": "public/images/beaches/yesilirmak.jpg",
+      "latitude": 35.1580,
+      "longitude": 32.7150,
+      "openingHours": "Open 24/7",
+      "estimatedVisitTime": "3 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
+      "history": "Yeşilırmak is listed in the Guinness Book of Records for growing the largest single strawberry plant. It is a peaceful coastal retreat."
+    },
+    {
+      "name": "Dillirga Restaurant",
+      "category": "Restaurant",
+      "description": "A traditional seaside tavern in Yeşilırmak serving outstanding Cypriot meze, grilled meats, and fresh seafood under a canopy of grapevines.",
+      "image": "public/images/restaurants/dillirga.jpg",
+      "latitude": 35.1590,
+      "longitude": 32.7160,
+      "openingHours": "Daily 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
+      "history": "Known for sourcing all ingredients locally, including organic olive oil, wine, and vegetables from the surrounding Yeşilırmak valleys."
+    }
+  ],
+  "travelTips": [
+    "Plan your trip around April or May to experience Güzelyurt's strawberry harvest and Lefke's orange groves in full bloom.",
+    "The road to Vouni Palace is steep and narrow; drive carefully and make sure your vehicle is prepared.",
+    "Stop at roadside fruit stalls along the way to purchase fresh, organic oranges, strawberries, and local olive oils."
+  ]
+}

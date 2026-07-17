@@ -1,0 +1,125 @@
+{
+  "title": "Nicosia Walled City Historic Loop",
+  "slug": "nicosia-historic-loop",
+  "description": "Embark on an immersive journey through the world's last divided capital. Explore centuries-old stone gates, soaring Gothic cathedral-mosques, bustling historic caravanserais, and modern cultural museums nestled within Venetian city walls.",
+  "region": "Nicosia",
+  "duration": "1 Day",
+  "distance": "35 km",
+  "difficulty": "Easy",
+  "bestSeason": "Autumn to Spring",
+  "coverImage": "public/images/routes/lefkosa-girne-kapisi.jpg",
+  "coordinates": {
+    "lat": 35.1768,
+    "lng": 33.3639
+  },
+  "gallery": [
+    "public/images/routes/lefkosa-girne-kapisi.jpg",
+    "public/images/routes/selimiye-mosque.jpg",
+    "public/images/routes/buyuk-han.jpg",
+    "public/images/routes/dervis-pasa.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Girne Kapısı (Kyrenia Gate)",
+      "category": "Castle",
+      "description": "A historic portal built in 1567 by the Venetians as part of Nicosia's famous star-shaped fortifications. It stood as a vital entry point for centuries.",
+      "image": "public/images/routes/lefkosa-girne-kapisi.jpg",
+      "latitude": 35.1818,
+      "longitude": 33.3614,
+      "openingHours": "Open 24/7 (Exterior)",
+      "estimatedVisitTime": "15-30 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
+      "history": "Rebuilt by the Ottomans in 1821 with a domed chamber, it contains a historical plaque referencing the sultan. Today it houses a tourism office."
+    },
+    {
+      "name": "Selimiye Mosque (St. Sophia Cathedral)",
+      "category": "Monastery",
+      "description": "A breathtaking monument of Gothic architecture, originally built as a Roman Catholic cathedral in the 13th century and later converted into a mosque.",
+      "image": "public/images/routes/selimiye-mosque.jpg",
+      "latitude": 35.1775,
+      "longitude": 33.3644,
+      "openingHours": "Outside prayer times, Daily 09:00 - 18:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
+      "history": "Constructed during Lusignan rule between 1209 and 1326, it was Cyprus's coronation cathedral. Minarets were added after Ottoman capture in 1570."
+    },
+    {
+      "name": "Büyük Han (Great Inn)",
+      "category": "Viewpoint",
+      "description": "The largest and most beautiful caravanserai on the island, featuring a central open courtyard with a small mosque (mescit) resting on marble columns.",
+      "image": "public/images/routes/buyuk-han.jpg",
+      "latitude": 35.1764,
+      "longitude": 33.3627,
+      "openingHours": "Daily 09:00 - 19:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
+      "history": "Built by the first Ottoman governor of Cyprus in 1572. It served as a hostel for merchants and travelers, and later as a British prison."
+    },
+    {
+      "name": "Rüstem Kitabevi",
+      "category": "Coffee Shop",
+      "description": "A historic, elegant bookshop and cafe set inside a traditional stone townhouse, serving specialty coffee, local pastries, and housing rare volumes.",
+      "image": "public/images/cafes/rustem-kitabevi.jpg",
+      "latitude": 35.1755,
+      "longitude": 33.3620,
+      "openingHours": "Daily 08:30 - 22:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
+      "history": "Founded in 1937, it is the oldest bookshop in Cyprus. It remains a legendary literary hub, restaurant, and art gallery."
+    },
+    {
+      "name": "Derviş Paşa Mansion Museum",
+      "category": "Museum",
+      "description": "A stunning example of 19th-century Ottoman residential architecture, showcasing traditional lifestyles, crafts, and historical artifacts.",
+      "image": "public/images/routes/dervis-pasa.jpg",
+      "latitude": 35.1748,
+      "longitude": 33.3575,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
+      "history": "Once owned by Derviş Paşa, publisher of the first Turkish newspaper in Cyprus. It was beautifully restored and reopened as an ethnographical museum."
+    },
+    {
+      "name": "Gomşu Restaurant",
+      "category": "Restaurant",
+      "description": "A warm local eatery serving traditional Cypriot 'Meze' and grilled specialties inside an atmospheric courtyard filled with jasmine.",
+      "image": "public/images/restaurants/gomsu.jpg",
+      "latitude": 35.1772,
+      "longitude": 33.3618,
+      "openingHours": "Daily 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+      "history": "Known for local home-cooked recipes, this restaurant brings the culinary history of old Lefkoşa to life with fresh ingredients."
+    },
+    {
+      "name": "Cyprus Modern Art Museum",
+      "category": "Museum",
+      "description": "Located on the Near East University campus, this museum features thousands of contemporary artworks from artists across the Turkic world.",
+      "image": "public/images/routes/modern-art-museum.jpg",
+      "latitude": 35.2233,
+      "longitude": 33.3323,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+      "history": "Inaugurated in 2018, it showcases painting, sculpture, and graphic arts, representing one of the largest modern art hubs in the Mediterranean."
+    },
+    {
+      "name": "Cyprus Car Museum",
+      "category": "Museum",
+      "description": "An incredible collection of classic, sports, and vintage cars spanning over a century of automotive history, a must-visit for road trip fans.",
+      "image": "public/images/routes/car-museum.jpg",
+      "latitude": 35.2245,
+      "longitude": 33.3315,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+      "history": "This unique museum exhibits iconic automobiles, including custom-made luxury cars and rare early models, preserved in pristine condition."
+    }
+  ],
+  "travelTips": [
+    "Park your vehicle outside the walled city (e.g., near Kyrenia Gate or Belediye Parkı) as streets inside are extremely narrow and mostly one-way.",
+    "Wear comfortable walking shoes; the old town is best explored on foot.",
+    "Respect active worship hours at the Selimiye Mosque by dressing modestly.",
+    "Combine your trip with a shopping excursion for traditional crafts at Büyük Han."
+  ]
+}

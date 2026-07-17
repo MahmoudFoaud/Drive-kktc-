@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "routes": "Sürüş Rotaları",
+    "about": "Kıbrıs Hakkında",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "search": "Ara"
+  },
+  "hero": {
+    "title": "Kuzey Kıbrıs'ı Keşfedin",
+    "subtitle": "Kıbrıs'ın kuzey kıyılarında manzaralı sürüş rotalarını, tarihi kaleleri, altın kumsalları ve yerel lezzet duraklarını keşfedin.",
+    "cta": "Rotaları Keşfet",
+    "searchPlaceholder": "Rota, bölge, plaj, kale veya restoran ara..."
+  },
+  "routes": {
+    "title": "Manzaralı Sürüş Rotaları",
+    "subtitle": "Tarihi keşifler ile nefes kesen manzaraları bir araya getiren, özenle hazırlanmış yolculuklar.",
+    "duration": "Süre",
+    "distance": "Mesafe",
+    "difficulty": "Zorluk",
+    "region": "Bölge",
+    "difficultyEasy": "Kolay",
+    "difficultyMedium": "Orta",
+    "difficultyHard": "Zor",
+    "viewDetails": "Rota Detaylarını Gör",
+    "allRegions": "Tüm Bölgeler",
+    "allDifficulties": "Tüm Zorluklar",
+    "filterTitle": "Rotaları Filtrele",
+    "sortBy": "Sıralama",
+    "sortByDefault": "Varsayılan",
+    "sortByDistance": "Mesafe (En Kısa)",
+    "sortByDuration": "Süre (En Kısa)",
+    "noRoutesFound": "Arama veya filtreleme kriterlerinize uygun rota bulunamadı."
+  },
+  "routeDetail": {
+    "overview": "Rotaya Genel Bakış",
+    "bestSeason": "En İyi Sezon",
+    "stopsTimeline": "Rota Durakları ve Zaman Çizelgesi",
+    "visitTime": "Tahmini Ziyaret Süresi",
+    "hours": "Ziyaret Saatleri",
+    "directions": "Yol Tarifi Al",
+    "history": "Tarihsel Arka Plan",
+    "tips": "Yerel Sürüş İpuçları",
+    "share": "Rotayı Paylaş",
+    "weather": "Güncel Hava Durumu",
+    "loadingWeather": "Hava durumu yükleniyor...",
+    "nearby": "Yakın Sürüş Rotaları"
+  },
+  "weather": {
+    "temp": "Sıcaklık",
+    "wind": "Rüzgar Hızı",
+    "conditions": "Durum",
+    "sunny": "Güneşli",
+    "cloudy": "Bulutlu",
+    "rainy": "Yağmurlu"
+  },
+  "galleryPage": {
+    "title": "Nefes Kesen Kareler",
+    "subtitle": "Kuzey Kıbrıs'ın doğası, kaleleri ve tarihi sokaklarında görsel bir yolculuk.",
+    "zoom": "Resmi büyütmek için tıklayın"
+  },
+  "aboutPage": {
+    "title": "Drive KKTC Hakkında",
+    "content": "Drive KKTC, gezginlerin Kuzey Kıbrıs'ın doğal güzelliklerini, tarihini ve mutfak sırlarını keşfetmelerine yardımcı olmak için tasarlanmış bağımsız, premium bir turizm girişimidir. Yavaş seyahat etmeyi ve kendi aracınızla yapacağınız yolculukları teşvik eden rotalarımız, Girne'nin orta çağ kalesi zirvelerinden Karpaz'ın vahşi ve altın sahillerine kadar sizi alışılmışın dışındaki yollara yönlendirir.",
+    "rulesTitle": "Önemli Sürüş Bilgileri",
+    "rule1": "Soldan Trafik: Kıbrıs'ta trafik, İngiltere'de olduğu gibi yolun sol tarafında akar.",
+    "rule2": "Emniyet Kemeri ve Telefon: Tüm yolcular için emniyet kemeri takmak zorunludur. Sürüş sırasında cep telefonu kullanmak kesinlikle yasaktır.",
+    "rule3": "Trafik Levhaları: Ana destinasyon adları Türkçe, mesafe göstergeleri ise kilometre cinsindendir.",
+    "rule4": "Sınır Geçişi: Güneyde kiralanan araçlar, sınır kapısında ayrı bir üçüncü şahıs sigortası satın alınmadan Kuzey'e geçirilemez."
+  },
+  "contactPage": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Kuzey Kıbrıs'ta kendi aracınızla yapacağınız turlar hakkında sorularınız mı var? Bize yazın.",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "submit": "Mesajı Gönder",
+    "success": "Teşekkürler! Mesajınız başarıyla iletildi."
+  },
+  "footer": {
+    "tagline": "Kuzey Kıbrıs'ı tekerlekler üzerinde keşfedin. Premium, bağımsız seyahat rehberi.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Kyrenia Coast & Medieval Castles Route",
+  "slug": "kyrenia-coast-castles",
+  "description": "Drive through the breathtaking Beşparmak (Pentadaktylos) Mountains. Scale the high battlements of St. Hilarion Castle, stroll the quiet ruins of Bellapais Abbey, and wind down along Girne's sparkling coastal beaches and dining venues.",
+  "region": "Kyrenia",
+  "duration": "1-2 Days",
+  "distance": "75 km",
+  "difficulty": "Medium",
+  "bestSeason": "Spring and Autumn",
+  "coverImage": "public/images/routes/st-hilarion.jpg",
+  "coordinates": {
+    "lat": 35.3364,
+    "lng": 33.3175
+  },
+  "gallery": [
+    "public/images/routes/st-hilarion.jpg",
+    "public/images/routes/bellapais.jpg",
+    "public/images/routes/mavi-kosk.jpg",
+    "public/images/beaches/ulfet.jpg"
+  ],
+  "stops": [
+    {
+      "name": "St. Hilarion Castle",
+      "category": "Castle",
+      "description": "One of the best-preserved crusader fortresses in Cyprus. Situated high in the Kyrenia range, it offers spectacular panoramic views of the coast.",
+      "image": "public/images/routes/st-hilarion.jpg",
+      "latitude": 35.3121,
+      "longitude": 33.2806,
+      "openingHours": "Daily 09:00 - 16:30",
+      "estimatedVisitTime": "2 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
+      "history": "Originally a monastery built in the 10th century, it was fortified by the Byzantines and Lusignans. It is said to have inspired Walt Disney's Snow White castle."
+    },
+    {
+      "name": "Bellapais Abbey",
+      "category": "Monastery",
+      "description": "The ruins of a beautiful 13th-century monastery, showcasing masterpiece gothic arches and peaceful gardens overlooking the blue sea.",
+      "image": "public/images/routes/bellapais.jpg",
+      "latitude": 35.3072,
+      "longitude": 33.3556,
+      "openingHours": "Daily 09:00 - 18:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+      "history": "Built by the Canons Regular of the Holy Sepulchre. British writer Lawrence Durrell lived nearby and immortalized the village in his book 'Bitter Lemons'."
+    },
+    {
+      "name": "Vola Coffee",
+      "category": "Coffee Shop",
+      "description": "A stylish, artisanal specialty coffee spot in Kyrenia, perfect for a caffeine break and fresh, modern baked treats.",
+      "image": "public/images/cafes/vola-coffee.jpg",
+      "latitude": 35.3400,
+      "longitude": 33.3190,
+      "openingHours": "Daily 08:00 - 22:00",
+      "estimatedVisitTime": "45 Mins",
+      "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
+      "history": "A contemporary addition to the city's cafe culture, offering premium espresso blends and a cozy design loved by locals and travelers alike."
+    },
+    {
+      "name": "Kybele Restaurant",
+      "category": "Restaurant",
+      "description": "Set directly within the grounds of Bellapais Abbey, this high-end restaurant offers modern Mediterranean cuisine and fine dining with dramatic views.",
+      "image": "public/images/restaurants/kybele.jpg",
+      "latitude": 35.3075,
+      "longitude": 33.3560,
+      "openingHours": "Daily 11:30 - 23:30",
+      "estimatedVisitTime": "1.5 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
+      "history": "Renowned for hosting prestigious dinners and tourists visiting the Abbey, it blends architectural history with upscale local gastronomy."
+    },
+    {
+      "name": "Mavi Köşk (The Blue House)",
+      "category": "Museum",
+      "description": "A mysterious mid-century villa filled with secret passages, Greek-Italian art, and unique architectures, built by a mysterious gunrunner.",
+      "image": "public/images/routes/mavi-kosk.jpg",
+      "latitude": 35.3044,
+      "longitude": 33.0536,
+      "openingHours": "Tue - Sun 09:00 - 17:00",
+      "estimatedVisitTime": "1 Hour",
+      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+      "history": "Built in 1957 by Byron Pavlides, the attorney and defense agent of Cyprus. Features hidden safes, a concrete pool, and a double-view bedroom."
+    },
+    {
+      "name": "Ulfet Beach Club",
+      "category": "Beach",
+      "description": "A refined beach club along the Kyrenia coastline offering sunbeds, a bar, and clear waters, ideal to relax after climbing mountain castles.",
+      "image": "public/images/beaches/ulfet.jpg",
+      "latitude": 35.3512,
+      "longitude": 33.2750,
+      "openingHours": "Daily 09:00 - 19:00",
+      "estimatedVisitTime": "3 Hours",
+      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+      "history": "A popular summer club that highlights Girne's seaside leisure scene with modern facilities, cocktails, and gorgeous sunsets."
+    }
+  ],
+  "travelTips": [
+    "The road climbing to St. Hilarion Castle has steep inclines; make sure your vehicle's cooling system is in good order.",
+    "Visit St. Hilarion early in the morning to avoid the midday sun and tourist buses.",
+    "Remember that Mavi Köşk is inside a military zone; you will need to present your passport/ID at the military gate to enter."
+  ]
+}
