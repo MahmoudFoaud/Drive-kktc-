@@ -710,11 +710,53 @@ header {
   transform: scale(1.08);
 }
 
-/* Language Switcher */
+/* Language Switcher Dropdown styling */
 .lang-switcher {
-  display: flex;
+  position: relative;
+  display: inline-block;
+}
+
+.lang-trigger {
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-trigger:hover, .lang-trigger:focus-visible {
+  background-color: var(--border-color);
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background-color: var(--bg-card);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-md);
+  padding: 0.5rem;
+  display: none;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 90px;
+  z-index: 1100;
+  animation: langFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.lang-dropdown.show {
+  display: flex;
 }
 
 .lang-btn {
@@ -723,15 +765,39 @@ header {
   color: var(--text-main);
   font-weight: 600;
   font-size: 0.85rem;
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.8rem;
   border-radius: 4px;
   cursor: pointer;
   text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.lang-btn:hover, .lang-btn:focus-visible {
+  background-color: var(--border-color);
 }
 
 .lang-btn.active {
   background-color: var(--accent);
   color: var(--text-light);
+}
+
+/* RTL layout support for dropdown positioning */
+html[dir="rtl"] .lang-dropdown {
+  right: auto;
+  left: 0;
+}
+
+@keyframes langFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Theme Switcher */

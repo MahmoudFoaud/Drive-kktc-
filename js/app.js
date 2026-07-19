@@ -998,7 +998,7 @@ function renderHome(container) {
           <div class="route-stats">
             <span>📏 ${route.distance}</span>
             <span>⏱️ ${route.duration}</span>
-            <span>⚡ ${route.difficulty}</span>
+            <span>⚡ ${window.t('routes.difficulty' + route.difficulty)}</span>
           </div>
           <a href="#route/${route.slug}" class="btn-primary" style="margin-top: 1.5rem; justify-content: center;" aria-label="${window.t('routes.viewDetails')} for ${route.title}">
             ${window.t('routes.viewDetails')}
@@ -1220,7 +1220,7 @@ function renderRoutes(container) {
             <div class="route-stats">
               <span>📏 ${route.distance}</span>
               <span>⏱️ ${route.duration}</span>
-              <span>⚡ ${route.difficulty}</span>
+              <span>⚡ ${window.t('routes.difficulty' + route.difficulty)}</span>
             </div>
             <a href="#route/${route.slug}" class="btn-primary" style="margin-top: 1.5rem; justify-content: center;">
               ${window.t('routes.viewDetails')}
@@ -1365,13 +1365,13 @@ async function renderRouteDetail(container, slug) {
         <img class="hero-img-bg" src="${route.coverImage}" alt="${route.title}">
         <div class="hero-overlay"></div>
         <div class="detail-hero-content">
-          <a href="#routes" style="color: white; font-weight:700; font-size:0.9rem; margin-bottom: 1rem; display:inline-block;">&larr; Back to Routes</a>
+          <a href="#routes" style="color: white; font-weight:700; font-size:0.9rem; margin-bottom: 1rem; display:inline-block;">&larr; ${window.t('nav.routes')}</a>
           <h1 class="detail-title">${route.title}</h1>
           <div class="detail-meta-strip">
             <span class="detail-meta-item">📍 ${route.region}</span>
             <span class="detail-meta-item">📏 ${route.distance}</span>
             <span class="detail-meta-item">⏱️ ${route.duration}</span>
-            <span class="detail-meta-item">⚡ ${route.difficulty}</span>
+            <span class="detail-meta-item">⚡ ${window.t('routes.difficulty' + route.difficulty)}</span>
             <span class="detail-meta-item">📅 ${route.bestSeason}</span>
           </div>
         </div>
@@ -1669,14 +1669,70 @@ function render404(container) {
 window.addEventListener('DOMContentLoaded', () => {
   handleRouting();
 
-  // Setup language switching DOM bindings
+  // Setup language switching DOM bindings & dropdown logic
+  const langTrigger = document.querySelector('.lang-trigger');
+  const langDropdown = document.querySelector('.lang-dropdown');
+  const currentLangLabel = document.querySelector('.current-lang-label');
+
+  // Initialize correct label at start
+  const initialLang = localStorage.getItem('drive_kktc_lang') || 'en';
+  if (currentLangLabel) {
+    currentLangLabel.textContent = initialLang.toUpperCase();
+  }
+
+  // Update dropdown buttons state on load
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    if (btn.getAttribute('data-lang') === initialLang) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+
+  if (langTrigger && langDropdown) {
+    // Toggle dropdown visibility
+    langTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isShown = langDropdown.classList.toggle('show');
+      langTrigger.setAttribute('aria-expanded', isShown ? 'true' : 'false');
+    });
+
+    // Close dropdown on click outside
+    document.addEventListener('click', (e) => {
+      if (!langTrigger.contains(e.target) && !langDropdown.contains(e.target)) {
+        langDropdown.classList.remove('show');
+        langTrigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langDropdown.classList.contains('show')) {
+        langDropdown.classList.remove('show');
+        langTrigger.setAttribute('aria-expanded', 'false');
+        langTrigger.focus();
+      }
+    });
+  }
+
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
-      const lang = e.target.getAttribute('data-lang');
+      const lang = e.currentTarget.getAttribute('data-lang');
       
-      // Update active btn style
+      // Update active style in dropdown
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
+      e.currentTarget.classList.add('active');
+
+      // Update trigger label
+      if (currentLangLabel) {
+        currentLangLabel.textContent = lang.toUpperCase();
+      }
+
+      // Close dropdown
+      if (langDropdown && langTrigger) {
+        langDropdown.classList.remove('show');
+        langTrigger.setAttribute('aria-expanded', 'false');
+      }
 
       if (window.initI18n) {
         await window.initI18n(lang);
