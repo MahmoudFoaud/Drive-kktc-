@@ -1,0 +1,150 @@
+{
+  "title": "Lefke ve Güzelyurt Narenciye Vadileri Rotası",
+  "slug": "lefke-guzelyurt-citrus-valleys",
+  "description": "Güzelyurt'un bereketli portakal ve çilek bahçelerinden geçin, tepedeki antik Vouni Sarayı'na tırmanın, Lefke'nin zengin bakır madenciliği mirasını keşfedin ve Batı kıyısında deniz kenarında yemeğin tadını çıkarın.",
+  "region": "Lefke",
+  "duration": "1 Gün",
+  "distance": "85 km",
+  "difficulty": "Medium",
+  "bestSeason": "İlkbahar ve Kış",
+  "coverImage": "public/images/routes/vouni.jpg",
+  "coordinates": {
+    "lat": 35.1139,
+    "lng": 32.8503
+  },
+  "gallery": [
+    "public/images/routes/vouni.jpg",
+    "public/images/routes/mining-museum.jpg",
+    "public/images/routes/gemikonagi-dam.jpg",
+    "public/images/beaches/yesilirmak.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Gemikonağı Göleti",
+      "category": "Manzara",
+      "description": "Yeşil tepelerle çevrili, fotoğraf çekimi, su kuşlarını gözlemleme ve manzaralı bir sürüş için huzurlu bir gölet.",
+      "image": "public/images/routes/gemikonagi-dam.jpg",
+      "latitude": 35.1290,
+      "longitude": 32.8460,
+      "openingHours": "7/24 Açık",
+      "estimatedVisitTime": "30 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+      "history": "Lefke'nin meşhur narenciye bahçelerini sulamak ve yerel tarımı desteklemek amacıyla inşa edilmiş yapay bir gölet.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "8 dk",
+        "distance": "5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Lefke Madencilik Müzesi",
+      "category": "Müze",
+      "description": "Lefke'nin bakır madenciliği tarihini eski fotoğraflar ve ekipmanlarla anlatan müze.",
+      "image": "public/images/routes/mining-museum.jpg",
+      "latitude": 35.1120,
+      "longitude": 32.8490,
+      "openingHours": "Pzt - Cuma 08:00 - 15:30",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
+      "history": "Lefke, Roma döneminden beri bakır madenciliğiyle ünlüydü. Müze, 20. yüzyılda faaliyet gösteren Kıbrıs Maden Şirketi'nin (CMC) mirasını korur.",
+      "arrivalTime": "09:38",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "MOAR Kafe",
+      "category": "Kahve Dükkanı",
+      "description": "Lefke'de harika kahve, yerel atıştırmalıklar ve avlu ortamı sunan popüler bir kafe.",
+      "image": "public/images/cafes/moar-cafe.jpg",
+      "latitude": 35.1160,
+      "longitude": 32.8520,
+      "openingHours": "Her gün 08:30 - 23:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+      "history": "Tarihi Lefke kasabasında samimi tasarımı kaliteli kahvelerle buluşturan modern bir mekan.",
+      "arrivalTime": "10:24",
+      "nextStopTravel": {
+        "time": "8 dk",
+        "distance": "5.5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Cengiz Topel Anıtı",
+      "category": "Müze",
+      "description": "Şehit Yüzbaşı Cengiz Topel'e adanmış, gerçek savaş uçağının ve tarihi serginin yer aldığı bir anıt.",
+      "image": "public/images/routes/cengiz-topel.jpg",
+      "latitude": 35.1380,
+      "longitude": 32.8120,
+      "openingHours": "Her gün 09:00 - 17:00",
+      "estimatedVisitTime": "30 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
+      "history": "1964 yılında uçağı düşürülen Şehit Yüzbaşı Cengiz Topel anısına uçağının düştüğü yerin yakınına inşa edilmiştir.",
+      "arrivalTime": "11:17",
+      "nextStopTravel": {
+        "time": "12 dk",
+        "distance": "8 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Vouni Sarayı Kalıntıları",
+      "category": "Kale",
+      "description": "Deniz seviyesinden 250 metre yükseklikte, kayalık bir tepenin kenarında yer alan M.Ö. 5. yüzyıldan kalma saray kalıntıları.",
+      "image": "public/images/routes/vouni.jpg",
+      "latitude": 35.1639,
+      "longitude": 32.7750,
+      "openingHours": "Her gün 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+      "history": "Pers işgali sırasında yakındaki Yunan yanlısı Soli kentini gözlemlemek için inşa edilmiş, M.Ö. 380'de yangınla yok olmuştur.",
+      "arrivalTime": "11:59",
+      "nextStopTravel": {
+        "time": "15 dk",
+        "distance": "10 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Yeşilırmak Plajı",
+      "category": "Plaj",
+      "description": "Kuzey Kıbrıs'ın en batısındaki köyde yer alan, çilek tarlaları, berrak denizi ve kayalıklarıyla ünlü sakin bir kumsal.",
+      "image": "public/images/beaches/yesilirmak.jpg",
+      "latitude": 35.1580,
+      "longitude": 32.7150,
+      "openingHours": "7/24 Açık",
+      "estimatedVisitTime": "3 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
+      "history": "Yeşilırmak, dünyanın en büyük tek kütleli çilek fidanı ile Guinness Rekorlar Kitabı'nda yer almıştır.",
+      "arrivalTime": "01:44",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Dillirga Restoran",
+      "category": "Restoran",
+      "description": "Yeşilırmak'ta asma altı gölgesinde enfes Kıbrıs mezeleri, ızgaralar ve taze deniz ürünleri sunan geleneksel bir restoran.",
+      "image": "public/images/restaurants/dillirga.jpg",
+      "latitude": 35.1590,
+      "longitude": 32.7160,
+      "openingHours": "Her gün 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
+      "history": "Zeytinyağı, şarap ve sebzeler dahil tüm malzemelerini organik olarak yerel üreticilerden temin eder.",
+      "arrivalTime": "04:45",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Güzelyurt'un çilek hasadını ve Lefke'nin portakal çiçeklerini görmek için seyahatinizi Nisan veya Mayıs aylarına denk getirin.",
+    "Vouni Sarayı'na giden yol dik ve dardır; dikkatli sürün ve aracınızın hazır olduğundan emin olun.",
+    "Yol kenarındaki meyve tezgahlarında durarak taze organik portakal, çilek ve zeytinyağı satın alın."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Лефке и Цитрусовые Долины Гюзельюрта",
+  "slug": "lefke-guzelyurt-citrus-valleys",
+  "description": "Прокатитесь по апельсиновым и клубничным садам Гюзельюрта, поднимитесь к античному дворцу Вуни, изучите историю медных рудников Лефке и поужинайте у моря.",
+  "region": "Lefke",
+  "duration": "1 День",
+  "distance": "85 км",
+  "difficulty": "Medium",
+  "bestSeason": "Весна и Зима",
+  "coverImage": "public/images/routes/vouni.jpg",
+  "coordinates": {
+    "lat": 35.1139,
+    "lng": 32.8503
+  },
+  "gallery": [
+    "public/images/routes/vouni.jpg",
+    "public/images/routes/mining-museum.jpg",
+    "public/images/routes/gemikonagi-dam.jpg",
+    "public/images/beaches/yesilirmak.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Водохранилище Гемиконагы",
+      "category": "Вид",
+      "description": "Живописное водохранилище, окруженное зелеными холмами, прекрасное место для фото и отдыха.",
+      "image": "public/images/routes/gemikonagi-dam.jpg",
+      "latitude": 35.1290,
+      "longitude": 32.8460,
+      "openingHours": "Круглосуточно",
+      "estimatedVisitTime": "30 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+      "history": "Создано для орошения цитрусовых садов Лефке и поддержки местного сельского хозяйства.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "8 мин",
+        "distance": "5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Музей Горного Дела Лефке",
+      "category": "Музей",
+      "description": "Небольшой музей, рассказывающий об истории добычи меди в Лефке с древних времен.",
+      "image": "public/images/routes/mining-museum.jpg",
+      "latitude": 35.1120,
+      "longitude": 32.8490,
+      "openingHours": "Пн - Пт 08:00 - 15:30",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
+      "history": "Лефке славился медными рудниками со времен Древнего Рима. Музей хранит наследие горнодобывающей компании 20 века.",
+      "arrivalTime": "09:38",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Кафе MOAR",
+      "category": "Кофейня",
+      "description": "Современное кафе в Лефке с отличным кофе и уютным внутренним двориком.",
+      "image": "public/images/cafes/moar-cafe.jpg",
+      "latitude": 35.1160,
+      "longitude": 32.8520,
+      "openingHours": "Ежедневно 08:30 - 23:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+      "history": "Популярное культурное пространство среди студентов и туристов.",
+      "arrivalTime": "10:24",
+      "nextStopTravel": {
+        "time": "8 мин",
+        "distance": "5.5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Мемориал Дженгиза Топеля",
+      "category": "Музей",
+      "description": "Мемориал военного пилота капитана Дженгиза Топеля со стоящим реактивным самолетом.",
+      "image": "public/images/routes/cengiz-topel.jpg",
+      "latitude": 35.1380,
+      "longitude": 32.8120,
+      "openingHours": "Ежедневно 09:00 - 17:00",
+      "estimatedVisitTime": "30 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
+      "history": "Создан в честь пилота, чей самолет был сбит во время событий 1964 года.",
+      "arrivalTime": "11:17",
+      "nextStopTravel": {
+        "time": "12 мин",
+        "distance": "8 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Дворец Вуни",
+      "category": "Замок",
+      "description": "Впечатляющие руины дворца 5 века до н.э. на утесе высотой 250 метров над уровнем моря.",
+      "image": "public/images/routes/vouni.jpg",
+      "latitude": 35.1639,
+      "longitude": 32.7750,
+      "openingHours": "Ежедневно 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+      "history": "Построен во время персидского господства для контроля над соседним городом Соли. Уничтожен пожаром в 380 году до н.э.",
+      "arrivalTime": "11:59",
+      "nextStopTravel": {
+        "time": "15 мин",
+        "distance": "10 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Пляж Ешилырмак",
+      "category": "Пляж",
+      "description": "Тихий пляж в самой западной деревне Северного Кипра, известный клубничными полями и чистым морем.",
+      "image": "public/images/beaches/yesilirmak.jpg",
+      "latitude": 35.1580,
+      "longitude": 32.7150,
+      "openingHours": "Круглосуточно",
+      "estimatedVisitTime": "3 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
+      "history": "Ешилырмак занесен в Книгу рекордов Гиннесса за выращивание самого большого куста клубники.",
+      "arrivalTime": "01:44",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Ресторан Dillirga",
+      "category": "Restoran",
+      "description": "Традиционная прибрежная таверна с великолепными кипрскими мезе и свежей рыбой.",
+      "image": "public/images/restaurants/dillirga.jpg",
+      "latitude": 35.1590,
+      "longitude": 32.7160,
+      "openingHours": "Ежедневно 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
+      "history": "Использует свежие органические продукты прямо из долин Ешилырмака.",
+      "arrivalTime": "04:45",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Планируйте поездку на апрель или май, чтобы застать урожай клубники и цветение апельсинов.",
+    "Дорога к дворцу Вуни узкая и крутая; будьте внимательны за рулем.",
+    "Останавливайтесь у придорожных лотков, чтобы купить свежие апельсины, клубнику и оливковое масло."
+  ]
+}

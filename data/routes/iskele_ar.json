@@ -1,0 +1,150 @@
+{
+  "title": "مسار إسكيل وشبه جزيرة كارباز البرية",
+  "slug": "iskele-karpaz-wild-journey",
+  "description": "انطلق من مدينة إسكيل الساحلية التاريخية نحو الطبيعة البرية لشبه جزيرة كارباز. استمتع بالشواطئ الرملية البكر، وقم بزيارة دير أب Apostolos Andreas، وأطعم الحمير البرية الشهيرة.",
+  "region": "Iskele",
+  "duration": "يومان",
+  "distance": "120 كم",
+  "difficulty": "Medium",
+  "bestSeason": "الربيع، الصيف، والخريف",
+  "coverImage": "public/images/routes/bogaz-harbour.jpg",
+  "coordinates": {
+    "lat": 35.2819,
+    "lng": 33.8967
+  },
+  "gallery": [
+    "public/images/routes/bogaz-harbour.jpg",
+    "public/images/routes/iskele-museum.jpg",
+    "public/images/routes/theotokos.jpg",
+    "public/images/beaches/kalecik.jpg"
+  ],
+  "stops": [
+    {
+      "name": "مخبز ومقهى باريس",
+      "category": "مقهى",
+      "description": "مخبز أوروبي رائع في إسكيل يقدم الكرواسون الطازج والحلويات والقهوة الدافئة.",
+      "image": "public/images/cafes/cafe-paris.jpg",
+      "latitude": 35.2725,
+      "longitude": 33.8920,
+      "openingHours": "يومياً 07:30 - 21:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+      "history": "ينقل ثقافة المخبوزات الفرنسية إلى إسكيل وهو محطة صباحية ممتازة قبل الانطلاق لكارباز.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "80 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "متحف إسكيل للآثار",
+      "category": "متحف",
+      "description": "متحف محلي يعرض قطعاً أثرية وفخاريات وتماثيل تم اكتشافها في المنطقة.",
+      "image": "public/images/routes/iskele-museum.jpg",
+      "latitude": 35.2715,
+      "longitude": 33.8910,
+      "openingHours": "الإثنين - الجمعة 08:00 - 15:30",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
+      "history": "تأسس عام 2018 لحماية التراث الغني للمنطقة من العصر البرونزي حتى العصر الروماني.",
+      "arrivalTime": "09:46",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "150 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "متحف أيقونات باناجيا ثيوتوكوس",
+      "category": "متحف",
+      "description": "كنيسة بيزنطية من القرن الحادي عشر تحتوي على أيقونات قيمة ولوحات جدارية دينية.",
+      "image": "public/images/routes/theotokos.jpg",
+      "latitude": 35.2730,
+      "longitude": 33.8935,
+      "openingHours": "الإثنين - الجمعة 09:00 - 16:00",
+      "estimatedVisitTime": "30 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
+      "history": "نموذج معماري بيزنطي مهم يُعرف أيضاً بكنيسة العذراء مريم.",
+      "arrivalTime": "10:33",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "150 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مقهى تيرا",
+      "category": "مقهى",
+      "description": "مقهى حديث ومريح في إسكيل يقدم القهوة المختصة والعصائر الطازجة.",
+      "image": "public/images/cafes/terra-coffee.jpg",
+      "latitude": 35.2740,
+      "longitude": 33.8940,
+      "openingHours": "يومياً 08:00 - 23:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+      "history": "مكان شهير للاستراحة وتخطيط مسار الرحلة في إسكيل.",
+      "arrivalTime": "11:05",
+      "nextStopTravel": {
+        "time": "8 دقائق",
+        "distance": "7 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "ميناء بوغاز",
+      "category": "رؤية",
+      "description": "ميناء صيد ساحر وهادئ حيث يمكنك المشي والاستمتاع بنسيم البحر الأنيق.",
+      "image": "public/images/routes/bogaz-harbour.jpg",
+      "latitude": 35.3180,
+      "longitude": 33.9530,
+      "openingHours": "مفتوح 24/7",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
+      "history": "مركز لصيادي الأسماك المحليين وملاذ ساحلي هادئ يشتهر بمطاعم المأكولات البحرية.",
+      "arrivalTime": "11:58",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مطعم بارنا للأسماك",
+      "category": "مطعم",
+      "description": "مطعم مأكولات بحرية في بوغاز يقدم الأسماك الطازجة والمقبلات على شاطئ البحر مباشرة.",
+      "image": "public/images/restaurants/barna.jpg",
+      "latitude": 35.3195,
+      "longitude": 33.9540,
+      "openingHours": "يومياً 12:00 - 23:00",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
+      "history": "معلم طهي محلي في بوغاز يشتهر بطهي المأكولات البحرية القبرصية التقليدية.",
+      "arrivalTime": "12:44",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "1.5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "شاطئ كاليجيك العام",
+      "category": "شاطئ",
+      "description": "شاطئ رملي عام بكتر ومياه ضحلة دافئة، مثالي للسباحة والاستجمام.",
+      "image": "public/images/beaches/kalecik.jpg",
+      "latitude": 35.3210,
+      "longitude": 33.9590,
+      "openingHours": "مفتوح 24/7",
+      "estimatedVisitTime": "3 ساعات",
+      "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
+      "history": "بديل هادئ للشواطئ المزدحمة يحافظ على جمال الطبيعة الساحلية.",
+      "arrivalTime": "02:16",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "الرحلة إلى كارباز طويلة؛ تزود بالوقود في إسكيل أو بوغاز لندرة المحطات لاحقاً.",
+    "اشترِ الجزر أو التفاح من السوق قبل دخول محمية كارباز؛ فالحمير البرية ستأتي لسيارتك.",
+    "خطط لرحلة مدتها يومان لتجربة كارباز بالكامل والإقامة في أكواخ بيئية."
+  ]
+}

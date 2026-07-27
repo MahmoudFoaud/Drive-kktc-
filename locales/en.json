@@ -80,8 +80,34 @@
   },
   "footer": {
     "tagline": "Discover Northern Cyprus on wheels. Premium, independent travel guides.",
+    "quickLinks": "Quick Links",
+    "gallery": "Photo Gallery",
+    "legal": "Legal",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacyLink": "Privacy",
+    "termsLink": "Terms"
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us. Learn how we handle your data.",
+    "p1": "Drive KKTC operates as an independent informational guide. We do not collect, store, or sell personal tracking data or private identity records.",
+    "p2": "Any user preferences, such as language or theme selections, are stored locally on your device via browser local storage.",
+    "p3": "If you have any questions regarding privacy, please feel free to reach out via our contact page."
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "subtitle": "Terms and conditions for using Drive KKTC guides and route maps.",
+    "p1": "Drive KKTC provides driving route suggestions and travel recommendations for informational and entertainment purposes only.",
+    "p2": "Drivers must adhere strictly to local traffic laws, speed limits, and road safety regulations in Northern Cyprus at all times.",
+    "p3": "We accept no liability for road conditions, traffic incidents, closure of third-party venues, or weather disruptions."
+  },
+  "homePage": {
+    "editorialTitle": "Curated Driving Experiences",
+    "editorialSubtitle": "Our routes are built for travelers who appreciate the freedom of self-driven discovery. From the medieval ramparts of crusader castles overlooking Kyrenia, to the wind-swept golden coastlines of Karpaz, we show you the true heart of Northern Cyprus.",
+    "stat1": "Major Regions",
+    "stat2": "Hand-picked Stops",
+    "stat3": "Free Guidance"
   }
 }

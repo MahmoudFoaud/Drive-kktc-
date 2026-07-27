@@ -1,0 +1,150 @@
+{
+  "title": "Mağusa Surlariçi ve Antik Salamis Rotası",
+  "slug": "famagusta-walled-city-ruins",
+  "description": "Doğu kıyısı boyunca sürerek Salamis'in muazzam antik Roma kalıntılarını keşfedin. Ardından Mağusa'nın orta çağ taş surlarından içeri adım atın, Fransız Gotik katedralinden dönüştürülmüş tarihi camiyi ziyaret edin ve yeniden açılan Varosha (Maraş) hayalet şehrini keşfedin.",
+  "region": "Famagusta",
+  "duration": "1 Gün",
+  "distance": "60 km",
+  "difficulty": "Easy",
+  "bestSeason": "Tüm Yıl",
+  "coverImage": "public/images/routes/salamis.jpg",
+  "coordinates": {
+    "lat": 35.1228,
+    "lng": 33.9422
+  },
+  "gallery": [
+    "public/images/routes/salamis.jpg",
+    "public/images/routes/lala-mustafa.jpg",
+    "public/images/routes/varosha.jpg",
+    "public/images/beaches/varosha-beach.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Salamis Harabeleri",
+      "category": "Müze",
+      "description": "Görkemli bir antik Yunan ve Roma şehir devleti. Mermer sütunlar arasında gezinin, amfitiyatroyu, hamamları ve antik mozaikleri keşfedin.",
+      "image": "public/images/routes/salamis.jpg",
+      "latitude": 35.1842,
+      "longitude": 33.9011,
+      "openingHours": "Her gün 09:00 - 18:00",
+      "estimatedVisitTime": "2 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
+      "history": "Efsaneye göre Truva Savaşı'ndan sonra Teucer tarafından kurulmuştur. Roma yönetimi altında adanın ana ticaret limanı haline gelmiştir.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "10 dk",
+        "distance": "8 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Eziç Mağusa",
+      "category": "Restoran",
+      "description": "Şık ve modern bir yemek salonunda uluslararası ve Kıbrıs Türk mutfağından geniş bir menü sunan popüler bir restoran.",
+      "image": "public/images/restaurants/ezic-magusa.jpg",
+      "latitude": 35.1215,
+      "longitude": 33.9180,
+      "openingHours": "Her gün 11:30 - 23:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+      "history": "Mükemmel kalitesi, hızlı servisi ve modern tasarımıyla öne çıkan tanınmış bir Kıbrıs restoran zinciridir.",
+      "arrivalTime": "11:10",
+      "nextStopTravel": {
+        "time": "5 dk",
+        "distance": "2 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Lala Mustafa Paşa Camii (St. Nicholas Katedrali)",
+      "category": "Manastır",
+      "description": "Fransa'daki Reims Katedrali'nden esinlenen görkemli Gotik mimarisiyle Mağusa'nın en büyük orta çağ yapısı.",
+      "image": "public/images/routes/lala-mustafa.jpg",
+      "latitude": 35.1250,
+      "longitude": 33.9428,
+      "openingHours": "Namaz vakitleri dışında, Her gün 09:00 - 18:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
+      "history": "1298-1312 yılları arasında Lüzinyanlar tarafından inşa edilmiştir. Kıbrıs krallarının Kudüs Kralı olarak taç giydiği yerdir. 1571'de camiye dönüştürülmüştür.",
+      "arrivalTime": "12:15",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Mardo Kaleiçi",
+      "category": "Kahve Dükkanı",
+      "description": "Tarihi Mağusa surlariçinde yer alan, dondurması, tatlıları ve otantik atmosferiyle ünlü popüler bir kafe.",
+      "image": "public/images/cafes/mardo.jpg",
+      "latitude": 35.1245,
+      "longitude": 33.9420,
+      "openingHours": "Her gün 08:30 - 23:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
+      "history": "Tarihi kalıntılar arasında oturup geleneksel tatlı lezzetlerin tadını çıkarabileceğiniz popüler bir durak.",
+      "arrivalTime": "01:01",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "150 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Tatlı Hayat",
+      "category": "Kahve Dükkanı",
+      "description": "Tarihi Mağusa'da lezzetli pastaları, özel kekleri ve sevimli bahçesiyle ünlü butik bir bistro ve kafe.",
+      "image": "public/images/cafes/tatli-hayat.jpg",
+      "latitude": 35.1235,
+      "longitude": 33.9412,
+      "openingHours": "Her gün 09:00 - 22:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+      "history": "Doğu Akdeniz Üniversitesi öğrencileri ve gezginler tarafından çok sevilen tatlı bir kaçış noktası.",
+      "arrivalTime": "01:48",
+      "nextStopTravel": {
+        "time": "5 dk",
+        "distance": "2 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Kapalı Maraş (Varosha)",
+      "category": "Müze",
+      "description": "On yıllarca zamanda donup kalmış sürreal bir 'hayalet şehir'. Artık terk edilmiş otellerin bulunduğu caddelerinde yürüyebilir veya bisiklet sürebilirsiniz.",
+      "image": "public/images/routes/varosha.jpg",
+      "latitude": 35.1114,
+      "longitude": 33.9556,
+      "openingHours": "Her gün 08:00 - 20:00 (Yaz), 08:00 - 17:00 (Kış)",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
+      "history": "1960'larda dünyanın en lüks tatil merkezlerinden biri olan Maraş, 1974 sonrasında kapatılmış ve 2020'de kısmen yeniden açılmıştır.",
+      "arrivalTime": "02:38",
+      "nextStopTravel": {
+        "time": "10 dk",
+        "distance": "2 km",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Maraş Plajı",
+      "category": "Plaj",
+      "description": "Kapalı Maraş binalarının yanında yer alan, berrak turkuaz suları ve tarihi atmosferiyle eşsiz bir kumsal.",
+      "image": "public/images/beaches/varosha-beach.jpg",
+      "latitude": 35.1095,
+      "longitude": 33.9590,
+      "openingHours": "Her gün 08:00 - 19:00",
+      "estimatedVisitTime": "2 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
+      "history": "Bir zamanlar dünyanın en iyi plajları arasında gösterilen ve film yıldızlarının uğrak yeri olan tarihi bir kumsal.",
+      "arrivalTime": "04:18",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Kapalı Maraş girişinde bisiklet kiralamanız şiddetle tavsiye edilir; açık alan geniştir ve en iyi bisikletle gezilir.",
+    "Salamis'i öğleden sonra geç saatlerde ziyaret ederek amfitiyatroyu gün batımının altın ışığında izleyin.",
+    "Maraş içinde çitle çevrili askeri bölgelere girmeyin ve askeri tesislerin fotoğrafını çekmeyin."
+  ]
+}

@@ -80,8 +80,34 @@
   },
   "footer": {
     "tagline": "Kuzey Kıbrıs'ı tekerlekler üzerinde keşfedin. Premium, bağımsız seyahat rehberi.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "gallery": "Fotoğraf Galerisi",
+    "legal": "Yasal",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Şartları",
-    "rights": "Tüm hakları saklıdır."
+    "rights": "Tüm hakları saklıdır.",
+    "privacyLink": "Gizlilik",
+    "termsLink": "Şartlar"
+  },
+  "privacyPage": {
+    "title": "Gizlilik Politikası",
+    "subtitle": "Gizliliğiniz bizim için önemlidir. Verilerinizi nasıl işlediğimizi öğrenin.",
+    "p1": "Drive KKTC bağımsız bir bilgilendirme rehberi olarak hizmet vermektedir. Kişisel takip verilerini veya kimlik kayıtlarını toplamıyoruz, saklamıyoruz ve satmıyoruz.",
+    "p2": "Dil veya tema seçimleri gibi kullanıcı tercihleri, tarayıcı yerel depolaması aracılığıyla yalnızca cihazınızda yerel olarak saklanır.",
+    "p3": "Gizlilikle ilgili herhangi bir sorunuz varsa, lütfen iletişim sayfamız üzerinden bizimle iletişime geçmekten çekinmeyin."
+  },
+  "termsPage": {
+    "title": "Kullanım Şartları",
+    "subtitle": "Drive KKTC rehberlerini ve rota haritalarını kullanım şart ve koşulları.",
+    "p1": "Drive KKTC, yalnızca bilgilendirme ve eğlence amacıyla sürüş rotası önerileri ve seyahat tavsiyeleri sunmaktadır.",
+    "p2": "Sürücüler her zaman Kuzey Kıbrıs'taki yerel trafik kurallarına, hız sınırlarına ve yol güvenliği yönetmeliklerine kesinlikle uymalıdır.",
+    "p3": "Yol durumları, trafik kazaları, üçüncü taraf mekanların kapanması veya hava koşullarından kaynaklanan aksaklıklardan dolayı hiçbir sorumluluk kabul edilmez."
+  },
+  "homePage": {
+    "editorialTitle": "Özenle Hazırlanmış Sürüş Deneyimleri",
+    "editorialSubtitle": "Rotalarımız, özgürce keşfetmenin tadını çıkaran gezginler için tasarlandı. Girne'ye tepeden bakan haçlı kalelerinin ortaçağ surlarından, Karpaz'ın rüzgarlı altın sahillerine kadar, Kuzey Kıbrıs'ın gerçek kalbini size gösteriyoruz.",
+    "stat1": "Ana Bölge",
+    "stat2": "Özenle Seçilmiş Durak",
+    "stat3": "Ücretsiz Rehberlik"
   }
 }

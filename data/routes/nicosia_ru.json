@@ -1,0 +1,168 @@
+{
+  "title": "Исторический Кольцевой Маршрут Никосии",
+  "slug": "nicosia-historic-loop",
+  "description": "Погрузитесь в историю последней разделенной столицы мира. Исследуйте древние ворота, соборы в стиле готики, караван-сараи и музеи венецианских стен.",
+  "region": "Nicosia",
+  "duration": "1 День",
+  "distance": "35 км",
+  "difficulty": "Easy",
+  "bestSeason": "Осень - Весна",
+  "coverImage": "public/images/routes/lefkosa-girne-kapisi.jpg",
+  "coordinates": {
+    "lat": 35.1768,
+    "lng": 33.3639
+  },
+  "gallery": [
+    "public/images/routes/lefkosa-girne-kapisi.jpg",
+    "public/images/routes/selimiye-mosque.jpg",
+    "public/images/routes/buyuk-han.jpg",
+    "public/images/routes/dervis-pasa.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Автомобильный Музей Кипра",
+      "category": "Музей",
+      "description": "Коллекция классических, спортивных и раритетных автомобилей с более чем вековой историей.",
+      "image": "public/images/routes/car-museum.jpg",
+      "latitude": 35.2245,
+      "longitude": 33.3315,
+      "openingHours": "Вт - Вс 09:00 - 17:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+      "history": "Уникальный музей с редкими ретро-автомобилями в идеальном состоянии.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Музей Современного Искусства Кипра",
+      "category": "Музей",
+      "description": "Музей в кампусе Ближневосточного университета с тысячами произведений современного искусства.",
+      "image": "public/images/routes/modern-art-museum.jpg",
+      "latitude": 35.2233,
+      "longitude": 33.3323,
+      "openingHours": "Вт - Вс 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+      "history": "Открыт в 2018 году, один из крупнейших центров современного искусства в Средиземноморье.",
+      "arrivalTime": "10:01",
+      "nextStopTravel": {
+        "time": "10 мин",
+        "distance": "6.5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Ворота Гирне (Киренийские Ворота)",
+      "category": "Замок",
+      "description": "Исторический портал, построенный в 1567 году венецианцами как часть крепостных стен Никосии.",
+      "image": "public/images/routes/lefkosa-girne-kapisi.jpg",
+      "latitude": 35.1818,
+      "longitude": 33.3614,
+      "openingHours": "Круглосуточно (снаружи)",
+      "estimatedVisitTime": "15-30 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
+      "history": "Перестроены османами в 1821 году. В настоящее время здесь расположено туристическое бюро.",
+      "arrivalTime": "11:41",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "150 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Ресторан Gomşu",
+      "category": "Ресторан",
+      "description": "Уютный ресторан традиционной кипрской кухни с атмосферным двориком.",
+      "image": "public/images/restaurants/gomsu.jpg",
+      "latitude": 35.1772,
+      "longitude": 33.3618,
+      "openingHours": "Ежедневно 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+      "history": "Известен традиционными рецептами домашней кипрской кухни.",
+      "arrivalTime": "12:03",
+      "nextStopTravel": {
+        "time": "7 мин",
+        "distance": "550 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Мечеть Селимие (Собор Св. Софии)",
+      "category": "Монастырь",
+      "description": "Памятник готической архитектуры 13 века, превращенный в мечеть в 16 веке.",
+      "image": "public/images/routes/selimiye-mosque.jpg",
+      "latitude": 35.1775,
+      "longitude": 33.3644,
+      "openingHours": "Вне намаза, Ежедневно 09:00 - 18:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
+      "history": "Место коронации королей Кипра, построенное во времена правления Лузиньянов.",
+      "arrivalTime": "01:40",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "200 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Бюйюк Хан (Большой Постоялый Двор)",
+      "category": "Вид",
+      "description": "Крупнейший караван-сарай острова с мечетью во внутреннем дворе.",
+      "image": "public/images/routes/buyuk-han.jpg",
+      "latitude": 35.1764,
+      "longitude": 33.3627,
+      "openingHours": "Ежедневно 09:00 - 19:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
+      "history": "Построен османским губернатором в 1572 году как постоялый двор для торговцев.",
+      "arrivalTime": "02:27",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "180 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Книжный Магазин Rüstem Kitabevi",
+      "category": "Кофейня",
+      "description": "Старейший книжный магазин и кафе в старинном каменном особняке.",
+      "image": "public/images/cafes/rustem-kitabevi.jpg",
+      "latitude": 35.1755,
+      "longitude": 33.3620,
+      "openingHours": "Ежедневно 08:30 - 22:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
+      "history": "Основан в 1937 году, легендарное литературное место Никосии.",
+      "arrivalTime": "03:29",
+      "nextStopTravel": {
+        "time": "5 мин",
+        "distance": "400 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Особняк-Музей Дервиш-паши",
+      "category": "Музей",
+      "description": "Образец османской жилой архитектуры 19 века с этнографической экспозицией.",
+      "image": "public/images/routes/dervis-pasa.jpg",
+      "latitude": 35.1748,
+      "longitude": 33.3575,
+      "openingHours": "Вт - Вс 09:00 - 17:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
+      "history": "Принадлежал издателю первой турецкой газеты на Кипре.",
+      "arrivalTime": "04:19",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Паркуйтесь за пределами старого города; улицы внутри очень узкие.",
+    "Надевайте удобную обувь; старый город лучше всего исследовать пешком.",
+    "Соблюдайте дресс-код при посещении мечети Селимие."
+  ]
+}

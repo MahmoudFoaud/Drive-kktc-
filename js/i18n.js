@@ -87,9 +87,35 @@ const LOCALES_DATA = {
     },
     "footer": {
       "tagline": "Discover Northern Cyprus on wheels. Premium, independent travel guides.",
+      "quickLinks": "Quick Links",
+      "gallery": "Photo Gallery",
+      "legal": "Legal",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
-      "rights": "All rights reserved."
+      "rights": "All rights reserved.",
+      "privacyLink": "Privacy",
+      "termsLink": "Terms"
+    },
+    "privacyPage": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is important to us. Learn how we handle your data.",
+      "p1": "Drive KKTC operates as an independent informational guide. We do not collect, store, or sell personal tracking data or private identity records.",
+      "p2": "Any user preferences, such as language or theme selections, are stored locally on your device via browser local storage.",
+      "p3": "If you have any questions regarding privacy, please feel free to reach out via our contact page."
+    },
+    "termsPage": {
+      "title": "Terms of Service",
+      "subtitle": "Terms and conditions for using Drive KKTC guides and route maps.",
+      "p1": "Drive KKTC provides driving route suggestions and travel recommendations for informational and entertainment purposes only.",
+      "p2": "Drivers must adhere strictly to local traffic laws, speed limits, and road safety regulations in Northern Cyprus at all times.",
+      "p3": "We accept no liability for road conditions, traffic incidents, closure of third-party venues, or weather disruptions."
+    },
+    "homePage": {
+      "editorialTitle": "Curated Driving Experiences",
+      "editorialSubtitle": "Our routes are built for travelers who appreciate the freedom of self-driven discovery. From the medieval ramparts of crusader castles overlooking Kyrenia, to the wind-swept golden coastlines of Karpaz, we show you the true heart of Northern Cyprus.",
+      "stat1": "Major Regions",
+      "stat2": "Hand-picked Stops",
+      "stat3": "Free Guidance"
     }
   },
   tr: {
@@ -174,9 +200,35 @@ const LOCALES_DATA = {
     },
     "footer": {
       "tagline": "Kuzey Kıbrıs'ı tekerlekler üzerinde keşfedin. Premium, bağımsız seyahat rehberi.",
+      "quickLinks": "Hızlı Bağlantılar",
+      "gallery": "Fotoğraf Galerisi",
+      "legal": "Yasal",
       "privacy": "Gizlilik Politikası",
       "terms": "Kullanım Şartları",
-      "rights": "Tüm hakları saklıdır."
+      "rights": "Tüm hakları saklıdır.",
+      "privacyLink": "Gizlilik",
+      "termsLink": "Şartlar"
+    },
+    "privacyPage": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Gizliliğiniz bizim için önemlidir. Verilerinizi nasıl işlediğimizi öğrenin.",
+      "p1": "Drive KKTC bağımsız bir bilgilendirme rehberi olarak hizmet vermektedir. Kişisel takip verilerini veya kimlik kayıtlarını toplamıyoruz, saklamıyoruz ve satmıyoruz.",
+      "p2": "Dil veya tema seçimleri gibi kullanıcı tercihleri, tarayıcı yerel depolaması aracılığıyla yalnızca cihazınızda yerel olarak saklanır.",
+      "p3": "Gizlilikle ilgili herhangi bir sorunuz varsa, lütfen iletişim sayfamız üzerinden bizimle iletişime geçmekten çekinmeyin."
+    },
+    "termsPage": {
+      "title": "Kullanım Şartları",
+      "subtitle": "Drive KKTC rehberlerini ve rota haritalarını kullanım şart ve koşulları.",
+      "p1": "Drive KKTC, yalnızca bilgilendirme ve eğlence amacıyla sürüş rotası önerileri ve seyahat tavsiyeleri sunmaktadır.",
+      "p2": "Sürücüler her zaman Kuzey Kıbrıs'taki yerel trafik kurallarına, hız sınırlarına ve yol güvenliği yönetmeliklerine kesinlikle uymalıdır.",
+      "p3": "Yol durumları, trafik kazaları, üçüncü taraf mekanların kapanması veya hava koşullarından kaynaklanan aksaklıklardan dolayı hiçbir sorumluluk kabul edilmez."
+    },
+    "homePage": {
+      "editorialTitle": "Özenle Hazırlanmış Sürüş Deneyimleri",
+      "editorialSubtitle": "Rotalarımız, özgürce keşfetmenin tadını çıkaran gezginler için tasarlandı. Girne'ye tepeden bakan haçlı kalelerinin ortaçağ surlarından, Karpaz'ın rüzgarlı altın sahillerine kadar, Kuzey Kıbrıs'ın gerçek kalbini size gösteriyoruz.",
+      "stat1": "Ana Bölge",
+      "stat2": "Özenle Seçilmiş Durak",
+      "stat3": "Ücretsiz Rehberlik"
     }
   },
   ru: {
@@ -261,9 +313,35 @@ const LOCALES_DATA = {
     },
     "footer": {
       "tagline": "Исследуйте Северный Кипр на колесах. Премиальные авторские путеводители.",
+      "quickLinks": "Быстрые ссылки",
+      "gallery": "Фотогалерея",
+      "legal": "Правовая информация",
       "privacy": "Политика конфиденциальности",
       "terms": "Условия использования",
-      "rights": "Все права защищены."
+      "rights": "Все права защищены.",
+      "privacyLink": "Конфиденциальность",
+      "termsLink": "Условия"
+    },
+    "privacyPage": {
+      "title": "Политика конфиденциальности",
+      "subtitle": "Ваша конфиденциальность важна для нас. Узнайте, как мы обрабатываем данные.",
+      "p1": "Drive KKTC работает как независимый информационный путеводитель. Мы не собираем, не храним и не продаем личные персональные данные.",
+      "p2": "Любые пользовательские настройки, такие как выбор языка или темы, хранятся локально на вашем устройстве в локальном хранилище браузера.",
+      "p3": "Если у вас есть вопросы относительно конфиденциальности, свяжитесь с нами через страницу контактов."
+    },
+    "termsPage": {
+      "title": "Условия использования",
+      "subtitle": "Правила и условия использования путеводителей и карт Drive KKTC.",
+      "p1": "Drive KKTC предоставляет рекомендации по автомобильным маршрутам исключительно в информационных и ознакомительных целях.",
+      "p2": "Водители должны строго соблюдать местные правила дорожного движения, ограничения скорости и правила безопасности в Северном Кипре.",
+      "p3": "Мы не несем ответственности за состояние дорог, дорожные происшествия, закрытие заведений или погодные условия."
+    },
+    "homePage": {
+      "editorialTitle": "Авторские Автомобильные Маршруты",
+      "editorialSubtitle": "Наши маршруты созданы для путешественников, ценящих свободу самостоятельных открытий. От средневековых стен замков крестоносцев с видом на Гирне до ветреного золотого побережья Карпаса — мы покажем вам истинное сердце Северного Кипра.",
+      "stat1": "Главных Регионов",
+      "stat2": "Отобранных Остановок",
+      "stat3": "Бесплатный Путеводитель"
     }
   },
   ar: {
@@ -348,9 +426,35 @@ const LOCALES_DATA = {
     },
     "footer": {
       "tagline": "اكتشف شمال قبرص على عجلات. أدلة سفر متميزة ومستقلة.",
+      "quickLinks": "روابط سريعة",
+      "gallery": "معرض الصور",
+      "legal": "الشروط القانونية",
       "privacy": "سياسة الخصوصية",
       "terms": "شروط الخدمة",
-      "rights": "جميع الحقوق محفوظة."
+      "rights": "جميع الحقوق محفوظة.",
+      "privacyLink": "الخصوصية",
+      "termsLink": "الشروط"
+    },
+    "privacyPage": {
+      "title": "سياسة الخصوصية",
+      "subtitle": "خصوصيتك تهمنا. تعرّف على كيفية تعاملنا مع بياناتك.",
+      "p1": "يعمل Drive KKTC كدليل إرشادي مستقل. نحن لا نجمع أو نخزن أو نبيع بيانات التتبع الشخصية أو سجلات الهوية الخاصة.",
+      "p2": "تُحفظ أي تفضيلات للمستخدم، مثل خيارات اللغة أو المظهر، محلياً على جهازك عبر التخزين المحلي للمتصفح.",
+      "p3": "إذا كانت لديك أي أسئلة تتعلق بالخصوصية، فلا تتردد في التواصل معنا عبر صفحة الاتصال."
+    },
+    "termsPage": {
+      "title": "شروط الخدمة",
+      "subtitle": "الشروط والأحكام الخاصة باستخدام أدلة وخرائط مسارات Drive KKTC.",
+      "p1": "يقدم Drive KKTC اقتراحات مسارات القيادة وتوصيات السفر لأغراض إعلامية وترفيهية فقط.",
+      "p2": "يجب على السائقين الالتزام التام بقوانين المرور المحلية وحدود السرعة ولوائح السلامة على الطرق في شمال قبرص في جميع الأوقات.",
+      "p3": "نحن لا نتحمل أي مسؤولية عن ظروف الطرق، أو حوادث المرور، أو إغلاق الأماكن الخاصة، أو الاضطرابات الجوية."
+    },
+    "homePage": {
+      "editorialTitle": "تجارب قيادة مختارة بعناية",
+      "editorialSubtitle": "تم تصميم مساراتنا للمسافرين الذين يقدرون حرية الاكتشاف المستقل. من أسوار القلاع التاريخية التي تطل على غيرنه، إلى السواحل الذهبية لشبكة كارباز، نأخذك إلى قلب شمال قبرص الحقيقي.",
+      "stat1": "مناطق رئيسية",
+      "stat2": "محطات مختارة",
+      "stat3": "دليل مجاني 100%"
     }
   }
 };
@@ -415,12 +519,18 @@ function t(key, fallback = '') {
 function translateDOM() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    el.textContent = t(key);
+    const val = t(key);
+    if (val && val !== key) {
+      el.textContent = val;
+    }
   });
   
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     const key = el.getAttribute('data-i18n-placeholder');
-    el.setAttribute('placeholder', t(key));
+    const val = t(key);
+    if (val && val !== key) {
+      el.setAttribute('placeholder', val);
+    }
   });
 }
 

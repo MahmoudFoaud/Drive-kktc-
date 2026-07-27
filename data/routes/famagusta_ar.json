@@ -1,0 +1,150 @@
+{
+  "title": "مسار فاماجوستا التاريخية وآثار سلاميس القديمة",
+  "slug": "famagusta-walled-city-ruins",
+  "description": "قد على طول الساحل الشرقي لاكتشاف آثار سلاميس الرومانية القديمة. ثم ادخل الأسوار الحجرية لفاماجوستا، وقم بزيارة المسجد التاريخي ذو الطراز القوطي الفرنسي، واستكشف مدينة فاروشا التي أُعيد فتحها.",
+  "region": "Famagusta",
+  "duration": "يوم واحد",
+  "distance": "60 كم",
+  "difficulty": "Easy",
+  "bestSeason": "على مدار السنة",
+  "coverImage": "public/images/routes/salamis.jpg",
+  "coordinates": {
+    "lat": 35.1228,
+    "lng": 33.9422
+  },
+  "gallery": [
+    "public/images/routes/salamis.jpg",
+    "public/images/routes/lala-mustafa.jpg",
+    "public/images/routes/varosha.jpg",
+    "public/images/beaches/varosha-beach.jpg"
+  ],
+  "stops": [
+    {
+      "name": "آثار سلاميس القديمة",
+      "category": "متحف",
+      "description": "مدينة رومانية ويونانية قديمة مهيبة. تجول بين أعمدة الرخام واستكشف المدرج والحمامات والفسيفساء.",
+      "image": "public/images/routes/salamis.jpg",
+      "latitude": 35.1842,
+      "longitude": 33.9011,
+      "openingHours": "يومياً 09:00 - 18:00",
+      "estimatedVisitTime": "ساعتان",
+      "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
+      "history": "تأسست حسب الأسطورة بعد حرب طروادة، وأصبحت الميناء التجاري الرئيسي للقبرص تحت الحكم الروماني.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "10 دقائق",
+        "distance": "8 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "مطعم إزيج فاماجوستا",
+      "category": "مطعم",
+      "description": "مطعم حديث شهير يقدم قائمة واسعة من الأطباق العالمية والقبرصية في أجواء أنيقة.",
+      "image": "public/images/restaurants/ezic-magusa.jpg",
+      "latitude": 35.1215,
+      "longitude": 33.9180,
+      "openingHours": "يومياً 11:30 - 23:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+      "history": "سلسلة مطاعم قبرصية مرموقة تشتهر بالجودة العالية والخدمة السريعة.",
+      "arrivalTime": "11:10",
+      "nextStopTravel": {
+        "time": "5 دقائق",
+        "distance": "2 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "مسجد لالا مصطفى باشا (كاتدرائية سنت نيكولاس سابقاً)",
+      "category": "دير",
+      "description": "أكبر مبنى من القرون الوسطى في فاماجوستا يتميز بهندسة قوطية رائعة مستوحاة من كاتدرائية ريمس في فرنسا.",
+      "image": "public/images/routes/lala-mustafa.jpg",
+      "latitude": 35.1250,
+      "longitude": 33.9428,
+      "openingHours": "خارج أوقات الصلاة، يومياً 09:00 - 18:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
+      "history": "بناه اللوزينيان بين عامي 1298 و1312 وكان مكاناً لتتويج ملوك قبرص كملوك للقدس.",
+      "arrivalTime": "12:15",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "ماردو كاليتشي",
+      "category": "مقهى",
+      "description": "مقهى فاخر داخل البلدة القديمة يشتهر بالآيس كريم التركي والحلويات والأجواء المحلية.",
+      "image": "public/images/cafes/mardo.jpg",
+      "latitude": 35.1245,
+      "longitude": 33.9420,
+      "openingHours": "يومياً 08:30 - 23:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
+      "history": "علامة تجارية محلية توفر للمسافرين مكاناً للاسترخاء بجوار الآثار التاريخية.",
+      "arrivalTime": "01:01",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "150 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "تاتلي حياة",
+      "category": "مقهى",
+      "description": "متجر كعك وبسترو مميز يشتهر بالمعجنات اللذيذة وجلسات الحديقة الساحرة.",
+      "image": "public/images/cafes/tatli-hayat.jpg",
+      "latitude": 35.1235,
+      "longitude": 33.9412,
+      "openingHours": "يومياً 09:00 - 22:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+      "history": "وجهة مفضلة لطلاب جامعة شرق البحر الأبيض المتوسط والزوار.",
+      "arrivalTime": "01:48",
+      "nextStopTravel": {
+        "time": "5 دقائق",
+        "distance": "2 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "فاروشا (مرعش المغلقة)",
+      "category": "متحف",
+      "description": "مدينة أشباح مذهلة تجمدت في الزمن لعقود. يمكنك الآن المشي أو ركوب الدراجة في شوارعها.",
+      "image": "public/images/routes/varosha.jpg",
+      "latitude": 35.1114,
+      "longitude": 33.9556,
+      "openingHours": "يومياً 08:00 - 20:00 (الصيف)، 08:00 - 17:00 (الشتاء)",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
+      "history": "كانت منتجعاً فاخراً في الستينيات وتم إغلاقها عام 1974 حتى أعيد فتحها جزئياً عام 2020.",
+      "arrivalTime": "02:38",
+      "nextStopTravel": {
+        "time": "10 دقائق",
+        "distance": "2 كم",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "شاطئ فاروشا",
+      "category": "شاطئ",
+      "description": "شاطئ رملي ساحر يقع بجوار مباني فاروشا، يتيح الاستمتاع بالمياه الفيروزية الصافية.",
+      "image": "public/images/beaches/varosha-beach.jpg",
+      "latitude": 35.1095,
+      "longitude": 33.9590,
+      "openingHours": "يومياً 08:00 - 19:00",
+      "estimatedVisitTime": "ساعتان",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
+      "history": "صُنف سابقاً كأحد أفضل الشواطئ في العالم وكان يزوره نجوم السينما.",
+      "arrivalTime": "04:18",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "يُنصح بشدة باستئجار دراجة هوائية عند مدخل فاروشا نظراً لاتساع المنطقة.",
+    "قم بزيارة سلاميس في وقت متأخر من بعد الظهر للاستمتاع بإضاءة الغروب الذهبية.",
+    "يرجى عدم دخول المناطق العسكرية المغلقة وعدم تصوير المنشآت العسكرية داخل فاروشا."
+  ]
+}

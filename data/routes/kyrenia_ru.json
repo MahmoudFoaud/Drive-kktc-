@@ -1,0 +1,150 @@
+{
+  "title": "Побережье Гирне и Средневековые Замки",
+  "slug": "kyrenia-coast-castles",
+  "description": "Прокатитесь по захватывающим дух горам Бешпармак. Поднимитесь на высокие бастионы замка Святого Илариона, прогуляйтесь по тихим руинам аббатства Беллапаис и отдохните на чистейших пляжах Гирне.",
+  "region": "Kyrenia",
+  "duration": "1-2 Дня",
+  "distance": "75 км",
+  "difficulty": "Medium",
+  "bestSeason": "Весна и Осень",
+  "coverImage": "public/images/routes/st-hilarion.jpg",
+  "coordinates": {
+    "lat": 35.3364,
+    "lng": 33.3175
+  },
+  "gallery": [
+    "public/images/routes/st-hilarion.jpg",
+    "public/images/routes/bellapais.jpg",
+    "public/images/routes/mavi-kosk.jpg",
+    "public/images/beaches/ulfet.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Мави Кёшк (Голубой Дом)",
+      "category": "Музей",
+      "description": "Таинственная вилла середины века с потайными ходами, итало-греческим искусством и уникальной архитектурой, построенная контрабандистом оружия.",
+      "image": "public/images/routes/mavi-kosk.jpg",
+      "latitude": 35.3044,
+      "longitude": 33.0536,
+      "openingHours": "Вт - Вс 09:00 - 17:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+      "history": "Построен в 1957 году Байроном Павлидисом. Включает потайные сейфы, бетонный бассейн и спальню с двояким обзором.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "30 мин",
+        "distance": "25 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Замок Святого Илариона",
+      "category": "Замок",
+      "description": "Один из наиболее сохранившихся крестоносных замков на Кипре, расположенный высоко в горах Гирне с панорамным видом на побережье.",
+      "image": "public/images/routes/st-hilarion.jpg",
+      "latitude": 35.3121,
+      "longitude": 33.2806,
+      "openingHours": "Ежедневно 09:00 - 16:30",
+      "estimatedVisitTime": "2 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
+      "history": "Изначально монастырь 10 века, укрепленный византийцами и Лузиньянами. Считается вдохновением для замка Белоснежки Уолта Диснея.",
+      "arrivalTime": "10:30",
+      "nextStopTravel": {
+        "time": "5 мин",
+        "distance": "3 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Тандемный Парапланеризм в Гирне",
+      "category": "Приключения",
+      "description": "Полет на параплане над Гирне! Парите на высоте 800 м над Средиземным морем и горами Гирне, наслаждаясь азартом и красотой.",
+      "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=1920,dpr=1/tour_img/5726a4653b95106b2e33ad401ee7a92433719a9465e135b65a9d9d5f00d268f9.jpg",
+      "latitude": 35.3150,
+      "longitude": 33.3050,
+      "openingHours": "Ежедневно 09:00 - 17:00",
+      "estimatedVisitTime": "2 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Tandem+Paragliding,+Kyrenia",
+      "history": "Полеты в горах Гирне предлагают один из самых красивых маршрутов в мире, начинаясь с вершин Бешпармак и приземляясь у гавани.",
+      "arrivalTime": "12:35",
+      "nextStopTravel": {
+        "time": "10 мин",
+        "distance": "5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Пляжный Клуб Ульфет",
+      "category": "Пляж",
+      "description": "Изысканный пляжный клуб на побережье Гирне с шезлонгами, баром и чистой водой, идеальный для отдыха после гор.",
+      "image": "public/images/beaches/ulfet.jpg",
+      "latitude": 35.3512,
+      "longitude": 33.2750,
+      "openingHours": "Ежедневно 09:00 - 19:00",
+      "estimatedVisitTime": "3 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+      "history": "Популярный летний клуб с современными удобствами, коктейлями и великолепными закатами.",
+      "arrivalTime": "02:45",
+      "nextStopTravel": {
+        "time": "10 мин",
+        "distance": "5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Кофейня Vola Coffee",
+      "category": "Кофейня",
+      "description": "Стильная спешелти-кофейня в Гирне, отличный выбор для кофе-паузы и свежей выпечки.",
+      "image": "public/images/cafes/vola-coffee.jpg",
+      "latitude": 35.3400,
+      "longitude": 33.3190,
+      "openingHours": "Ежедневно 08:00 - 22:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
+      "history": "Современная кофейная локация, любимая как местными жителями, так и туристами.",
+      "arrivalTime": "05:55",
+      "nextStopTravel": {
+        "time": "15 мин",
+        "distance": "6 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Аббатство Беллапаис",
+      "category": "Монастырь",
+      "description": "Руины монастыря 13 века с готическими арками и тихими садами с видом на синее море.",
+      "image": "public/images/routes/bellapais.jpg",
+      "latitude": 35.3072,
+      "longitude": 33.3556,
+      "openingHours": "Ежедневно 09:00 - 18:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+      "history": "Построен регулярными канониками Святого Гроба Господня. Британский писатель Лоуренс Даррелл жил неподалеку и описал эту деревню в книге 'Горькие лимоны'.",
+      "arrivalTime": "06:55",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Ресторан Кибела",
+      "category": "Ресторан",
+      "description": "Ресторан высокой кухни на территории аббатства Беллапаис с изысканной средиземноморской кухней и панорамным видом.",
+      "image": "public/images/restaurants/kybele.jpg",
+      "latitude": 35.3075,
+      "longitude": 33.3560,
+      "openingHours": "Ежедневно 11:30 - 23:30",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
+      "history": "Известен проведением торжественных ужинов и приемом гостей аббатства, сочетает историю и гастрономию.",
+      "arrivalTime": "07:55",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Подъем к замку Святого Илариона крутой; убедитесь, что система охлаждения автомобиля исправна.",
+    "Посещайте замок Святого Илариона рано утром, чтобы избежать полуденного солнца и туристических автобусов.",
+    "Помните, что Мави Кёшк находится в военной зоне; для въезда на КПП вам потребуется предъявить паспорт."
+  ]
+}

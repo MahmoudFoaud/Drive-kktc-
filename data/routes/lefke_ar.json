@@ -1,0 +1,150 @@
+{
+  "title": "مسار لفكوشا ووديان الحمضيات في جوزيليورت",
+  "slug": "lefke-guzelyurt-citrus-valleys",
+  "description": "قد عبر بساتين البرتقال والفراولة الخصبة في جوزيليورت، وصعد إلى قصر فوني الأثري، واستكشف التراث التعديني في لفكوشا واستمتاع بالوجبات الساحلية.",
+  "region": "Lefke",
+  "duration": "يوم واحد",
+  "distance": "85 كم",
+  "difficulty": "Medium",
+  "bestSeason": "الربيع والشتاء",
+  "coverImage": "public/images/routes/vouni.jpg",
+  "coordinates": {
+    "lat": 35.1139,
+    "lng": 32.8503
+  },
+  "gallery": [
+    "public/images/routes/vouni.jpg",
+    "public/images/routes/mining-museum.jpg",
+    "public/images/routes/gemikonagi-dam.jpg",
+    "public/images/beaches/yesilirmak.jpg"
+  ],
+  "stops": [
+    {
+      "name": "سد جيميناجي",
+      "category": "رؤية",
+      "description": "خزان مائي هادئ محاط بالتلال الخضراء يوفر مكاناً رائعاً للتصوير والاسترخاء.",
+      "image": "public/images/routes/gemikonagi-dam.jpg",
+      "latitude": 35.1290,
+      "longitude": 32.8460,
+      "openingHours": "مفتوح 24/7",
+      "estimatedVisitTime": "30 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Gemikonağı+Göleti,+Lefke",
+      "history": "بُني لدعم الزراعة المحلية وري بساتين الحمضيات الشهيرة في لفكوشا.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "8 دقائق",
+        "distance": "5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "متحف لفكوشا للتعدين",
+      "category": "متحف",
+      "description": "متحف صغير يفصل تاريخ لفكوشا الغني كمركز لتعدين النحاس منذ القدم.",
+      "image": "public/images/routes/mining-museum.jpg",
+      "latitude": 35.1120,
+      "longitude": 32.8490,
+      "openingHours": "الإثنين - الجمعة 08:00 - 15:30",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Lefke+Mining+Museum,+Lefke",
+      "history": "كانت لفكوشا مشهورة بتعدين النحاس منذ العصر الروماني، ويوثق المتحف نشاط شركة مناجم قبرص.",
+      "arrivalTime": "09:38",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مقهى موار",
+      "category": "مقهى",
+      "description": "مقهى عصري ومشهور في لفكوشا يقدم القهوة الممتازة والوجبات الخفيفة.",
+      "image": "public/images/cafes/moar-cafe.jpg",
+      "latitude": 35.1160,
+      "longitude": 32.8520,
+      "openingHours": "يومياً 08:30 - 23:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=MOAR+Cafe,+Lefke",
+      "history": "ملتقى ثقافي عصري في بلدة لفكوشا التاريخية.",
+      "arrivalTime": "10:24",
+      "nextStopTravel": {
+        "time": "8 دقائق",
+        "distance": "5.5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "نصب جنكيز توبيل التذكاري",
+      "category": "متحف",
+      "description": "نصب تذكاري مخصص للطيار جنكيز توبيل يحتوي على طائرته المقاتلة وشرح تاريخي.",
+      "image": "public/images/routes/cengiz-topel.jpg",
+      "latitude": 35.1380,
+      "longitude": 32.8120,
+      "openingHours": "يومياً 09:00 - 17:00",
+      "estimatedVisitTime": "30 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Cengiz+Topel+Memorial,+Lefke",
+      "history": "بُني لتكريم الكابتن جنكيز توبيل الذي سقطت طائرته عام 1964 بالقرب من الموقع.",
+      "arrivalTime": "11:17",
+      "nextStopTravel": {
+        "time": "12 دقيقة",
+        "distance": "8 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "قصر فوني الأثري",
+      "category": "قلعة",
+      "description": "أطلال قصر يعود للقرن الخامس قبل الميلاد يقع على جرف بارتفاع 250 متراً فوق سطح البحر.",
+      "image": "public/images/routes/vouni.jpg",
+      "latitude": 35.1639,
+      "longitude": 32.7750,
+      "openingHours": "يومياً 09:00 - 17:00",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Vouni+Palace,+Lefke",
+      "history": "بُني خلال الاحتلال الفارسي لمراقبة مدينة سولي المجاورة وتم تدميره بالحريق عام 380 ق.م.",
+      "arrivalTime": "11:59",
+      "nextStopTravel": {
+        "time": "15 دقيقة",
+        "distance": "10 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "شاطئ يريشيل إرماك",
+      "category": "شاطئ",
+      "description": "شاطئ هادئ يقع في أقصى قرية غرب شمال قبرص، يشتهر بحقول الفراولة والبحر الصافي.",
+      "image": "public/images/beaches/yesilirmak.jpg",
+      "latitude": 35.1580,
+      "longitude": 32.7150,
+      "openingHours": "مفتوح 24/7",
+      "estimatedVisitTime": "3 ساعات",
+      "googleMapsLink": "https://maps.google.com/?q=Yesilirmak,+Lefke",
+      "history": "تشتهر القرية بزراعة الفراولة ودخلت موسوعة جينيس للأرقام القياسية.",
+      "arrivalTime": "01:44",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مطعم ديليرجا",
+      "category": "مطعم",
+      "description": "مطعم ساحلي تقليدي يقدم المأكولات القبرصية والمأكولات البحرية الطازجة تحت ظلال الكروم.",
+      "image": "public/images/restaurants/dillirga.jpg",
+      "latitude": 35.1590,
+      "longitude": 32.7160,
+      "openingHours": "يومياً 12:00 - 23:00",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Dillirga+Restaurant,+Yesilirmak",
+      "history": "يشتهر بالحصول على جميع المكونات طازجة وعضوية من مزارع يريشيل إرماك.",
+      "arrivalTime": "04:45",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "خطط لزيارتك في أبريل أو مايو للاستمتاع بحصاد الفراولة وازدهار أشجار البرتقال.",
+    "الطريق إلى قصر فوني ضيق ومنحدر؛ قد بحذر وتأكد من جاهزية سيارتك.",
+    "توقف عند أكشاك الفواكه على الطريق لشراء البرتقال الطازج وزيت الزيتون المحلي."
+  ]
+}

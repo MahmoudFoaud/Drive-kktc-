@@ -1,0 +1,150 @@
+{
+  "title": "İskele ve Karpaz Yarımadası Vahşi Doğa Rotası",
+  "slug": "iskele-karpaz-wild-journey",
+  "description": "Tarihi sahil kasabası İskele'den Karpaz Yarımadası'nın engebeli ve bakir güzelliklerine doğru sürün. El değmemiş kumsalların tadını çıkarın, kutsal Apostolos Andreas Manastırı'nı görün ve milli parktaki ünlü hür eşekleri besleyin.",
+  "region": "Iskele",
+  "duration": "2 Gün",
+  "distance": "120 km",
+  "difficulty": "Medium",
+  "bestSeason": "İlkbahar, Yaz ve Sonbahar",
+  "coverImage": "public/images/routes/bogaz-harbour.jpg",
+  "coordinates": {
+    "lat": 35.2819,
+    "lng": 33.8967
+  },
+  "gallery": [
+    "public/images/routes/bogaz-harbour.jpg",
+    "public/images/routes/iskele-museum.jpg",
+    "public/images/routes/theotokos.jpg",
+    "public/images/beaches/kalecik.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Café Paris & Pastane",
+      "category": "Kahve Dükkanı",
+      "description": "İskele'de taze kruvasanlar, lezzetli pastalar ve sıcak kahveler sunan Avrupa tarzında harika bir fırın ve kafe.",
+      "image": "public/images/cafes/cafe-paris.jpg",
+      "latitude": 35.2725,
+      "longitude": 33.8920,
+      "openingHours": "Her gün 07:30 - 21:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+      "history": "Fransız pastane kültürünü İskele'ye taşıyan, Karpaz yolculuğuna başlayan kahveseverler için popüler bir sabah durağı.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "80 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "İskele Arkeoloji Müzesi",
+      "category": "Müze",
+      "description": "Karpaz ve İskele bölgesinden çıkarılan tarihi eserleri, çanak çömlekleri ve heykelleri sergileyen düzenli bir yerel müze.",
+      "image": "public/images/routes/iskele-museum.jpg",
+      "latitude": 35.2715,
+      "longitude": 33.8910,
+      "openingHours": "Pzt - Cuma 08:00 - 15:30",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
+      "history": "2018 yılında açılan müze, Tunç Çağı'ndan Roma dönemine kadar bölgedeki zengin mirası sergilemektedir.",
+      "arrivalTime": "09:46",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "150 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Panayia Theotokos İkon Müzesi",
+      "category": "Müze",
+      "description": "Değerli ikonlar, dini freskler ve özgün kubbeli mimari içeren 11. yüzyıl Bizans kubbeli kilisesi.",
+      "image": "public/images/routes/theotokos.jpg",
+      "latitude": 35.2730,
+      "longitude": 33.8935,
+      "openingHours": "Pzt - Cuma 09:00 - 16:00",
+      "estimatedVisitTime": "30 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
+      "history": "Orta Bizans kapalı haç mimarisinin önemli bir örneği olup Meryem Ana Kilisesi olarak da bilinir.",
+      "arrivalTime": "10:33",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "150 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Terra Coffee & Lounge",
+      "category": "Kahve Dükkanı",
+      "description": "İskele'de taze demleme kahveler ve smoothie'ler sunan konforlu ve modern bir kafe.",
+      "image": "public/images/cafes/terra-coffee.jpg",
+      "latitude": 35.2740,
+      "longitude": 33.8940,
+      "openingHours": "Her gün 08:00 - 23:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+      "history": "Uluslararası kahve çekirdeklerini misafirperverlikle buluşturan popüler bir mekan.",
+      "arrivalTime": "11:05",
+      "nextStopTravel": {
+        "time": "8 dk",
+        "distance": "7 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Boğaz Limanı",
+      "category": "Manzara",
+      "description": "Rıhtımda yürüyebileceğiniz, yerel tekneleri izleyebileceğiniz ve deniz esintisinin tadını çıkarabileceğiniz huzurlu bir balıkçı limanı.",
+      "image": "public/images/routes/bogaz-harbour.jpg",
+      "latitude": 35.3180,
+      "longitude": 33.9530,
+      "openingHours": "7/24 Açık",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
+      "history": "On yıllardır balıkçı restoranları ve sakin deniz atmosferi ile tanınan şirin bir liman.",
+      "arrivalTime": "11:58",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Barna Balık Restoranı",
+      "category": "Restoran",
+      "description": "Boğaz'da deniz kenarında taze deniz ürünleri, mezeler ve ızgara balık sunan manzaralı bir restoran.",
+      "image": "public/images/restaurants/barna.jpg",
+      "latitude": 35.3195,
+      "longitude": 33.9540,
+      "openingHours": "Her gün 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
+      "history": "Geleneksel Kıbrıs balık kültürünü yaşatan lezzetli bir durak.",
+      "arrivalTime": "12:44",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "1.5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Kalecik Halk Plajı",
+      "category": "Plaj",
+      "description": "Sakin bir sahil atmosferinde yüzmek ve güneşlenmek için mükemmel, berrak ve sığ sulara sahip el değmemiş bir halk kumsalı.",
+      "image": "public/images/beaches/kalecik.jpg",
+      "latitude": 35.3210,
+      "longitude": 33.9590,
+      "openingHours": "7/24 Açık",
+      "estimatedVisitTime": "3 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
+      "history": "Bölgenin doğal sahil güzelliğini koruyan huzurlu bir kumsal.",
+      "arrivalTime": "02:16",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Karpaz uzun bir sürüş gerektirir; yarımadanın ilerisinde benzinlik az olduğu için depoyu İskele veya Boğaz'da doldurduğunuzdan emin olun.",
+    "Karpaz milli parkına girmeden önce yerel bir marketten havuç veya elma alın; ünlü hür eşekler beslenmek için arabanıza yaklaşacaktır.",
+    "Karpaz Yarımadası'nı tam olarak deneyimlemek için 2 günlük bir gezi planlayın ve yerel bir bungalo veya ekolojik tesiste konaklayın."
+  ]
+}

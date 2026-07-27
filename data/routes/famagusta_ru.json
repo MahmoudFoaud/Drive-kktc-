@@ -1,0 +1,150 @@
+{
+  "title": "Старый Город Фамагусты и Древний Саламин",
+  "slug": "famagusta-walled-city-ruins",
+  "description": "Отправьтесь по восточному побережью к руинам древнеримского города Саламин. Прогуляйтесь по средневековым улочкам Фамагусты, посетите готический собор и заброшенный город-призрак Вароша.",
+  "region": "Famagusta",
+  "duration": "1 День",
+  "distance": "60 км",
+  "difficulty": "Easy",
+  "bestSeason": "Круглый год",
+  "coverImage": "public/images/routes/salamis.jpg",
+  "coordinates": {
+    "lat": 35.1228,
+    "lng": 33.9422
+  },
+  "gallery": [
+    "public/images/routes/salamis.jpg",
+    "public/images/routes/lala-mustafa.jpg",
+    "public/images/routes/varosha.jpg",
+    "public/images/beaches/varosha-beach.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Руины Саламина",
+      "category": "Музей",
+      "description": "Величественный античный город-государство. Прогуляйтесь среди мраморных колонн, древнего амфитеатра и сохранившихся мозаик.",
+      "image": "public/images/routes/salamis.jpg",
+      "latitude": 35.1842,
+      "longitude": 33.9011,
+      "openingHours": "Ежедневно 09:00 - 18:00",
+      "estimatedVisitTime": "2 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Salamis+Ancient+Ruins,+Famagusta",
+      "history": "Основан Тевкром после Троянской войны. При римском правительстве стал главным портом острова.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "10 мин",
+        "distance": "8 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Ресторан Eziç Фамагуста",
+      "category": "Ресторан",
+      "description": "Популярный современный ресторан с широким выбором блюд международной и кипрской кухни.",
+      "image": "public/images/restaurants/ezic-magusa.jpg",
+      "latitude": 35.1215,
+      "longitude": 33.9180,
+      "openingHours": "Ежедневно 11:30 - 23:00",
+      "estimatedVisitTime": "1 Час",
+      "googleMapsLink": "https://maps.google.com/?q=Ezic+Restaurant,+Famagusta",
+      "history": "Известная кипрская сеть ресторанов, славящаяся высоким качеством и прекрасным сервисом.",
+      "arrivalTime": "11:10",
+      "nextStopTravel": {
+        "time": "5 мин",
+        "distance": "2 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Мечеть Лала Мустафа-паши (Собор Св. Николая)",
+      "category": "Монастырь",
+      "description": "Крупнейшее средневековое здание Фамагусты в стиле французской готики.",
+      "image": "public/images/routes/lala-mustafa.jpg",
+      "latitude": 35.1250,
+      "longitude": 33.9428,
+      "openingHours": "Вне намаза, Ежедневно 09:00 - 18:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Lala+Mustafa+Pasa+Mosque,+Famagusta",
+      "history": "Построен Лузиньянами между 1298 и 1312 годами. Место коронации королей Кипра и Иерусалима.",
+      "arrivalTime": "12:15",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Кафе Mardo Kaleiçi",
+      "category": "Кофейня",
+      "description": "Премиальное кафе внутри старого города, известное традиционным мороженым и десертами.",
+      "image": "public/images/cafes/mardo.jpg",
+      "latitude": 35.1245,
+      "longitude": 33.9420,
+      "openingHours": "Ежедневно 08:30 - 23:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Mardo+Kaleiçi,+Famagusta",
+      "history": "Популярный местный бренд, предлагающий туристам отдых возле исторических руин.",
+      "arrivalTime": "01:01",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "150 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Кафе Tatlı Hayat",
+      "category": "Кофейня",
+      "description": "Бутик-кондитерская с уютным садом и превосходными десертами.",
+      "image": "public/images/cafes/tatli-hayat.jpg",
+      "latitude": 35.1235,
+      "longitude": 33.9412,
+      "openingHours": "Ежедневно 09:00 - 22:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Tatli+Hayat+Cafe,+Famagusta",
+      "history": "Любимое место студентов и туристов для сладких перерывов.",
+      "arrivalTime": "01:48",
+      "nextStopTravel": {
+        "time": "5 мин",
+        "distance": "2 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Вароша (Капалы Мараш)",
+      "category": "Музей",
+      "description": "Заброшенный 'город-призрак', застывший во времени. Теперь открыт для пеших и велосипедных прогулок.",
+      "image": "public/images/routes/varosha.jpg",
+      "latitude": 35.1114,
+      "longitude": 33.9556,
+      "openingHours": "Ежедневно 08:00 - 20:00 (Лето), 08:00 - 17:00 (Зима)",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha,+Famagusta",
+      "history": "Роскошный курорт 1960-х годов, заблокированный после событий 1974 года и частично открытый в 2020 году.",
+      "arrivalTime": "02:38",
+      "nextStopTravel": {
+        "time": "10 мин",
+        "distance": "2 км",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Пляж Вароша",
+      "category": "Пляж",
+      "description": "Потрясающий песчаный пляж у заброшенных отелей Вароши с бирюзовой водой.",
+      "image": "public/images/beaches/varosha-beach.jpg",
+      "latitude": 35.1095,
+      "longitude": 33.9590,
+      "openingHours": "Ежедневно 08:00 - 19:00",
+      "estimatedVisitTime": "2 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Varosha+Beach,+Famagusta",
+      "history": "Один из лучших пляжей мира в 1970-х годах, посещавшийся голливудскими звездами.",
+      "arrivalTime": "04:18",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Рекомендуется арендовать велосипед при входе в Варошу, так как территория большая.",
+    "Посещайте Саламин ближе к вечеру, чтобы увидеть амфитеатр в мягких лучах заката.",
+    "Не заходите за ограждения военных зон и не фотографируйте военные объекты в Вароше."
+  ]
+}

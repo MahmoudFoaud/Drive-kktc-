@@ -933,12 +933,45 @@ html[dir="rtl"] .lang-dropdown {
   }
 }
 
+.mobile-menu-toggle {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 1rem;
+  }
+  .nav-links a {
+    font-size: 0.88rem;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
-    padding: 1rem;
+    padding: 0.75rem 1rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
   }
   .nav-links {
-    display: none; /* Can build a simple hamburger toggle menu in JS */
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-links a {
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
   }
   .hero-title {
     font-size: 2.8rem;
@@ -953,7 +986,7 @@ html[dir="rtl"] .lang-dropdown {
     grid-template-columns: 1fr;
   }
   .lightbox-prev, .lightbox-next {
-    display: none; /* use swipe or standard tap */
+    display: none;
   }
 }
 

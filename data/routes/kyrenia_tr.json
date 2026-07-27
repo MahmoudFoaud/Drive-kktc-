@@ -1,0 +1,150 @@
+{
+  "title": "Girne Sahili ve Orta Çağ Kaleleri Rotası",
+  "slug": "kyrenia-coast-castles",
+  "description": "Nefes kesen Beşparmak Dağları boyunca sürüş yapın. St. Hilarion Kalesi'nin yüksek burçlarına tırmanın, Bellapais Manastırı'nın huzurlu kalıntıları arasında gezinin ve Girne'nin pırıl pırıl sahillerinde ve restoranlarında günün yorgunluğunu atın.",
+  "region": "Kyrenia",
+  "duration": "1-2 Gün",
+  "distance": "75 km",
+  "difficulty": "Medium",
+  "bestSeason": "İlkbahar ve Sonbahar",
+  "coverImage": "public/images/routes/st-hilarion.jpg",
+  "coordinates": {
+    "lat": 35.3364,
+    "lng": 33.3175
+  },
+  "gallery": [
+    "public/images/routes/st-hilarion.jpg",
+    "public/images/routes/bellapais.jpg",
+    "public/images/routes/mavi-kosk.jpg",
+    "public/images/beaches/ulfet.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Mavi Köşk",
+      "category": "Müze",
+      "description": "Gizemli bir silah kaçakçısı tarafından inşa edilmiş, gizli geçitler, İtalyan-Yunan sanat eserleri ve özgün mimariyle dolu 20. yüzyıl ortası bir köşk.",
+      "image": "public/images/routes/mavi-kosk.jpg",
+      "latitude": 35.3044,
+      "longitude": 33.0536,
+      "openingHours": "Salı - Pazar 09:00 - 17:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+      "history": "1957 yılında avukat ve savunma ajanı Byron Pavlides tarafından yaptırılmıştır. Gizli kasalar, beton havuz ve çift manzaralı yatak odası içerir.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "30 dk",
+        "distance": "25 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "St. Hilarion Kalesi",
+      "category": "Kale",
+      "description": "Kıbrıs'ın en iyi korunmuş Haçlı kalelerinden biri. Girne dağlarının yükseklerinde yer alan kale, kıyının muhteşem panoramik manzarasını sunar.",
+      "image": "public/images/routes/st-hilarion.jpg",
+      "latitude": 35.3121,
+      "longitude": 33.2806,
+      "openingHours": "Her gün 09:00 - 16:30",
+      "estimatedVisitTime": "2 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
+      "history": "Aslen 10. yüzyılda inşa edilen bir manastır olup, Bizanslılar ve Lüzinyanlar tarafından tahkim edilmiştir. Walt Disney'in Pamuk Prenses kalesine ilham kaynağı olduğu söylenir.",
+      "arrivalTime": "10:30",
+      "nextStopTravel": {
+        "time": "5 dk",
+        "distance": "3 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Girne İkili Yamaç Paraşütü (Tandem)",
+      "category": "Macera",
+      "description": "Tandem yamaç paraşütü ile Girne üzerinde süzülün! Akdeniz ve Girne Dağları'nın 800 metre üzerinde uçarak eşsiz manzara ve heyecanın tadını çıkarın.",
+      "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=1920,dpr=1/tour_img/5726a4653b95106b2e33ad401ee7a92433719a9465e135b65a9d9d5f00d268f9.jpg",
+      "latitude": 35.3150,
+      "longitude": 33.3050,
+      "openingHours": "Her gün 09:00 - 17:00",
+      "estimatedVisitTime": "2 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Tandem+Paragliding,+Kyrenia",
+      "history": "Girne dağlarında yamaç paraşütü, Beşparmak Dağları'nın zirvelerinden başlayıp limana yakın bir noktaya inen harika bir rotadır.",
+      "arrivalTime": "12:35",
+      "nextStopTravel": {
+        "time": "10 dk",
+        "distance": "5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Ülfet Beach Club",
+      "category": "Plaj",
+      "description": "Dağ tırmanışlarının ardından rahatlamak için ideal, Girne kıyısında şezlonglar, bar ve berrak sular sunan şık bir plaj kulübü.",
+      "image": "public/images/beaches/ulfet.jpg",
+      "latitude": 35.3512,
+      "longitude": 33.2750,
+      "openingHours": "Her gün 09:00 - 19:00",
+      "estimatedVisitTime": "3 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+      "history": "Girne'nin deniz kenarındaki eğlence anlayışını modern imkanlar ve muhteşem gün batımları ile öne çıkaran popüler bir mekan.",
+      "arrivalTime": "02:45",
+      "nextStopTravel": {
+        "time": "10 dk",
+        "distance": "5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Vola Coffee",
+      "category": "Kahve Dükkanı",
+      "description": "Girne'de kahve molası ve taze atıştırmalıklar için mükemmel, stil sahibi nitelikli kahve mekanı.",
+      "image": "public/images/cafes/vola-coffee.jpg",
+      "latitude": 35.3400,
+      "longitude": 33.3190,
+      "openingHours": "Her gün 08:00 - 22:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
+      "history": "Şehrin kahve kültürüne çağdaş bir dokunuş katan, yerliler ve gezginler tarafından sevilen konforlu bir mekan.",
+      "arrivalTime": "05:55",
+      "nextStopTravel": {
+        "time": "15 dk",
+        "distance": "6 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Bellapais Manastırı",
+      "category": "Manastır",
+      "description": "Mavi denize bakan huzurlu bahçeleri ve gotik kemerleriyle 13. yüzyıldan kalma büyüleyici bir manastır kalıntısı.",
+      "image": "public/images/routes/bellapais.jpg",
+      "latitude": 35.3072,
+      "longitude": 33.3556,
+      "openingHours": "Her gün 09:00 - 18:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+      "history": "İngiliz yazar Lawrence Durrell yakınlarda yaşamış ve 'Acı Limonlar' kitabında bu köyü ölümsüzleştirmiştir.",
+      "arrivalTime": "06:55",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Kybele Restoran",
+      "category": "Restoran",
+      "description": "Bellapais Manastırı bahçesinde yer alan, modern Akdeniz mutfağı ve muhteşem manzaralar sunan üst düzey bir restoran.",
+      "image": "public/images/restaurants/kybele.jpg",
+      "latitude": 35.3075,
+      "longitude": 33.3560,
+      "openingHours": "Her gün 11:30 - 23:30",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
+      "history": "Manastırı ziyaret eden turistleri ağırlamasıyla ünlü, mimari tarih ile yerel gastronomiyi harmanlayan bir mekan.",
+      "arrivalTime": "07:55",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "St. Hilarion Kalesi'ne çıkan dik yollar için aracınızın soğutma sisteminin iyi durumda olduğundan emin olun.",
+    "St. Hilarion'u dik öğle güneşinden ve turist otobüslerinden kaçınmak için sabah erken saatlerde ziyaret edin.",
+    "Mavi Köşk'ün askeri bölge içinde olduğunu unutmayın; giriş kapısında pasaport/kimlik ibraz etmeniz gerekecektir."
+  ]
+}

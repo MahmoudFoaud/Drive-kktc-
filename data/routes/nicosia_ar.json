@@ -1,0 +1,168 @@
+{
+  "title": "مسار نيقوسيا التاريخي داخل الأسوار",
+  "slug": "nicosia-historic-loop",
+  "description": "انطلق في رحلة غامرة عبر آخر عاصمة مقسمة في العالم. استكشف البوابات الحجرية القديمة، المساجد ذات الطراز القوطي، الخانات التاريخية والمتاحف الثقافية داخل أسوار البندقية.",
+  "region": "Nicosia",
+  "duration": "يوم واحد",
+  "distance": "35 كم",
+  "difficulty": "Easy",
+  "bestSeason": "الخريف إلى الربيع",
+  "coverImage": "public/images/routes/lefkosa-girne-kapisi.jpg",
+  "coordinates": {
+    "lat": 35.1768,
+    "lng": 33.3639
+  },
+  "gallery": [
+    "public/images/routes/lefkosa-girne-kapisi.jpg",
+    "public/images/routes/selimiye-mosque.jpg",
+    "public/images/routes/buyuk-han.jpg",
+    "public/images/routes/dervis-pasa.jpg"
+  ],
+  "stops": [
+    {
+      "name": "متحف قبرص للسيارات",
+      "category": "متحف",
+      "description": "مجموعة مذهلة من السيارات الكلاسيكية والرياضية والقديمة تمتد لأكثر من قرن من تاريخ السيارات.",
+      "image": "public/images/routes/car-museum.jpg",
+      "latitude": 35.2245,
+      "longitude": 33.3315,
+      "openingHours": "الثلاثاء - الأحد 09:00 - 17:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+      "history": "متحف فريد يعرض سيارات فاخرة ونادرة محفوظة في حالة ممتازة.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "متحف قبرص للفن الحديث",
+      "category": "متحف",
+      "description": "يقع في حرم جامعة الشرق الأدنى ويضم آلاف الأعمال الفنية المعاصرة من العالم التركي.",
+      "image": "public/images/routes/modern-art-museum.jpg",
+      "latitude": 35.2233,
+      "longitude": 33.3323,
+      "openingHours": "الثلاثاء - الأحد 09:00 - 17:00",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+      "history": "تأسس عام 2018 وهو أحد أكبر مراكز الفن الحديث في البحر الأبيض المتوسط.",
+      "arrivalTime": "10:01",
+      "nextStopTravel": {
+        "time": "10 دقائق",
+        "distance": "6.5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "بوابة غيرنه (بوابة كيرينيا)",
+      "category": "قلعة",
+      "description": "بوابة تاريخية بناها البنادقة عام 1567 كجزء من تحصينات نيقوسيا الشهيرة ذات شكل النجمة.",
+      "image": "public/images/routes/lefkosa-girne-kapisi.jpg",
+      "latitude": 35.1818,
+      "longitude": 33.3614,
+      "openingHours": "مفتوح 24/7 (خارجي)",
+      "estimatedVisitTime": "15-30 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
+      "history": "أعاد العثمانيون بناءها عام 1821 وتضم حالياً مكتباً للاستعلامات السياحية.",
+      "arrivalTime": "11:41",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "150 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مطعم جومشو",
+      "category": "مطعم",
+      "description": "مطعم محلي دافئ يقدم المأكولات القبرصية والمشويات في فناء يفوح برائحة الياسمين.",
+      "image": "public/images/restaurants/gomsu.jpg",
+      "latitude": 35.1772,
+      "longitude": 33.3618,
+      "openingHours": "يومياً 12:00 - 23:00",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+      "history": "يشتهر بالوصفات المنزلية التقليدية التي تعيد إحياء طهي نيقوسيا القديمة.",
+      "arrivalTime": "12:03",
+      "nextStopTravel": {
+        "time": "7 دقائق",
+        "distance": "550 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مسجد السليمية (كاتدرائية سنت صوفيا سابقاً)",
+      "category": "دير",
+      "description": "معلم قوطي ساحر، بُني في الأصل ككاتدرائية كاثوليكية في القرن الثالث عشر وتحول لاحقاً إلى مسجد.",
+      "image": "public/images/routes/selimiye-mosque.jpg",
+      "latitude": 35.1775,
+      "longitude": 33.3644,
+      "openingHours": "خارج أوقات الصلاة، يومياً 09:00 - 18:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
+      "history": "بُنيت خلال الحكم اللوزينياني وكانت كاتدرائية تتويج ملوك قبرص.",
+      "arrivalTime": "01:40",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "200 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "الخان الكبير (بويوك خان)",
+      "category": "رؤية",
+      "description": "أكبر وأجمل خان في الجزيرة، يتميز بفناء مفتوح ومسجد صغير على أعمدة رخامية.",
+      "image": "public/images/routes/buyuk-han.jpg",
+      "latitude": 35.1764,
+      "longitude": 33.3627,
+      "openingHours": "يومياً 09:00 - 19:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
+      "history": "بناه أول حاكم عثماني لقبرص عام 1572 وكان نزلاً للتجار والمسافرين.",
+      "arrivalTime": "02:27",
+      "nextStopTravel": {
+        "time": "دقيقتان",
+        "distance": "180 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مكتبة ومقهى رستم",
+      "category": "مقهى",
+      "description": "مكتبة ومقهى تاريخي أنيق داخل منزل حجري تقليدي يقدم القهوة المختصة والكتب النادرة.",
+      "image": "public/images/cafes/rustem-kitabevi.jpg",
+      "latitude": 35.1755,
+      "longitude": 33.3620,
+      "openingHours": "يومياً 08:30 - 22:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
+      "history": "تأسست عام 1937 وهي أقدم مكتبة في قبرص ومفرز أدبي وفني شهير.",
+      "arrivalTime": "03:29",
+      "nextStopTravel": {
+        "time": "5 دقائق",
+        "distance": "400 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "متحف قصر درويش باشا",
+      "category": "متحف",
+      "description": "نموذج رائع للعمارة السكنية العثمانية في القرن 19 يعرض أساليب الحياة التقليدية والمصنوعات اليدوية.",
+      "image": "public/images/routes/dervis-pasa.jpg",
+      "latitude": 35.1748,
+      "longitude": 33.3575,
+      "openingHours": "الثلاثاء - الأحد 09:00 - 17:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
+      "history": "كان ملكاً لدرويش باشا ناشر أول صحيفة تركية في قبرص وتم ترميمه كمتحف إثنوغرافي.",
+      "arrivalTime": "04:19",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "اركن سيارتك خارج أسوار المدينة (مثل قرب بوابة غيرنه) لأن الشوارع الداخلية ضيقة جداً.",
+    "ارتدِ أحذية مشي مريحة؛ فمن الأفضل استكشاف المدينة القديمة مشياً على الأقدام.",
+    "احرص على اللباس المحتشم عند زيارة مسجد السليمية."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "مسار ساحل غيرنه والقلاع التاريخية",
+  "slug": "kyrenia-coast-castles",
+  "description": "قد عبر جبال بشبارماك الساحرة. تسلق أسوار قلعة سنت هيلاريون العالية، وتجول بين أطلال دير بيلاپايس الهادئة، واسترخِ على شواطئ غيرنه ومطاعمها الفاخرة.",
+  "region": "Kyrenia",
+  "duration": "1-2 يوم",
+  "distance": "75 كم",
+  "difficulty": "Medium",
+  "bestSeason": "الربيع والخريف",
+  "coverImage": "public/images/routes/st-hilarion.jpg",
+  "coordinates": {
+    "lat": 35.3364,
+    "lng": 33.3175
+  },
+  "gallery": [
+    "public/images/routes/st-hilarion.jpg",
+    "public/images/routes/bellapais.jpg",
+    "public/images/routes/mavi-kosk.jpg",
+    "public/images/beaches/ulfet.jpg"
+  ],
+  "stops": [
+    {
+      "name": "مافي كوشك (البيت الأزرق)",
+      "category": "متحف",
+      "description": "قصر غامض يعود لمنتصف القرن الماضي مليء بالممرات السرية والفنون الإيطالية واليونانية، بناه تاجر سلاح غامض.",
+      "image": "public/images/routes/mavi-kosk.jpg",
+      "latitude": 35.3044,
+      "longitude": 33.0536,
+      "openingHours": "الثلاثاء - الأحد 09:00 - 17:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Mavi+Kosk,+Kyrenia",
+      "history": "بناه بايرون بافليدس عام 1957. يحتوي على خزائن مخفية ومسبح خرساني وغرفة نوم بإطلالة مزدوجة.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "30 دقيقة",
+        "distance": "25 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "قلعة سنت هيلاريون",
+      "category": "قلعة",
+      "description": "واحدة من أفضل القلاع الصليبية المحفوظة في قبرص، تقع في أعالي جبال غيرنه وتوفر مناظر بانورامية مذهلة للساحل.",
+      "image": "public/images/routes/st-hilarion.jpg",
+      "latitude": 35.3121,
+      "longitude": 33.2806,
+      "openingHours": "يومياً 09:00 - 16:30",
+      "estimatedVisitTime": "ساعتان",
+      "googleMapsLink": "https://maps.google.com/?q=St.+Hilarion+Castle,+Kyrenia",
+      "history": "كانت في الأصل ديراً بُني في القرن العاشر، وتُعد مصدر إلهام لقلعة سنو وايت في والت ديزني.",
+      "arrivalTime": "10:30",
+      "nextStopTravel": {
+        "time": "5 دقائق",
+        "distance": "3 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "الطيران الشراعي المزدوج في غيرنه",
+      "category": "مغامرة",
+      "description": "حلق فوق غيرنه بالطيران الشراعي المزدوج! استمتع بالإثارة والحرية على ارتفاع 800 متر فوق البحر الأبيض المتوسط وجبال غيرنه.",
+      "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=1920,dpr=1/tour_img/5726a4653b95106b2e33ad401ee7a92433719a9465e135b65a9d9d5f00d268f9.jpg",
+      "latitude": 35.3150,
+      "longitude": 33.3050,
+      "openingHours": "يومياً 09:00 - 17:00",
+      "estimatedVisitTime": "ساعتان",
+      "googleMapsLink": "https://maps.google.com/?q=Tandem+Paragliding,+Kyrenia",
+      "history": "يوفر الطيران الشراعي في جبال غيرنه أحد أجمل المسارات الجوية في العالم ابتداءً من قمم الجبال وصولاً إلى الميناء.",
+      "arrivalTime": "12:35",
+      "nextStopTravel": {
+        "time": "10 دقائق",
+        "distance": "5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "نادي ألفات الشاطئي",
+      "category": "شاطئ",
+      "description": "نادي شاطئي راقٍ على ساحل غيرنه يقدم أسرة شمسية ومياهاً صافية، مثالي للاسترخاء بعد جولة القلاع الجبلية.",
+      "image": "public/images/beaches/ulfet.jpg",
+      "latitude": 35.3512,
+      "longitude": 33.2750,
+      "openingHours": "يومياً 09:00 - 19:00",
+      "estimatedVisitTime": "3 ساعات",
+      "googleMapsLink": "https://maps.google.com/?q=Ulfet+Beach+Club,+Kyrenia",
+      "history": "وجهة صيفية شعبية تتميز بالمرافق الحديثة وجلسات غروب الشمس الساحرة.",
+      "arrivalTime": "02:45",
+      "nextStopTravel": {
+        "time": "10 دقائق",
+        "distance": "5 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "مقهى فولا",
+      "category": "مقهى",
+      "description": "مقهى عصري ومتخصص في غيرنه، مثالي لاستراحة القهوة والحلويات الطازجة.",
+      "image": "public/images/cafes/vola-coffee.jpg",
+      "latitude": 35.3400,
+      "longitude": 33.3190,
+      "openingHours": "يومياً 08:00 - 22:00",
+      "estimatedVisitTime": "45 دقيقة",
+      "googleMapsLink": "https://maps.google.com/?q=Vola+Coffee,+Kyrenia",
+      "history": "إضافة معاصرة لثقافة المقاهي في المدينة تقدم مزيج إسبريسو ممتاز وأجواء مريحة.",
+      "arrivalTime": "05:55",
+      "nextStopTravel": {
+        "time": "15 دقيقة",
+        "distance": "6 كم",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "دير بيلاپايس",
+      "category": "دير",
+      "description": "أطلال دير جميل يعود للقرن الثالث عشر تتميز بالأقواس القوطية والحدائق الهادئة المطلة على البحر الأزرق.",
+      "image": "public/images/routes/bellapais.jpg",
+      "latitude": 35.3072,
+      "longitude": 33.3556,
+      "openingHours": "يومياً 09:00 - 18:00",
+      "estimatedVisitTime": "ساعة واحدة",
+      "googleMapsLink": "https://maps.google.com/?q=Bellapais+Abbey,+Kyrenia",
+      "history": "عاش الكاتب البريطاني لورنس داريل بالقرب منه وخلّد القرية في كتابه 'الليمون المر'.",
+      "arrivalTime": "06:55",
+      "nextStopTravel": {
+        "time": "دقيقة واحدة",
+        "distance": "50 م",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "مطعم كيبيليه",
+      "category": "مطعم",
+      "description": "مطعم فاخر في ساحة دير بيلاپايس يقدم أطباق البحر الأبيض المتوسط الحديثة وإطلالات خلابة.",
+      "image": "public/images/restaurants/kybele.jpg",
+      "latitude": 35.3075,
+      "longitude": 33.3560,
+      "openingHours": "يومياً 11:30 - 23:30",
+      "estimatedVisitTime": "ساعة ونصف",
+      "googleMapsLink": "https://maps.google.com/?q=Kybele+Restaurant,+Kyrenia",
+      "history": "يشتهر باستضافة العشاء الفاخر لزوار الدير ويمزج التاريخ بالطهي المحلي الرفيع.",
+      "arrivalTime": "07:55",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "الطريق الصاعد إلى قلعة سنت هيلاريون به منحدرات حادة؛ تأكد من سلامة نظام تبريد سيارتك.",
+    "قم بزيارة سنت هيلاريون في الصباح الباكر لتجنب شمس الظهيرة وحافلات السياح المزدحمة.",
+    "تذكر أن مافي كوشك تقع داخل منطقة عسكرية؛ ستحتاج إلى إبراز جواز السفر/الهوية عند البوابة العسكرية لدخولها."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Искеле и Дикий Полуостров Карпас",
+  "slug": "iskele-karpaz-wild-journey",
+  "description": "Прокатитесь от исторического прибрежного городка Искеле к дикой природе полуострова Карпас. Наслаждайтесь песчаными бухтами, посетите монастырь Апостола Андрея и покормите диких осликов.",
+  "region": "Iskele",
+  "duration": "2 Дня",
+  "distance": "120 км",
+  "difficulty": "Medium",
+  "bestSeason": "Весна, Лето и Осень",
+  "coverImage": "public/images/routes/bogaz-harbour.jpg",
+  "coordinates": {
+    "lat": 35.2819,
+    "lng": 33.8967
+  },
+  "gallery": [
+    "public/images/routes/bogaz-harbour.jpg",
+    "public/images/routes/iskele-museum.jpg",
+    "public/images/routes/theotokos.jpg",
+    "public/images/beaches/kalecik.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Пекарня Café Paris",
+      "category": "Кофейня",
+      "description": "Пекарня в европейском стиле в Искеле со свежими круассанами, десертами и кофе.",
+      "image": "public/images/cafes/cafe-paris.jpg",
+      "latitude": 35.2725,
+      "longitude": 33.8920,
+      "openingHours": "Ежедневно 07:30 - 21:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Cafe+Paris+Bakery,+Iskele",
+      "history": "Привносит французскую культуру выпечки в Искеле, популярное место перед поездкой на Карпас.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "80 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Археологический Музей Искеле",
+      "category": "Музей",
+      "description": "Музей с богатой экспозицией артефактов, найденных в регионе Карпас и Искеле.",
+      "image": "public/images/routes/iskele-museum.jpg",
+      "latitude": 35.2715,
+      "longitude": 33.8910,
+      "openingHours": "Пн - Пт 08:00 - 15:30",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Iskele+Archaeology+Museum,+Iskele",
+      "history": "Открыт в 2018 году для демонстрации находок от бронзового века до римской эпохи.",
+      "arrivalTime": "09:46",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "150 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Музей Икон Панагия Теотокос",
+      "category": "Музей",
+      "description": "Византийская церковь 11 века с иконами и уникальной фресковой росписью.",
+      "image": "public/images/routes/theotokos.jpg",
+      "latitude": 35.2730,
+      "longitude": 33.8935,
+      "openingHours": "Пн - Пт 09:00 - 16:00",
+      "estimatedVisitTime": "30 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Panayia+Theotokos+Church,+Iskele",
+      "history": "Памятник средневизантийской архитектуры, также известный как церковь Пресвятой Богородицы.",
+      "arrivalTime": "10:33",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "150 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Кофейня Terra Coffee",
+      "category": "Кофейня",
+      "description": "Уютная кофейня в Искеле с авторскими напитками и современным интерьером.",
+      "image": "public/images/cafes/terra-coffee.jpg",
+      "latitude": 35.2740,
+      "longitude": 33.8940,
+      "openingHours": "Ежедневно 08:00 - 23:00",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Terra+Coffee,+Iskele",
+      "history": "Популярное место встреч для путешественников с отличным выбором кофе.",
+      "arrivalTime": "11:05",
+      "nextStopTravel": {
+        "time": "8 мин",
+        "distance": "7 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Гавань Богаз",
+      "category": "Вид",
+      "description": "Живописная рыбацкая гавань, идеальная для пеших прогулок и отдыха у моря.",
+      "image": "public/images/routes/bogaz-harbour.jpg",
+      "latitude": 35.3180,
+      "longitude": 33.9530,
+      "openingHours": "Круглосуточно",
+      "estimatedVisitTime": "45 Мин",
+      "googleMapsLink": "https://maps.google.com/?q=Bogaz+Harbour,+Iskele",
+      "history": "Рыболовецкий центр и уютный прибрежный уголок, известный рыбными ресторанами.",
+      "arrivalTime": "11:58",
+      "nextStopTravel": {
+        "time": "1 мин",
+        "distance": "50 м",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Рыбный Ресторан Barna",
+      "category": "Ресторан",
+      "description": "Ресторан в Богазе, предлагающий свежие морепродукты и рыбу у самого моря.",
+      "image": "public/images/restaurants/barna.jpg",
+      "latitude": 35.3195,
+      "longitude": 33.9540,
+      "openingHours": "Ежедневно 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Barna+Restaurant,+Iskele",
+      "history": "Кулинарная достопримечательность Богаза, сохраняющая кипрские кулинарные традиции.",
+      "arrivalTime": "12:44",
+      "nextStopTravel": {
+        "time": "2 мин",
+        "distance": "1.5 км",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Пляж Каледжик",
+      "category": "Пляж",
+      "description": "Песчаный муниципальный пляж с мелководьем и прозрачной водой.",
+      "image": "public/images/beaches/kalecik.jpg",
+      "latitude": 35.3210,
+      "longitude": 33.9590,
+      "openingHours": "Круглосуточно",
+      "estimatedVisitTime": "3 Часа",
+      "googleMapsLink": "https://maps.google.com/?q=Kalecik+Beach,+Iskele",
+      "history": "Тихий пляж, сохраняющий первозданную природную красоту.",
+      "arrivalTime": "02:16",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Карпас — долгий путь; заправьте полный бак в Искеле или Богазе, так как заправок далее мало.",
+    "Купите морковь или яблоки в магазине перед въездом в национальный парк; дикие ослики подходят к машинам.",
+    "Запланируйте 2-дневную поездку, чтобы полностью прочувствовать Карпас и остановиться в эко-отеле."
+  ]
+}

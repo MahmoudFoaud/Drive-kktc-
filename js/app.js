@@ -783,35 +783,76 @@ const ROUTE_MAP = {
 };
 let isInitialized = false;
 
+// Helper to get active language
+function getActiveLang() {
+  return window.currentLang ? window.currentLang() : (localStorage.getItem('drive_kktc_lang') || 'en');
+}
+
+// Load route details database for a specific language
+async function loadRoutesForLang(lang) {
+  const targetLang = lang || getActiveLang();
+  
+  // 1. Primary Source: Check embedded routes dataset for 100% complete, instant localization
+  if (window.EMBEDDED_ROUTES_DATA && window.EMBEDDED_ROUTES_DATA[targetLang]) {
+    routesDatabase = window.EMBEDDED_ROUTES_DATA[targetLang].map(r => ({ ...r, _lang: targetLang }));
+    return routesDatabase;
+  }
+
+  // 2. Secondary Source: HTTP fetch fallback
+  try {
+    const fetchPromises = Object.entries(ROUTE_MAP).map(([slug, defaultPath]) => {
+      let path = defaultPath;
+      if (targetLang && targetLang !== 'en') {
+        path = defaultPath.replace('.json', `_${targetLang}.json`);
+      }
+      return fetch(path)
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .catch(() => {
+          if (window.EMBEDDED_ROUTES_DATA && window.EMBEDDED_ROUTES_DATA['en']) {
+            return window.EMBEDDED_ROUTES_DATA['en'].find(r => r.slug === slug);
+          }
+          return null;
+        });
+    });
+    const loadedRoutes = await Promise.all(fetchPromises);
+    const validRoutes = loadedRoutes.filter(r => r !== null);
+    if (validRoutes.length > 0) {
+      routesDatabase = validRoutes.map(r => ({ ...r, _lang: targetLang }));
+    } else {
+      routesDatabase = [...DEFAULT_ROUTES_DB].map(r => ({ ...r, _lang: 'en' }));
+    }
+  } catch (err) {
+    routesDatabase = [...DEFAULT_ROUTES_DB].map(r => ({ ...r, _lang: 'en' }));
+  }
+  return routesDatabase;
+}
+
+let initPromise = null;
 // App Startup Initialization
 async function initApp() {
-  if (isInitialized) return;
+  if (initPromise) return initPromise;
+  initPromise = (async () => {
+    // Initialize Lightbox
+    if (window.initLightbox) window.initLightbox();
 
-  // Initialize Lightbox
-  if (window.initLightbox) window.initLightbox();
+    // Load language settings (defaults to localStorage or 'en')
+    const lang = getActiveLang();
+    if (window.initI18n) {
+      await window.initI18n(lang);
+    }
 
-  // Load language settings (defaults to localStorage or 'en')
-  if (window.initI18n) {
-    await window.initI18n(localStorage.getItem('drive_kktc_lang') || 'en');
-  }
+    // Load all route details in the active language to populate the database
+    await loadRoutesForLang(lang);
 
-  // Pre-fetch all route details to populate the database
-  try {
-    const fetchPromises = Object.values(ROUTE_MAP).map(url => 
-      fetch(url).then(res => {
-        if (!res.ok) throw new Error(`Failed to load ${url}`);
-        return res.json();
-      })
-    );
-    routesDatabase = await Promise.all(fetchPromises);
-  } catch (err) {
-    console.error("Error building routes database:", err);
-  }
-
-  setupTheme();
-  setupGlobalListeners();
-  
-  isInitialized = true;
+    setupTheme();
+    setupGlobalListeners();
+    
+    isInitialized = true;
+  })();
+  return initPromise;
 }
 
 // Theme System (Light / Dark Mode)
@@ -843,6 +884,11 @@ function updateThemeIcon() {
 // Router Implementation
 async function handleRouting() {
   await initApp();
+
+  const activeLang = getActiveLang();
+  if (!routesDatabase || routesDatabase.length === 0 || routesDatabase[0]?._lang !== activeLang) {
+    await loadRoutesForLang(activeLang);
+  }
   
   const hash = window.location.hash || '#home';
   const mainContent = document.getElementById('main-content');
@@ -866,6 +912,10 @@ async function handleRouting() {
     page = 'gallery';
   } else if (hash === '#contact') {
     page = 'contact';
+  } else if (hash === '#privacy') {
+    page = 'privacy';
+  } else if (hash === '#terms') {
+    page = 'terms';
   }
 
   // Update active navigation state
@@ -893,6 +943,12 @@ async function handleRouting() {
       break;
     case 'contact':
       renderContact(mainContent);
+      break;
+    case 'privacy':
+      renderPrivacy(mainContent);
+      break;
+    case 'terms':
+      renderTerms(mainContent);
       break;
     default:
       render404(mainContent);
@@ -952,22 +1008,32 @@ function updateSEO(title, description, canonicalPath, schemaObject = null) {
 function setupGlobalListeners() {
   window.addEventListener('hashchange', handleRouting);
   
-  // Mobile navigation hamburger toggle (optional accessibility enhancement)
-  document.addEventListener('click', (e) => {
-    const menuToggle = e.target.closest('.mobile-menu-toggle');
-    const navLinks = document.querySelector('.nav-links');
-    if (menuToggle && navLinks) {
-      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-      navLinks.style.flexDirection = 'column';
-      navLinks.style.position = 'absolute';
-      navLinks.style.top = '100%';
-      navLinks.style.left = '0';
-      navLinks.style.width = '100%';
-      navLinks.style.backgroundColor = 'var(--bg-nav)';
-      navLinks.style.padding = '1.5rem';
-      navLinks.style.borderBottom = '1px solid var(--border-color)';
-    }
-  });
+  const menuToggle = document.querySelector('.mobile-menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isExpanded = navLinks.classList.toggle('show-mobile');
+      menuToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('show-mobile');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Close mobile menu when clicking any nav link
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('show-mobile');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 }
 
 // Page Renderers
@@ -1046,22 +1112,22 @@ function renderHome(container) {
       <div class="section" style="padding: 0;">
         <div class="about-grid">
           <div>
-            <h2 class="editorial" style="font-size: 3rem; margin-bottom: 1.5rem; color: var(--primary);">Curated Driving Experiences</h2>
-            <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;">
-              Our routes are built for travelers who appreciate the freedom of self-driven discovery. From the medieval ramparts of crusader castles overlooking Kyrenia, to the wind-swept golden coastlines of Karpaz, we show you the true heart of Northern Cyprus.
+            <h2 class="editorial" style="font-size: 3rem; margin-bottom: 1.5rem; color: var(--primary);" data-i18n="homePage.editorialTitle">${window.t('homePage.editorialTitle', 'Curated Driving Experiences')}</h2>
+            <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;" data-i18n="homePage.editorialSubtitle">
+              ${window.t('homePage.editorialSubtitle', 'Our routes are built for travelers who appreciate the freedom of self-driven discovery. From the medieval ramparts of crusader castles overlooking Kyrenia, to the wind-swept golden coastlines of Karpaz, we show you the true heart of Northern Cyprus.')}
             </p>
             <div style="display: flex; gap: 2rem;">
               <div>
                 <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent);">5</div>
-                <div style="font-weight: 700; color: var(--primary);">Major Regions</div>
+                <div style="font-weight: 700; color: var(--primary);" data-i18n="homePage.stat1">${window.t('homePage.stat1', 'Major Regions')}</div>
               </div>
               <div>
                 <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent);">30+</div>
-                <div style="font-weight: 700; color: var(--primary);">Hand-picked Stops</div>
+                <div style="font-weight: 700; color: var(--primary);" data-i18n="homePage.stat2">${window.t('homePage.stat2', 'Hand-picked Stops')}</div>
               </div>
               <div>
                 <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent);">100%</div>
-                <div style="font-weight: 700; color: var(--primary);">Free Guidance</div>
+                <div style="font-weight: 700; color: var(--primary);" data-i18n="homePage.stat3">${window.t('homePage.stat3', 'Free Guidance')}</div>
               </div>
             </div>
           </div>
@@ -1253,19 +1319,35 @@ async function renderRouteDetail(container, slug) {
   `;
 
   try {
+    const activeLang = getActiveLang();
+    if (!routesDatabase || routesDatabase.length === 0 || routesDatabase[0]?._lang !== activeLang) {
+      await loadRoutesForLang(activeLang);
+    }
     // Look up the route details directly from the in-memory routesDatabase first
     let route = routesDatabase.find(r => r.slug === slug);
 
-    // If not found in memory, try to fetch it from its JSON file as a fallback
+    // If not found in memory, try embedded data or fetch fallback
     if (!route) {
-      const jsonPath = ROUTE_MAP[slug];
-      if (!jsonPath) {
-        render404(container);
-        return;
+      if (window.EMBEDDED_ROUTES_DATA && window.EMBEDDED_ROUTES_DATA[activeLang]) {
+        route = window.EMBEDDED_ROUTES_DATA[activeLang].find(r => r.slug === slug);
       }
-      const response = await fetch(jsonPath);
-      if (!response.ok) throw new Error("Failed to load route file");
-      route = await response.json();
+      if (!route) {
+        const defaultPath = ROUTE_MAP[slug];
+        if (!defaultPath) {
+          render404(container);
+          return;
+        }
+        let jsonPath = defaultPath;
+        if (activeLang !== 'en') {
+          jsonPath = defaultPath.replace('.json', `_${activeLang}.json`);
+        }
+        let response = await fetch(jsonPath);
+        if (!response.ok && activeLang !== 'en') {
+          response = await fetch(defaultPath);
+        }
+        if (!response.ok) throw new Error("Failed to load route file");
+        route = await response.json();
+      }
     }
 
     // Setup SEO and TravelRoute Schema
@@ -1309,7 +1391,7 @@ async function renderRouteDetail(container, slug) {
                 <h3 style="font-size: 1.6rem; margin-top: 0.5rem; color: var(--primary);">${index + 1}. ${stop.name}</h3>
               </div>
               <a href="${stop.googleMapsLink}" target="_blank" rel="noopener" class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;" aria-label="Navigate to ${stop.name} on Google Maps">
-                🗺️ Navigate
+                🗺️ ${window.t('routeDetail.directions', 'Get Directions')}
               </a>
             </div>
             
@@ -1647,7 +1729,53 @@ function renderContact(container) {
   }
 }
 
-// 7. 404 Page
+// 7. Privacy Page
+function renderPrivacy(container) {
+  updateSEO(
+    "Privacy Policy",
+    "Read the Drive KKTC Privacy Policy regarding your data and browsing privacy.",
+    "#privacy"
+  );
+
+  container.innerHTML = `
+    <section class="section fade-in" style="max-width: 800px; margin: 0 auto; padding-bottom: 4rem;">
+      <div class="section-header">
+        <h1 data-i18n="privacyPage.title">${window.t('privacyPage.title')}</h1>
+        <p data-i18n="privacyPage.subtitle">${window.t('privacyPage.subtitle')}</p>
+      </div>
+      <div class="glass-card" style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; line-height: 1.7; font-size: 1rem;">
+        <p data-i18n="privacyPage.p1">${window.t('privacyPage.p1')}</p>
+        <p data-i18n="privacyPage.p2">${window.t('privacyPage.p2')}</p>
+        <p data-i18n="privacyPage.p3">${window.t('privacyPage.p3')}</p>
+      </div>
+    </section>
+  `;
+}
+
+// 8. Terms Page
+function renderTerms(container) {
+  updateSEO(
+    "Terms of Service",
+    "Read the Drive KKTC Terms of Service regarding route usage and road guidelines.",
+    "#terms"
+  );
+
+  container.innerHTML = `
+    <section class="section fade-in" style="max-width: 800px; margin: 0 auto; padding-bottom: 4rem;">
+      <div class="section-header">
+        <h1 data-i18n="termsPage.title">${window.t('termsPage.title')}</h1>
+        <p data-i18n="termsPage.subtitle">${window.t('termsPage.subtitle')}</p>
+      </div>
+      <div class="glass-card" style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; line-height: 1.7; font-size: 1rem;">
+        <p data-i18n="termsPage.p1">${window.t('termsPage.p1')}</p>
+        <p data-i18n="termsPage.p2">${window.t('termsPage.p2')}</p>
+        <p data-i18n="termsPage.p3">${window.t('termsPage.p3')}</p>
+      </div>
+    </section>
+  `;
+}
+
+// 9. 404 Page
 function render404(container) {
   updateSEO("Page Not Found", "The requested page was not found.", "#404");
 
@@ -1736,6 +1864,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
       if (window.initI18n) {
         await window.initI18n(lang);
+        // Load localized route details dynamically
+        await loadRoutesForLang(lang);
         // Force rendering of the current hash to apply language change instantly!
         handleRouting();
       }

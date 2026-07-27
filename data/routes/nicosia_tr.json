@@ -1,0 +1,169 @@
+{
+  "title": "Lefkoşa Surlariçi Tarihi Turu",
+  "slug": "nicosia-historic-loop",
+  "description": "Dünyanın son bölünmüş başkentinde sürükleyici bir yolculuğa çıkın. Yüzyıllık taş kapıları, yükselen Gotik katedral-camileri, hareketli tarihi kervansarayları ve Venedik surları içine gizlenmiş modern kültür müzelerini keşfedin.",
+  "region": "Nicosia",
+  "duration": "1 Gün",
+  "distance": "35 km",
+  "difficulty": "Easy",
+  "bestSeason": "Sonbahar - İlkbahar",
+  "coverImage": "public/images/routes/lefkosa-girne-kapisi.jpg",
+  "coordinates": {
+    "lat": 35.1768,
+    "lng": 33.3639
+  },
+  "gallery": [
+    "public/images/routes/lefkosa-girne-kapisi.jpg",
+    "public/images/routes/selimiye-mosque.jpg",
+    "public/images/routes/buyuk-han.jpg",
+    "public/images/routes/dervis-pasa.jpg"
+  ],
+  "stops": [
+    {
+      "name": "Kıbrıs Araba Müzesi",
+      "category": "Müze",
+      "description": "Otomobil tarihinin bir asrı aşkın sürecini kapsayan klasik, spor ve nostaljik araçlardan oluşan harika bir koleksiyon.",
+      "image": "public/images/routes/car-museum.jpg",
+      "latitude": 35.2245,
+      "longitude": 33.3315,
+      "openingHours": "Salı - Pazar 09:00 - 17:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Car+Museum,+Nicosia",
+      "history": "Özel yapım lüks arabalar ve nadir erken dönem modelleri dahil olmak üzere ikonik otomobilleri sergileyen benzersiz bir müze.",
+      "arrivalTime": "09:00",
+      "nextStopTravel": {
+        "time": "1 dk",
+        "distance": "50 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Kıbrıs Modern Sanat Müzesi",
+      "category": "Müze",
+      "description": "Yakın Doğu Üniversitesi kampüsünde yer alan müze, Türk dünyasından sanatçıların binlerce çağdaş eserine ev sahipliği yapıyor.",
+      "image": "public/images/routes/modern-art-museum.jpg",
+      "latitude": 35.2233,
+      "longitude": 33.3323,
+      "openingHours": "Salı - Pazar 09:00 - 17:00",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Cyprus+Modern+Art+Museum,+Nicosia",
+      "history": "2018 yılında açılan müze, resim, heykel ve grafik sanatlarını sergileyerek Akdeniz'in en büyük modern sanat merkezlerinden birini oluşturur.",
+      "arrivalTime": "10:01",
+      "nextStopTravel": {
+        "time": "10 dk",
+        "distance": "6.5 km",
+        "type": "drive"
+      }
+    },
+    {
+      "name": "Girne Kapısı",
+      "category": "Kale",
+      "description": "1567 yılında Venedikliler tarafından Lefkoşa'nın yıldız şeklindeki surlarının bir parçası olarak inşa edilen tarihi kapı.",
+      "image": "public/images/routes/lefkosa-girne-kapisi.jpg",
+      "latitude": 35.1818,
+      "longitude": 33.3614,
+      "openingHours": "7/24 Açık (Dış)",
+      "estimatedVisitTime": "15-30 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Kyrenia+Gate,+Nicosia",
+      "history": "1821 yılında Osmanlılar tarafından kubbeli bir oda eklenerek yeniden inşa edilmiştir. Günümüzde turizm danışma bürosuna ev sahipliği yapmaktadır.",
+      "arrivalTime": "11:41",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "150 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Gomşu Restoran",
+      "category": "Restoran",
+      "description": "Yasemin kokulu avlusunda geleneksel Kıbrıs mezeleri ve ızgaralar sunan samimi bir yerel restoran.",
+      "image": "public/images/restaurants/gomsu.jpg",
+      "latitude": 35.1772,
+      "longitude": 33.3618,
+      "openingHours": "Her gün 12:00 - 23:00",
+      "estimatedVisitTime": "1.5 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Gomsu+Restaurant,+Nicosia",
+      "history": "Geleneksel ev yemekleri tarifleriyle eski Lefkoşa'nın lezzet kültürünü yaşatır.",
+      "arrivalTime": "12:03",
+      "nextStopTravel": {
+        "time": "7 dk",
+        "distance": "550 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Selimiye Camii (St. Sophia Katedrali)",
+      "category": "Manastır",
+      "description": "13. yüzyılda katedral olarak inşa edilen ve daha sonra camiye dönüştürülen nefes kesen Gotik mimari eseri.",
+      "image": "public/images/routes/selimiye-mosque.jpg",
+      "latitude": 35.1775,
+      "longitude": 33.3644,
+      "openingHours": "Namaz vakitleri dışında, Her gün 09:00 - 18:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Selimiye+Mosque,+Nicosia",
+      "history": "Lüzinyan yönetimi sırasında taç giyme katedrali olarak inşa edilmiş, 1570 Osmanlı fethinden sonra minareler eklenmiştir.",
+      "arrivalTime": "01:40",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "200 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Büyük Han",
+      "category": "Manzara",
+      "description": "Mermer sütunlar üzerinde küçük bir mescidi ve açık avlusu bulunan adanın en büyük ve güzel kervansarayı.",
+      "image": "public/images/routes/buyuk-han.jpg",
+      "latitude": 35.1764,
+      "longitude": 33.3627,
+      "openingHours": "Her gün 09:00 - 19:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Buyuk+Han,+Nicosia",
+      "history": "1572 yılında Kıbrıs'ın ilk Osmanlı valisi tarafından tüccarlar için konaklama yeri olarak inşa edilmiştir.",
+      "arrivalTime": "02:27",
+      "nextStopTravel": {
+        "time": "2 dk",
+        "distance": "180 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Rüstem Kitabevi",
+      "category": "Kahve Dükkanı",
+      "description": "Tarihi taş konakta yer alan, nadir kitaplar, lezzetli tatlılar ve kaliteli kahve sunan tarihi kitabevi ve kafe.",
+      "image": "public/images/cafes/rustem-kitabevi.jpg",
+      "latitude": 35.1755,
+      "longitude": 33.3620,
+      "openingHours": "Her gün 08:30 - 22:00",
+      "estimatedVisitTime": "1 Saat",
+      "googleMapsLink": "https://maps.google.com/?q=Rustem+Kitabevi,+Nicosia",
+      "history": "1937 yılında kurulan Kıbrıs'ın en eski kitabevi. Edebi bir buluşma noktası, restoran ve sanat galerisi olarak hizmet verir.",
+      "arrivalTime": "03:29",
+      "nextStopTravel": {
+        "time": "5 dk",
+        "distance": "400 m",
+        "type": "walk"
+      }
+    },
+    {
+      "name": "Derviş Paşa Konağı Müzesi",
+      "category": "Müze",
+      "description": "Geleneksel Osmanlı konut mimarisinin harika bir örneği olup yerel yaşam tarzını ve el sanatlarını sergiler.",
+      "image": "public/images/routes/dervis-pasa.jpg",
+      "latitude": 35.1748,
+      "longitude": 33.3575,
+      "openingHours": "Salı - Pazar 09:00 - 17:00",
+      "estimatedVisitTime": "45 dk",
+      "googleMapsLink": "https://maps.google.com/?q=Dervis+Pasa+Mansion,+Nicosia",
+      "history": "Kıbrıs'ın ilk Türkçe gazetesini çıkaran Derviş Paşa'ya aitti. Etnografya müzesi olarak restore edilmiştir.",
+      "arrivalTime": "04:19",
+      "nextStopTravel": null
+    }
+  ],
+  "travelTips": [
+    "Aracınızı surların dışına (Girne Kapısı veya Belediye Parkı yakınına) park edin; surlariçi sokakları dar ve çoğunlukla tek yönlüdür.",
+    "Rahat yürüyüş ayakkabıları giyin; tarihi surlariçi en iyi yürüyerek keşfedilir.",
+    "Selimiye Camii'ne girerken kıyafetlerinize özen gösterin.",
+    "Gezinizi Büyük Han'daki el sanatları alışverişiyle birleştirin."
+  ]
+}
